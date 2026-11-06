@@ -1,5 +1,9 @@
 name: AUTONOM market cycle
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'
   workflow_dispatch:
   schedule:
     # 11:15 UTC weekdays: premarket decision intake (DST-safe conservative fills).
