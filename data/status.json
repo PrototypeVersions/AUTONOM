@@ -1,0 +1,10 @@
+{
+  "market": {
+    "status": "pending",
+    "last_success_at": null
+  },
+  "agent": {
+    "connected": false,
+    "label": null
+  }
+}

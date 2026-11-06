@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "portfolios": {
+    "stocks": {
+      "startingCash": 1000,
+      "cash": 1000,
+      "positions": {},
+      "pending": [],
+      "processed": [],
+      "benchmark": {
+        "symbol": "SPY",
+        "units": 0,
+        "baseline_date": null
+      }
+    },
+    "crypto": {
+      "startingCash": 1000,
+      "cash": 1000,
+      "positions": {},
+      "pending": [],
+      "processed": [],
+      "benchmark": {
+        "symbol": "BTC",
+        "units": 0,
+        "baseline_date": null
+      }
+    }
+  }
+}
