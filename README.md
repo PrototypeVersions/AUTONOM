@@ -12,7 +12,7 @@ AUTONOM is an open, prospective paper-trading lab with independent $1,000 stock 
 - ✅ A forward-only trading simulator. Decisions must exist **before** the eligible trade bar begins; first-seen time is recorded by the workflow, not trusted from metadata.
 - ✅ Long-only budgets, explicit position limits, modeled fees/slippage, cash, per-portfolio positions, SPY/BTC passive baselines, and Git versioned journal.
 - ✅ Standard-library tests; no market-data API key needed.
-- 🕒 **A recurring ChatGPT research task has been scheduled**, with intended stock decisions at 7:30 a.m. Central on weekdays and crypto decisions at 4:30 p.m. Central daily. Its unattended GitHub write permission and genuine prospective model execution have **not yet been verified in a completed task run**. Until then, the dashboard correctly says “AI agent not connected.” No fake decisions, positions, or trading profits are inserted.
+- 🕒 **Two independent recurring ChatGPT research tasks have been scheduled**, with intended stock decisions at 7:30 a.m. Central on weekdays and crypto decisions at 4:30 p.m. Central daily. Their unattended GitHub write permissions and genuine prospective model execution have **not yet been verified in a completed task run**. Until then, the dashboard correctly says “AI agent not connected.” No fake decisions, positions, or trading profits are inserted.
 
 ## Quick start
 
@@ -25,9 +25,9 @@ AUTONOM is an open, prospective paper-trading lab with independent $1,000 stock 
 
 - **Stock agent: 7:30 a.m. America/Chicago, Monday through Friday.** Review markets, earnings, economic releases, previous paper positions and risks. Submit at most one justified BUY, SELL or HOLD decision. The model can always remain in cash; it is not rewarded for excessive trading.
 - **Crypto agent: 4:30 p.m. America/Chicago, every day.** Independently research digital assets, risk, current positions and Bitcoin benchmark, then submit at most one justified BUY, SELL or HOLD decision.
-- **Weekend morning:** The shared scheduled task may run a read-only crypto risk check but should not initiate a stock order.
-- **Collector:** GitHub Actions refreshes prices and headlines several times daily without invoking GPT. A model research cycle is not continuously running between scheduled task executions.
-- **Unverified agent:** The ChatGPT task has been scheduled, but it must successfully commit legitimate prospectively timestamped decisions through the GitHub connector before we can count this as working unattended trading. ChatGPT Plus does not give GitHub Actions automatic GPT model access, and the task may be subject to model and tool availability.
+- **Weekend mornings:** No stock task is scheduled; the crypto task still operates each afternoon.
+- **Collector:** GitHub Actions refreshes prices and headlines several times daily without invoking GPT. The models are not continuously running between scheduled task executions.
+- **Unverified agent:** Two independent ChatGPT tasks have been scheduled, but it must successfully commit legitimate prospectively timestamped decisions through the GitHub connector before we can count this as working unattended trading. ChatGPT Plus does not give GitHub Actions automatic GPT model access, and the task may be subject to model and tool availability.
 
 Why two research cycles? Enough coverage to react to changing markets without turning the experiment into a high-frequency-churn test. The agent may decide to HOLD, and daily trade counts can be zero.
 
