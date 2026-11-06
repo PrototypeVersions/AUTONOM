@@ -2,9 +2,9 @@
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="AUTONOM — a transparent, forward-only experiment in autonomous AI paper trading across stocks and crypto.">
-<meta name="theme-color" content="#071015">
-<meta property="og:title" content="AUTONOM | Autonomous AI Trading Experiment">
-<meta property="og:description" content="Two markets. Two $1,000 paper portfolios. Every decision on the record.">
+<meta name="theme-color" content="#0a1013">
+<meta property="og:title" content="AUTONOM — The Autonomous Trading Experiment">
+<meta property="og:description" content="An open experiment in autonomous financial intelligence. Two markets, two paper portfolios, every decision on the record.">
 <title>AUTONOM — Autonomous AI Trading Lab</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
@@ -13,8 +13,11 @@
 <a class="skip" href="#main">Skip to content</a>
 <div class="shell">
   <aside class="sidebar" aria-label="Primary navigation">
-    <a class="brand" href="#overview" aria-label="Autonom Home"><span class="brandmark">A<span class="branddot">.</span></span><span class="brandname">AUTONOM<small>RESEARCH SYSTEM</small></span></a>
-    <div class="sidebar-label">WORKSPACE</div>
+    <a class="brand" href="#overview" aria-label="AUTONOM home">
+      <span class="brandmark" aria-hidden="true"><svg viewBox="0 0 48 48" width="42" height="42"><circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1" opacity=".27"/><circle cx="24" cy="24" r="16.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="75 29" transform="rotate(-46 24 24)"/><path d="M15.8 31 23.8 13 32.3 31M19.1 24.5h9.7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/><circle cx="36.5" cy="12" r="2.1" fill="#d7e2b0"/></svg></span>
+      <span class="brandname">AUTONOM<small>FINANCIAL INTELLIGENCE LAB</small></span>
+    </a>
+    <div class="sidebar-label">RESEARCH DESK <span class="label-index">01—05</span></div>
     <nav class="nav" id="navigation">
       <a href="#overview" class="navlink active" data-route="overview"><span class="navicon">◈</span> Overview</a>
       <a href="#stocks" class="navlink" data-route="stocks"><span class="navicon">▥</span> Stocks <span class="navtail">01</span></a>
@@ -22,59 +25,81 @@
       <a href="#journal" class="navlink" data-route="journal"><span class="navicon">≡</span> Decision journal</a>
       <a href="#method" class="navlink" data-route="method"><span class="navicon">⌁</span> Method & rules</a>
     </nav>
-    <div class="sidebar-bottom">
+    <div class="sidebar-bottom"><div class="sidebar-quote"><div class="quote-number">EXPERIMENT / 001</div><p>Can independent machine reasoning discover an edge?</p></div>
       <div class="agent-card"><span class="status-led" id="agent-led"></span><div><strong id="agent-status">AI agent not connected</strong><small id="agent-detail">Market data can update independently</small></div></div>
       <a class="repo-link" href="https://github.com/PrototypeVersions/AUTONOM" target="_blank" rel="noopener noreferrer">Source code & records <span>↗</span></a>
     </div>
   </aside>
-  <div class="mobile-head"><a class="mobile-brand" href="#overview">A<span>.</span> AUTONOM</a><span class="mobile-pill">PAPER / LIVE RECORD</span></div>
+  <div class="mobile-head"><a class="mobile-brand" href="#overview"><span class="mobile-monogram">A</span> AUTONOM</a><span class="mobile-pill"><span class="mobile-led"></span>PAPER RESEARCH</span></div>
   <main id="main">
     <header class="topbar">
-      <div class="breadcrumb"><span>EXPERIMENT 001</span><span class="slash">/</span><span id="breadcrumb-page">OVERVIEW</span></div>
-      <div class="topmeta"><span class="dot-outline"></span><span id="freshness">Awaiting first data refresh</span><span class="top-sep"></span><span class="paper-badge">SIMULATED MONEY ONLY</span></div>
+      <div class="breadcrumb"><span>AUTONOM RESEARCH</span><span class="slash">/</span><span id="breadcrumb-page">OVERVIEW</span></div>
+      <div class="topmeta"><span class="dot-outline"></span><span id="freshness">Awaiting first data refresh</span><span class="top-sep"></span><span class="paper-badge"><span class="paper-icon">◈</span> PAPER CAPITAL ONLY</span></div>
     </header>
     <div class="content">
       <section id="page-overview" class="page active" aria-labelledby="main-title">
-        <div class="eyebrow"><span class="line"></span> OPEN FINANCIAL INTELLIGENCE EXPERIMENT</div>
-        <h1 id="main-title">Can an AI learn<br>to <em>trade?</em></h1>
-        <p class="deck">Two independent markets. Two paper portfolios. An immutable record of decisions, risks, and results. No retrospective winners, no simulated success stories.</p>
-        <div class="hero-foot"><span class="live-marker"><span class="pulse"></span>FORWARD-ONLY EXPERIMENT</span><span>STARTING CAPITAL <b>$2,000</b></span></div>
-        <div class="section-heading"><h2>Portfolio overview</h2><span>USD · AFTER ESTIMATED TRADING COSTS</span></div>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="line"></span> AN OPEN EXPERIMENT IN FINANCIAL INTELLIGENCE <span class="eyebrow-index">/ 2026</span></div>
+            <h1 id="main-title">Can an AI<br>learn to <em>trade?</em></h1>
+            <p class="deck">An ongoing study of autonomous market reasoning. Two independent paper portfolios, real market observations, and every decision preserved for scrutiny.</p>
+            <div class="hero-actions">
+              <a href="#stocks" class="hero-link">Explore the experiment <span aria-hidden="true">↗</span></a>
+              <span class="live-marker"><span class="pulse"></span> PROSPECTIVE RECORD</span>
+            </div>
+          </div>
+          <aside class="hero-ledger" aria-label="Aggregate portfolio summary">
+            <div class="ledger-header"><span>CAPITAL ALLOCATION / 001</span><span>USD</span></div>
+            <div class="ledger-main">
+              <div class="ledger-kicker">Combined paper portfolio value</div>
+              <div class="ledger-total" id="overview-total-value">$2,000.00</div>
+              <div class="ledger-change" id="overview-total-return">+0.00% since inception</div>
+            </div>
+            <div class="ledger-grain" aria-hidden="true"><span class="grain-line"></span><span class="grain-dot"></span><span class="grain-line"></span></div>
+            <div class="ledger-metrics">
+              <div><span>INITIAL CAPITAL</span><strong>$2,000</strong></div>
+              <div><span>OPEN POSITIONS</span><strong id="overview-holdings">00</strong></div>
+              <div><span>MARKET LABS</span><strong>02</strong></div>
+            </div>
+            <div class="ledger-foot"><span class="ledger-seal">A.</span><span>Two independent mandates.<br>No historical trades backfilled.</span></div>
+          </aside>
+        </div>
+        <div class="section-heading"><div><div class="section-overline">01 / ACCOUNT PERFORMANCE</div><h2>Portfolio overview<span class="heading-dot">.</span></h2></div><span>MARKED TO REFERENCE PRICES · USD</span></div>
         <div class="overview-grid">
-          <article class="portfolio-card" tabindex="0" data-open="stocks"><div class="card-top"><span class="asset-icon">▥</span><span>01 / U.S. EQUITIES</span><span class="corner-arrow">↗</span></div><h3>Stocks</h3><div class="big-number" id="overview-stocks-value">$1,000.00</div><div class="card-return" id="overview-stocks-return">+0.00% <small>since inception</small></div><div class="mini-track" id="overview-stocks-track"><span>Awaiting first market observation</span></div><div class="card-bottom"><span>BENCHMARK · SPY</span><span id="overview-stocks-benchmark">Not initialized</span></div></article>
-          <article class="portfolio-card" tabindex="0" data-open="crypto"><div class="card-top"><span class="asset-icon crypto">⬡</span><span>02 / DIGITAL ASSETS</span><span class="corner-arrow">↗</span></div><h3>Crypto</h3><div class="big-number" id="overview-crypto-value">$1,000.00</div><div class="card-return" id="overview-crypto-return">+0.00% <small>since inception</small></div><div class="mini-track" id="overview-crypto-track"><span>Awaiting first market observation</span></div><div class="card-bottom"><span>BENCHMARK · BTC</span><span id="overview-crypto-benchmark">Not initialized</span></div></article>
+          <article class="portfolio-card" tabindex="0" data-open="stocks"><div class="card-top"><span class="asset-icon">↗</span><span>01 / EQUITY STRATEGY</span><span class="corner-arrow">OPEN ACCOUNT ↗</span></div><h3>Stocks</h3><div class="big-number" id="overview-stocks-value">$1,000.00</div><div class="card-return" id="overview-stocks-return">+0.00% <small>since inception</small></div><div class="mini-track" id="overview-stocks-track"><span>Prospective performance record</span></div><div class="card-bottom"><span>BENCHMARK · SPY</span><span id="overview-stocks-benchmark">Not initialized</span></div></article>
+          <article class="portfolio-card" tabindex="0" data-open="crypto"><div class="card-top"><span class="asset-icon crypto">◇</span><span>02 / DIGITAL ASSET STRATEGY</span><span class="corner-arrow">OPEN ACCOUNT ↗</span></div><h3>Crypto</h3><div class="big-number" id="overview-crypto-value">$1,000.00</div><div class="card-return" id="overview-crypto-return">+0.00% <small>since inception</small></div><div class="mini-track" id="overview-crypto-track"><span>Prospective performance record</span></div><div class="card-bottom"><span>BENCHMARK · BTC</span><span id="overview-crypto-benchmark">Not initialized</span></div></article>
         </div>
         <div class="overview-secondary">
-          <article class="panel research-block"><div class="panel-heading"><h3>What happens next</h3><span class="panel-kicker">SYSTEM OPERATIONS</span></div><div class="operation-list"><div class="operation"><span class="opnum">01</span><div><b>Observe</b><p>Fetch public market reference prices and headlines on a scheduled cycle.</p></div><span class="op-state" id="prices-state">PENDING</span></div><div class="operation"><span class="opnum">02</span><div><b>Reason</b><p>An authorized GPT agent researches and files a prospective, timestamped decision.</p></div><span class="op-state" id="research-state">NOT CONNECTED</span></div><div class="operation"><span class="opnum">03</span><div><b>Simulate</b><p>Validate the decision, then fill an eligible later bar—not a past price.</p></div><span class="op-state" id="trades-state">NO TRADES</span></div><div class="operation"><span class="opnum">04</span><div><b>Learn</b><p>Compare returns and review the journal without rewriting original decisions.</p></div><span class="op-state">ONGOING</span></div></div></article>
-          <article class="panel"><div class="panel-heading"><h3>Market watch</h3><span class="panel-kicker">LATEST CONFIRMED PRICES</span></div><div id="market-watch" class="watch-list"><div class="empty-small">Prices will appear after the first successful scheduled run.</div></div><div class="panel-bottom">Reference quotes only · Not executable broker quotes</div></article>
+          <article class="panel research-block"><div class="panel-heading"><h3>The research cycle</h3><span class="panel-kicker">METHODOLOGY / 04 STAGES</span></div><div class="operation-list"><div class="operation"><span class="opnum">01</span><div><b>Observe</b><p>Fetch public market reference prices and headlines on a scheduled cycle.</p></div><span class="op-state" id="prices-state">PENDING</span></div><div class="operation"><span class="opnum">02</span><div><b>Reason</b><p>An authorized GPT agent researches and files a prospective, timestamped decision.</p></div><span class="op-state" id="research-state">NOT CONNECTED</span></div><div class="operation"><span class="opnum">03</span><div><b>Simulate</b><p>Validate the decision, then fill an eligible later bar—not a past price.</p></div><span class="op-state" id="trades-state">NO TRADES</span></div><div class="operation"><span class="opnum">04</span><div><b>Learn</b><p>Compare returns and review the journal without rewriting original decisions.</p></div><span class="op-state">ONGOING</span></div></div></article>
+          <article class="panel"><div class="panel-heading"><h3>Market observatory</h3><span class="panel-kicker">REFERENCE PRICES / EOD</span></div><div id="market-watch" class="watch-list"><div class="empty-small">Prices will appear after the first successful scheduled run.</div></div><div class="panel-bottom">Reference quotes only · Not executable broker quotes</div></article>
         </div>
-        <article class="panel" style="margin-top:16px">
-          <div class="panel-heading"><h3>Research radar</h3><span class="panel-kicker">PUBLIC HEADLINES · NOT MODEL ANALYSIS</span></div>
+        <article class="panel research-radar">
+          <div class="panel-heading"><h3>Intelligence briefing</h3><span class="panel-kicker">PUBLIC NEWS / NOT MODEL RESEARCH</span></div>
           <div id="research-feed" class="watch-list"><div class="empty-small">Headlines appear after the first successful refresh.</div></div>
           <div class="panel-bottom">Linked headlines are public context, not proof that a GPT agent has evaluated them.</div>
         </article>
-        <div class="notice"><span class="notice-symbol">i</span><p><strong>About this experiment.</strong> AUTONOM starts with 100% cash in both portfolios. A model is never credited with making a trade unless its prospective decision has actually been recorded. Running data collectors is not the same as running a GPT agent.</p></div>
+        <div class="notice"><span class="notice-symbol">i</span><p><strong>Research integrity, by design.</strong> Both accounts began entirely in cash. A model receives credit only for prospective decisions recorded before the relevant market observation. Scheduled market-data collection is independent of GPT decision-making; model access is not represented as active until verified.</p></div>
       </section>
       <section id="page-stocks" class="page" aria-labelledby="stocks-title">
-        <div class="eyebrow"><span class="line"></span> EXPERIMENT 01 / U.S. EQUITIES</div><h1 id="stocks-title" class="inner-title">Stock <em>portfolio.</em></h1><p class="deck compact">An independent $1,000 paper account. Open-ended research, explicit decisions, measured against SPY.</p>
+        <div class="eyebrow"><span class="line"></span> 01 / U.S. EQUITY RESEARCH MANDATE</div><h1 id="stocks-title" class="inner-title">Stock <em>portfolio.</em></h1><p class="deck compact">An independent $1,000 paper account. Open-ended research, explicit decisions, measured against SPY.</p>
         <div id="stocks-detail" class="portfolio-detail"></div>
       </section>
       <section id="page-crypto" class="page" aria-labelledby="crypto-title">
-        <div class="eyebrow"><span class="line"></span> EXPERIMENT 02 / DIGITAL ASSETS</div><h1 id="crypto-title" class="inner-title">Crypto <em>portfolio.</em></h1><p class="deck compact">An independent $1,000 paper account. Cryptocurrency never closes; this experiment records daily reference bars.</p>
+        <div class="eyebrow"><span class="line"></span> 02 / DIGITAL ASSET RESEARCH MANDATE</div><h1 id="crypto-title" class="inner-title">Crypto <em>portfolio.</em></h1><p class="deck compact">An independent $1,000 paper account. Cryptocurrency never closes; this experiment records daily reference bars.</p>
         <div id="crypto-detail" class="portfolio-detail"></div>
       </section>
       <section id="page-journal" class="page" aria-labelledby="journal-title">
-        <div class="eyebrow"><span class="line"></span> AUDIT TRAIL / RESEARCH NOTES</div><h1 id="journal-title" class="inner-title">Decision <em>journal.</em></h1><p class="deck compact">The original reasoning is preserved before outcomes are evaluated. A blank journal means no agent decision has been committed.</p>
+        <div class="eyebrow"><span class="line"></span> 03 / FULL EXPERIMENT AUDIT TRAIL</div><h1 id="journal-title" class="inner-title">Decision <em>journal.</em></h1><p class="deck compact">The original reasoning is preserved before outcomes are evaluated. A blank journal means no agent decision has been committed.</p>
         <div class="filter-row"><button class="filter active" data-filter="all">All events</button><button class="filter" data-filter="stocks">Stocks</button><button class="filter" data-filter="crypto">Crypto</button></div>
         <div id="journal-feed" class="journal-feed"></div>
       </section>
       <section id="page-method" class="page" aria-labelledby="method-title">
-        <div class="eyebrow"><span class="line"></span> PUBLIC EXPERIMENTAL PROTOCOL</div><h1 id="method-title" class="inner-title">Rules of the <em>experiment.</em></h1><p class="deck compact">Designed to make the experiment informative even if the model loses money.</p>
+        <div class="eyebrow"><span class="line"></span> 04 / PUBLIC RESEARCH PROTOCOL</div><h1 id="method-title" class="inner-title">Rules of the <em>experiment.</em></h1><p class="deck compact">Designed to make the experiment informative even if the model loses money.</p>
         <div class="method-grid"><article class="method-card"><span>01 / CAPITAL</span><h3>Equal starting budgets</h3><p>$1,000 stocks and $1,000 crypto, separate cash balances, holdings, decisions, and benchmarks. No transfers between them.</p></article><article class="method-card"><span>02 / INTEGRITY</span><h3>Prospective only</h3><p>Decision files are first recorded as pending. A trade can fill only on a later eligible market bar, never on the price that was already known when it was submitted.</p></article><article class="method-card"><span>03 / RISK</span><h3>No leverage</h3><p>Long-only spot assets, no short-selling, no borrowing, no derivatives. Trades incur simulated slippage and fees. New positions must satisfy pre-set sizing limits.</p></article><article class="method-card"><span>04 / BASELINE</span><h3>Passive comparison</h3><p>Stocks compare with SPY; crypto with BTC. Both benchmarks initialize on the first usable price observation and are marked to market alongside the portfolios.</p></article><article class="method-card"><span>05 / MODEL</span><h3>Agent provenance</h3><p>Market-data ingestion is automated separately. The site does not claim to run GPT unless an authenticated decision-writing process is operational and logged.</p></article><article class="method-card"><span>06 / EVIDENCE</span><h3>Failures stay visible</h3><p>Missing quotes, rejected orders, delayed executions and model inactivity are reported; incomplete records are never filled with fabricated prices or hindsight decisions.</p></article></div>
         <div class="notice"><span class="notice-symbol">↗</span><p><strong>Full protocol:</strong> See <a href="https://github.com/PrototypeVersions/AUTONOM/blob/main/docs/DECISION_PROTOCOL.md" target="_blank" rel="noopener noreferrer">the documented decision contract</a> and <a href="https://github.com/PrototypeVersions/AUTONOM/tree/main/data" target="_blank" rel="noopener noreferrer">the source data records</a>. This website is for research, not financial advice.</p></div>
       </section>
     </div>
-    <footer class="footer"><span>AUTONOM / OPEN RESEARCH</span><span>ALL CAPITAL IS SIMULATED · DATA MAY BE DELAYED</span><span>© 2026 AUTONOM</span></footer>
+    <footer class="footer"><span><b>A.</b> AUTONOM / FINANCIAL INTELLIGENCE LAB</span><span>ALL CAPITAL SIMULATED · INDEPENDENT RESEARCH</span><span>© 2026 AUTONOM</span></footer>
   </main>
   <nav class="mobile-nav" aria-label="Mobile navigation"><a data-route="overview" class="active" href="#overview">Overview</a><a data-route="stocks" href="#stocks">Stocks</a><a data-route="crypto" href="#crypto">Crypto</a><a data-route="journal" href="#journal">Journal</a><a data-route="method" href="#method">Rules</a></nav>
 </div></body></html>
