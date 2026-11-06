@@ -355,6 +355,18 @@ def main():
     new_ids = ingest_decisions(state, market, events, errors)
     update_prices(market, state, errors)
     read_news(research, errors)
+    # Market data may be available but a full session behind; mark that honestly.
+    local = NOW.astimezone(NEW_YORK)
+    expected = local.date() if local.time() >= time(16, 15) else local.date() - timedelta(days=1)
+    while expected.weekday() >= 5:
+        expected -= timedelta(days=1)
+    spy_date = market["prices"].get("stocks", {}).get("SPY", {}).get("date")
+    btc_date = market["prices"].get("crypto", {}).get("BTC", {}).get("date")
+    if spy_date and spy_date < expected.isoformat():
+        errors.append(f"Stock reference quote delayed: SPY {spy_date}, expected session {expected.isoformat()}; possible exchange holiday/provider lag.")
+    expected_crypto = (NOW.date() - timedelta(days=1)).isoformat()
+    if btc_date and btc_date < expected_crypto:
+        errors.append(f"Crypto reference quote delayed: BTC {btc_date}, expected completed UTC day {expected_crypto}.")
     execute_pending(state, market, events, new_ids)
     mark_portfolios(state, market, history)
     success = all(market["prices"].get(w, {}).get(s) for w, s in (("stocks", "SPY"), ("crypto", "BTC")))
