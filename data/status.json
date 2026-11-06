@@ -2,7 +2,7 @@
   "market": {
     "status": "degraded",
     "last_success_at": "2026-11-06T01:15:56.822173+00:00",
-    "last_attempt_at": "2026-11-06T01:56:19.803608+00:00",
+    "last_attempt_at": "2026-11-06T01:57:47.241769+00:00",
     "errors": [
       "Stock reference quote delayed: SPY 2026-11-04, expected session 2026-11-05; possible exchange holiday/provider lag."
     ]
