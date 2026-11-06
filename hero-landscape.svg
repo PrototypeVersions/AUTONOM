@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280">
+<defs><linearGradient id="fog" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#BBD2D7" stop-opacity=".15"/><stop offset="1" stop-color="#DDE6E3" stop-opacity=".75"/></linearGradient></defs>
+<path d="M0 234 77 184 130 198 198 154 242 174 325 110 383 150 423 125 503 67 568 117 628 66 690 92 759 22 800 55V280H0Z" fill="url(#fog)"/>
+<path d="M0 242 68 198 133 208 190 180 254 192 328 141 381 173 432 148 501 103 566 138 629 94 696 121 769 60 800 76" stroke="#6D9DA9" stroke-width="1.3" opacity=".62" fill="none"/>
+<path d="M0 264 72 230 139 245 207 221 270 230 337 182 404 207 462 168 520 137 582 175 633 148 710 159 779 100 800 115" stroke="#91ACB1" stroke-width=".9" opacity=".64" fill="none"/>
+<g fill="none" stroke="#537F8B" opacity=".37" stroke-width="1">
+<path d="M50 218Q235 162 410 197T800 165"/><path d="M0 250Q210 199 410 222T800 200"/><path d="M0 270Q250 221 450 250T800 227"/>
+</g>
+<g fill="#A6C1C4" opacity=".55"><circle cx="648" cy="55" r="2"/><circle cx="710" cy="96" r="1.8"/><circle cx="761" cy="56" r="2.2"/></g>
+</svg>

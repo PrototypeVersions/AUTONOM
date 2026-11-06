@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2=".88" y2="1"><stop stop-color="#102E40"/><stop offset=".58" stop-color="#1F4B5F"/><stop offset="1" stop-color="#487787"/></linearGradient>
+<linearGradient id="mist" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#E7EBE8" stop-opacity=".08"/><stop offset="1" stop-color="#C7D5D0" stop-opacity=".36"/></linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0C283A" stop-opacity="0"/><stop offset="1" stop-color="#0B3040" stop-opacity=".48"/></linearGradient>
+</defs>
+<rect width="1200" height="630" fill="url(#sky)"/>
+<circle cx="980" cy="190" r="245" fill="#EDECDD" opacity=".028"/>
+<path d="M0 445 84 420 146 434 217 391 284 406 353 345 409 361 470 318 542 367 611 291 694 346 755 319 829 270 894 320 965 250 1052 292 1133 217 1200 245V630H0Z" fill="#719BA6" opacity=".24"/>
+<path d="M0 483 68 450 150 472 230 428 317 443 398 396 487 420 571 375 643 406 719 341 792 361 869 309 925 337 998 294 1077 322 1168 257 1200 280V630H0Z" fill="url(#mist)"/>
+<path d="M0 520 82 484 171 510 258 482 327 499 402 444 484 461 555 427 631 460 711 408 786 439 858 380 936 405 1014 367 1079 402 1163 331 1200 351V630H0Z" fill="#19485B" opacity=".58"/>
+<path d="M0 0h1200v630H0Z" fill="url(#fade)"/>
+<g opacity=".15" stroke="#B2D5D6" stroke-width=".7">
+<path d="M0 508H1200M0 536H1200M0 564H1200M0 592H1200M0 620H1200"/>
+<path d="M80 470V630M160 470V630M240 470V630M320 470V630M400 470V630M480 470V630M560 470V630M640 470V630M720 470V630M800 470V630M880 470V630M960 470V630M1040 470V630M1120 470V630"/>
+</g>
+<path d="M0 543Q176 615 364 555T720 524T1200 395" fill="none" stroke="#EDE7CF" stroke-width="2.2" opacity=".55"/>
+<path d="M0 568Q220 622 400 585T756 563T1200 432" fill="none" stroke="#D4B783" stroke-width="1.2" opacity=".42"/>
+<g stroke="#F8F0DA" stroke-width="1.5" opacity=".52" fill="#F9EDD6">
+<path d="M812 574v-37m-8 10h16v20h-16zM838 579v-55m-8 11h16v31h-16zM865 572v-42m-7 4h14v24h-14zM894 553v-60m-7 13h14v34h-14zM922 542v-70m-7 11h14v45h-14zM951 518v-55m-7 7h14v40h-14zM980 502v-74m-7 14h14v46h-14zM1009 491v-84m-7 12h14v59h-14zM1038 475v-63m-7 11h14v41h-14zM1067 455v-91m-7 17h14v60h-14zM1096 423v-66m-7 9h14v49h-14zM1125 418v-96m-7 11h14v71h-14zM1154 384v-88m-7 14h14v60h-14z" />
+</g>
+<circle cx="149" cy="140" r="73" fill="none" stroke="#D8BD89" stroke-width="4"/>
+<text x="149" y="188" fill="#FEF9EE" font-family="Georgia,'DejaVu Serif',serif" font-size="145" text-anchor="middle">A</text>
+<path d="M252 66V217" stroke="#D4D0C4" stroke-width="1.5" opacity=".88"/>
+<text x="296" y="140" fill="#FCF9EE" font-family="Georgia,'DejaVu Serif',serif" letter-spacing="13" font-size="88">AUTONOM</text>
+<text x="298" y="199" fill="#F9F2E7" font-family="Georgia,'DejaVu Serif',serif" font-size="32" font-style="italic">An Experiment in Autonomous AI Trading</text>
+<path d="M87 270H1113" stroke="#D8BD89" stroke-opacity=".62" stroke-width="1"/>
+<text x="600" y="333" text-anchor="middle" fill="#F7F1E5" font-family="Georgia,'DejaVu Serif',serif" font-size="24" letter-spacing="5">TWO MARKETS. TWO PORTFOLIOS. ONE QUESTION.</text>
+<text x="600" y="400" text-anchor="middle" fill="#E8C995" font-family="Georgia,'DejaVu Serif',serif" font-size="40" font-style="italic" letter-spacing="3">CAN AI LEARN TO TRADE?</text>
+<text x="78" y="605" fill="#EBF0E9" font-family="Georgia,'DejaVu Serif',serif" font-size="15" letter-spacing="2" opacity=".9">PAPER TRADING  /  OPEN RESEARCH</text>
+</svg>
