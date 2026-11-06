@@ -1,13 +1,13 @@
 {
   "market": {
     "status": "ok",
-    "last_success_at": "2026-11-06T09:27:21.738941+00:00",
-    "last_attempt_at": "2026-11-06T09:27:21.738941+00:00",
+    "last_success_at": "2026-11-06T13:27:10.484942+00:00",
+    "last_attempt_at": "2026-11-06T13:27:10.484942+00:00",
     "errors": []
   },
   "agent": {
     "connected": false,
     "label": "No authenticated unattended GPT connector is installed.",
-    "decision_files_seen": 0
+    "decision_files_seen": 1
   }
 }

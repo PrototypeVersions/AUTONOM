@@ -6,7 +6,9 @@
       "cash": 1000,
       "positions": {},
       "pending": [],
-      "processed": [],
+      "processed": [
+        "stock_20261106_132647_gpt6_hold"
+      ],
       "benchmark": {
         "symbol": "SPY",
         "units": 1.3041040194859401,
