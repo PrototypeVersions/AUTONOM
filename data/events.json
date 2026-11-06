@@ -21,5 +21,28 @@
     "risk_notes": "Opportunity cost: a strong rebound after the November 5 selloff could leave this cash-only account behind SPY. Conversely a weak jobs surprise, further AI-related repricing, interest-rate volatility, or geopolitical energy shocks could deepen drawdowns. Stock prices are prior-session marks; no intraday quote, executable price or company-specific earnings/filing thesis has been verified sufficiently to justify a particular asset today. There are no positions to rebalance or sell, no duplicate pending orders, and no fee/slippage is incurred by HOLD. A future BUY must respect 35% maximum asset exposure and modeled 0.10% fee plus 0.05% adverse slippage; fills are prospective only after engine first-seen time and a later eligible completed daily bar.",
     "title": "HOLD / no trade",
     "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+  },
+  {
+    "type": "decision",
+    "at": "2026-11-06T22:35:13.210286+00:00",
+    "id": "crypto_20261106_223441_gpt6_hold",
+    "portfolio": "crypto",
+    "action": "HOLD",
+    "symbol": "",
+    "amount_usd": 0.0,
+    "decision_at_utc": "2026-11-06T22:34:41+00:00",
+    "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+    "thesis": "HOLD the entire $1,000 crypto paper portfolio in cash for this cycle. The independent state file confirms $1,000 cash, no spot positions, no pending instructions, no prior processed crypto decisions, and no fills. The passive BTC benchmark began on November 5 at $75,969.06 per BTC (0.013163253566649371 units per $1,000); its last recorded completed candle is the same November 5 close, so its recorded value remains $1,000, not a November 6 real-time valuation. The collector successfully refreshed at 20:18 UTC November 6, but crypto prices in market.json are November 5 completed UTC daily bars: BTC $75,969.06, ETH $2,234.61, SOL $89.20, ADA $0.18062 and LINK $10.656. These are stale as execution quotes and do not establish an intraday reversal. November 5's BTC candle opened $80,428.30 and closed $75,969.06 (about -5.54%); ETH fell about 7.75% from its recorded open, with broad declines in other supported assets. Reuters reported on November 4 that crypto markets faced political, exchange-security and risk-appetite uncertainties. Reporting published November 6 describes an additional liquidation wave and Thursday spot-crypto ETF outflows above $500 million, but liquidation and ETF estimates are third-party reported, not independently verified on-chain measurements. Reuters' November 6 equity report describes a rebound in technology shares alongside an upside October jobs surprise; the cross-market rebound does not independently prove crypto stabilization. With only one completed crypto bar since benchmark inception, no validated short-horizon edge, and no current eligible completed November 6 candle in the repository, a new BUY would be speculative bottom-fishing rather than a repeatable supported signal. A SELL is impossible with zero positions. Remain in cash and reassess after a later completed UTC candle and refreshed independent evidence. This is a prospective decision, not a simulated fill or a claim of forecasting skill.",
+    "sources": [
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/status.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/docs/DECISION_PROTOCOL.md",
+      "https://www.reuters.com/business/finance/crypto-dips-democrat-midterm-wins-binance-hack-dent-optimism-2026-11-04/"
+    ],
+    "risk_notes": "Principal cost of HOLD is missing a potentially sharp BTC or altcoin rebound; cash also avoids direct crypto drawdown and the modeled 0.10% fee plus 0.05% adverse slippage per fill. Recent leveraged-liquidation figures are media estimates, not independently confirmed order-book or on-chain data. Exchange/security headlines and ETF-flow reports may be revised and do not alone establish causality. A BTC benchmark can outperform cash if crypto rallies; the comparison period is only one recorded daily mark, so performance is not statistically informative. If a future BUY is justified, limit a single asset to at most 35% of portfolio equity, use supported spot assets only, and wait for engine first-seen time plus a subsequent eligible completed daily bar. No real money, leverage, shorts, derivatives or cross-portfolio transfers.",
+    "title": "HOLD / no trade",
+    "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
   }
 ]

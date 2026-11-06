@@ -21,7 +21,9 @@
       "cash": 1000,
       "positions": {},
       "pending": [],
-      "processed": [],
+      "processed": [
+        "crypto_20261106_223441_gpt6_hold"
+      ],
       "benchmark": {
         "symbol": "BTC",
         "units": 0.013163253566649371,
