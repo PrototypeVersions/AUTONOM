@@ -8,6 +8,8 @@ on:
   schedule:
     # 11:15 UTC weekdays: premarket decision intake (DST-safe conservative fills).
     - cron: '15 11 * * 1-5'
+    # 13:00 UTC daily: accept GPT decisions ahead of US equity open.
+    - cron: '0 13 * * *'
     # 22:30 UTC weekdays: after US equity close (DST-safe).
     - cron: '30 22 * * 1-5'
     # 02:20 UTC every day: just-completed UTC crypto candle.
