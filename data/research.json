@@ -1,7 +1,89 @@
 {
-  "as_of": null,
+  "as_of": "2026-11-06T01:12:15.692336+00:00",
   "items": {
-    "stocks": [],
-    "crypto": []
+    "stocks": [
+      {
+        "title": "How do changing interest rates affect the stock market in 2026 - U.S. Bank",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
+        "published": "Tue, 03 Nov 2026 08:00:00 GMT"
+      },
+      {
+        "title": "Weekly market commentary - BlackRock",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+        "published": "Mon, 02 Nov 2026 08:00:00 GMT"
+      },
+      {
+        "title": "Weekly market wrap - Edward Jones",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+        "published": "Fri, 30 Oct 2026 07:00:00 GMT"
+      },
+      {
+        "title": "Why Are Stocks at Record Highs with no Iran Resolution? - J.P. Morgan",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3o0YTF6TDN4XzFLLXRCOFFJelJRWjBiY1dRV0hiZXI3NUdnVm5zcVRibDNrODd2UjFLTDhieExrVFZaUE1rUWdYZlZjVU1wbW40ZENodDQ2cGtkNkVZZ3Y0VGptRXlJOW9zWW5RcVFfNDN1SmlpZ2hfTFVDUmh5RmJ2MUN1a2pSdHVmanZLaHVuQ3BQQzB0eVZyMkZlWEx1UE5GY3h5bkdDV2U3SzFhS1hPTEh6OVJhTXQ4TU9hbURLTHR4blJ6YXFUYi02Zw?oc=5",
+        "published": "Fri, 24 Apr 2026 07:00:00 GMT"
+      },
+      {
+        "title": "Are US Stock Market Valuations Outpacing Fundamentals? - Goldman Sachs",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
+        "published": "Fri, 10 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "title": "Stocks are booming despite the Iran war, inflation and the country's dour mood. Here's why. - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQWnI0bTNUbkE1dnZ4eURMSUJGTmc0ZEFqa2lzTHpaMlk3dVpubHB3aURJcFhrejN5REdvQWlyV25ab1JveXNCbExQaUtDSU5FVkRWMVRSdmRCTzlJaERfTldDQ0lfZzctNEpzcGtEWEEzNGY4WDhEcjlYMTd5dw?oc=5",
+        "published": "Thu, 28 May 2026 07:00:00 GMT"
+      },
+      {
+        "title": "The bond market is signaling trouble ahead. This is why you should pay attention - NPR",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYVU5NU1oMWNLU0YtVDgtUU41QjBOYjdISkZvSnlFU0dZVGdmZXJXT25DWXlXMHdGMVpIUldKZld0TXVzS1dyS2RibV9yTjdfWEFVZHpJaWxOdmxfOFBRS01BWVRucnBVeVEtaDBjWTN4Qm9ZR095M0t3cWdPTC1mMS00Y2FVN0VXOU9v?oc=5",
+        "published": "Thu, 20 Aug 2026 07:00:00 GMT"
+      },
+      {
+        "title": "Job Market’s Effect on the Economy - U.S. Bank",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGNEeGZ1Y3pqbjJEdDBQYk8wZVJDb0twSUFQc055SmN3TXIxMGFSTk5hZXRKT1dZUGxGMzdPajFIcmcwc3FSZkROdEdjQ19KQl9pMjR3WHhDR3ppMHB0ZS1kMC0tUmY1ZUk5bHJ1YkRmYlc4ZFNSWkg0bG9FWGo3cTNnazJGbUtmZFZNdnpCcjY3cnB6MTdnMmVFYzhaS2NFN3R5N0F0ek5aX1hF?oc=5",
+        "published": "Fri, 09 Oct 2026 07:00:00 GMT"
+      }
+    ],
+    "crypto": [
+      {
+        "title": "Crypto Market Today, Nov. 5: Bitcoin Erases Post-Election Rally as Wall Street Suffers Worst Day in 18 Months - The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQbHR0NFpmUE5SbHdzOVctcDc0am12aVVfc3hlQjF6akZWSWstakRTTnRxZVF5aV9kempOTHBnbVdvRGtuSlBYMnExLTR5cTdYN1l0UVlVZlZLQTBoMmxDUWQ2TVA3eVg0WHd1UDZJbS15amxIeDFzUWxuclNtX3ZvN1R4N0czQnoyWlhGdW5xZk53RVd5aUh1a2poV1Fyd2lUT2QwTEJMZlBQTGh1ZEVDUUFXa1h0UVJLZktpVlJhcXRoakIxS0dNdWxOM2wteGpOak15M2NWYmpVM3dBZjZkRFlxU092azlQVDR0OG5EWVQzWlJNMW9JRGNYZw?oc=5",
+        "published": "Thu, 05 Nov 2026 22:25:00 GMT"
+      },
+      {
+        "title": "We Asked ChatGPT if Ethereum Can Reach $3,000 by March 2027 - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUjM0c3doNWpWVHRMdzBuSDQtblpBNmEtY1BydVJjaVlEQ0ZES05ydS01V2Y5Z2wzVWlyVnRaLWItN3hjRFZ1VFZfZlhXMTRLRHA2bkRsV25xVVJJZTdGNVlhQTNhM3ExY1EteUlsQkNrTlJsVTVFMHhKTU55Y0Q0bWFWTmJVcVBXYm1BM0JCazMwaU5DVjR5cWx5alpXY2xvdDZhcllZUHE3QlFzM3RqZFBHeVA5TTA?oc=5",
+        "published": "Thu, 05 Nov 2026 21:41:00 GMT"
+      },
+      {
+        "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
+        "published": "Wed, 04 Nov 2026 20:05:00 GMT"
+      },
+      {
+        "title": "Crypto Market Rally: Why Bitcoin, Ethereum and XRP Are Surging Today - Coinpedia",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORXJMM1VTdVBKYkpYbWdQSlJqV3kyWjYxMDdRUmkxT3VWZ2ZDX21lbEhRb1dnRy1MemFHOFZXa0RqRXAwallNTWZxYms2bmY5bm14UUhxSV9pR0JpSTNGcVdOcHFrdHZhM3BYb3M1N09xMy1oczI4Rm5HY3VWamxCZFpMY0lqeDJIWFFxRFB3SkF0OXA4eUswdTBOSmJGd3dPZTRUQjJjQdIBrAFBVV95cUxPcE5mbElzOHZoT01qSFNpWlh2UFF4d2E1cDhQMzl0WDJxRFJONHFfcTdweGJkTmY3OUQ0Y3dSWHBTQlliZ3lKNDBjcHdnU2g1eWhNeWV5RzF4cERsckVQNENST0l1VEt5UlVjY1NmTG85dWNVZm9JWEk3OW50SnNpUVdzQlpyZWlnYzVSUkwtS2dxeU5lY2pUenJtVzNUN1JOS1JOSWI5VTYzMHc5?oc=5",
+        "published": "Thu, 05 Nov 2026 06:18:33 GMT"
+      },
+      {
+        "title": "Bitcoin, ETH Don't Need Need a Catalyst, Coinbase Exec Says: ‘It’s Happening’ - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcVpLUzkzdlVvVVZTR2JkZE1uZVpVNDVsbWRnc1RFQTBqeXZCVXpYcFZGRVhIOXlfM0N1Q3FqbWxwNEZRUVhjaUJ2WlBPXzNSbXpieWp4amljY0ZxbTE5TGVpUndHYXMzY0RVRWJuZzJTZGJKWmtTOU9RTE55T0NSSzJDUjVXeW92ZkRPQ3VNTUgweHh0b0c0UnVwS2w1WTlsSGNHWnBCTkxMeUFCZmVFU0YtTXNNWm4zOVVObWZEZW80UFpVand5aFlXOWQ?oc=5",
+        "published": "Thu, 05 Nov 2026 20:45:07 GMT"
+      },
+      {
+        "title": "$250 Each in Bitcoin, Ethereum, XRP and Solana at the Start of October: What Is the $1,000 Worth Now? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNkNObFRGNXFVZ2sxeFF2RkJ1dzVIWkFFaW9tbWhvdG9HSUFfYWRRWUVVNWx3RnFNWGpkQWFwRXRoMEtEbWlQbktkN2cza3FvYklRUXNGNWtFRU5XaGFOaUlhNEk1V1ZqWVZlVzJVSzhGQTJXNHdLaXZDWFBINnFzV2tLbXlpVFJvU0FOTzFSdWpsWWlYeTUyRWs2MkU?oc=5",
+        "published": "Thu, 05 Nov 2026 02:05:00 GMT"
+      },
+      {
+        "title": "What's next as Bitcoin, Ethereum and XRP recovery cools? - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOT01rSWNxY1hzS09IVFhoeWt6N1M5Y0Q0cXhlZ3lwWGZiT3pRT0tEYlNEcGJuZmRjSUVtTEY4YXpDbnVQYjg1YkRfLVRtaG1aN1FiLWJaOWV5c0FKS1JPMGVSQ1lqX21JS1A2YUFGY0RhUGpXU3BMOUVzU24yRWFZM2JQLXhLMkw0SFpVck5sRzhpYl93U1hoOXRUeUNaWDBodFR6N0lEOXBvT0p5U3ktQmVlRnBZMUtxRTM5aGRpcnJDYlB3S1k3clg5OXVxWHNNTWtfRmFn?oc=5",
+        "published": "Thu, 05 Nov 2026 10:17:32 GMT"
+      },
+      {
+        "title": "BTC, ETH price: Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote - CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRTNyZUk3LXdveE1USkFpUlVmcFpwQW02R19zTU9HUFJwdWlKZEIxQ1dLSkNaVDF5blk0N2dmRTE2QnAwRmQtNUVDSFByY0xUWW14bWxTYUJPTXhOQ05WNnBHOUVQV0JaZ255bE5uWmJITmcwLW44ZmM2bkxmYk1Ja2NYM2RiZ1RXdEhSekVuZWFHV29LUzFodTdHZF9yNUtGc0VLLXVhNzJ4UFRxWkp3Rk9DUXVabEJLcjNLZQ?oc=5",
+        "published": "Tue, 03 Nov 2026 04:48:00 GMT"
+      }
+    ]
   }
 }

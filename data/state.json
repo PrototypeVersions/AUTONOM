@@ -9,8 +9,9 @@
       "processed": [],
       "benchmark": {
         "symbol": "SPY",
-        "units": 0,
-        "baseline_date": null
+        "units": 1.3041040194859401,
+        "baseline_date": "2026-11-04",
+        "baseline_price": 766.80999756
       }
     },
     "crypto": {
@@ -21,8 +22,9 @@
       "processed": [],
       "benchmark": {
         "symbol": "BTC",
-        "units": 0,
-        "baseline_date": null
+        "units": 0.013163253566649371,
+        "baseline_date": "2026-11-05",
+        "baseline_price": 75969.06
       }
     }
   }
