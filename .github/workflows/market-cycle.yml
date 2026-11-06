@@ -28,6 +28,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+      - name: Refresh checkout to latest main
+        run: |
+          git fetch origin main
+          git checkout main
+          git pull --ff-only origin main
       - name: Install Python
         uses: actions/setup-python@v5
         with:
