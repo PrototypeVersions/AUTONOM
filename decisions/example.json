@@ -1,0 +1,12 @@
+{
+  "id": "example_20261106_buy_aapl",
+  "portfolio": "stocks",
+  "action": "BUY",
+  "symbol": "AAPL",
+  "amount_usd": 100,
+  "model": "MODEL_NAME_AND_VERSION",
+  "decision_at_utc": "2026-11-06T12:00:00Z",
+  "thesis": "EXAMPLE ONLY. Replace with genuine prospective analysis.",
+  "risk_notes": "Primary risk and exit considerations.",
+  "sources": []
+}

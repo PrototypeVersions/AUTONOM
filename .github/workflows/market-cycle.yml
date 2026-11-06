@@ -1,0 +1,43 @@
+name: AUTONOM market cycle
+on:
+  workflow_dispatch:
+  schedule:
+    # 11:15 UTC weekdays: premarket decision intake (DST-safe conservative fills).
+    - cron: '15 11 * * 1-5'
+    # 22:30 UTC weekdays: after US equity close (DST-safe).
+    - cron: '30 22 * * 1-5'
+    # 02:20 UTC every day: just-completed UTC crypto candle.
+    - cron: '20 2 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: autonom-market-cycle
+  cancel-in-progress: false
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate engine
+        run: python -m unittest discover -s tests -v
+      - name: Collect prices and process eligible paper orders
+        run: python scripts/market_cycle.py
+      - name: Commit prospective record and market state
+        run: |
+          git config user.name "autonom-market-bot"
+          git config user.email "autonom-market-bot@users.noreply.github.com"
+          git add data/state.json data/market.json data/history.json data/events.json data/research.json data/status.json
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Market cycle: collect reference bars and process prospective decisions"
+            git push
+          fi
