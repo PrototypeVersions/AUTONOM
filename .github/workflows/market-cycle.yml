@@ -39,6 +39,8 @@ jobs:
           python-version: '3.12'
       - name: Validate engine
         run: python -m unittest discover -s tests -v
+      - name: Check dashboard JavaScript syntax
+        run: node --check app.js
       - name: Collect prices and process eligible paper orders
         run: python scripts/market_cycle.py
       - name: Commit prospective record and market state
