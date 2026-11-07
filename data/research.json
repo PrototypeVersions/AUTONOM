@@ -1,7 +1,12 @@
 {
-  "as_of": "2026-11-06T22:35:13.210286+00:00",
+  "as_of": "2026-11-07T02:12:22.758557+00:00",
   "items": {
     "stocks": [
+      {
+        "title": "Weekly market commentary - BlackRock",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+        "published": "Mon, 02 Nov 2026 08:00:00 GMT"
+      },
       {
         "title": "Weekly market wrap - Edward Jones",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
@@ -13,19 +18,9 @@
         "published": "Fri, 24 Apr 2026 07:00:00 GMT"
       },
       {
-        "title": "Why the stock market and economy may seem out of sync - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vcWg0QXpqWk91X05BclFWbHdfOXotd2YzRlBpS0lSeFN4ZGJwSDhvRE5uWkliU095bnYyMy11cEktM3U1SGZXd24wdlRoajBrTDVOR01wUGNDMElqbFVheEJjUko2MTk5Vlpad3hYQWVzRk90QkRuSUpUOFZUQdIBgwFBVV95cUxOU0NUczI0QXNNbXlrWTlINlBJTkVGZHFtQi1tS05ocmVsWlVzcWFNRjhic01aVWxSdWRCRU1ISTU0WnVrX1E4RGRZWG0tWHcxa3BqSnhLSXNhSzlNb2k1Z3g1V3Y4SkRoUUVmMUsyTTNZTmZIVWpHYzJsM3FYVUpGaWtzVQ?oc=5",
-        "published": "Fri, 10 Jul 2026 07:00:00 GMT"
-      },
-      {
         "title": "Are US Stock Market Valuations Outpacing Fundamentals? - Goldman Sachs",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
         "published": "Fri, 10 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "title": "New stock market stories from Q2 2026 earnings - BlackRock",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWjhOV0ZubDltMl94dWl1bWtLM0IyNUp6T1pmbmd0UTdZMERpeHpXcnRDUGpEWDgyQVpDaDBrTzZGaFhQNzRMM05tWEdCdEt6VXhLOFA2UlBaZHd5d1RWT1hqZlFKcTgtU1RVNWNueUZLNHNZbVZOTE5ETFJBTG81VE1kUU9VdDFFRjd1WDlLY1ZGUHF1?oc=5",
-        "published": "Thu, 20 Aug 2026 07:00:00 GMT"
       },
       {
         "title": "Q4 2026 investment outlook: Strong earnings meet higher rates, midterms and energy risk - U.S. Bank",
@@ -33,14 +28,19 @@
         "published": "Thu, 01 Oct 2026 07:00:00 GMT"
       },
       {
-        "title": "Can the stock market keep reaching all-time highs? - Fidelity Investments",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlpranFPY1JBZXBZaVIzVWJYYkR1Mzh5aE5LZTczQU5reENqYmZSaUxUTGxJVTNrYlM0cFBQUTMtU1VDUkcya2lGWEZOMjhhbXA0MmJQOVVPcEFELVN3djlweEk4RmdaY3pLTGdFZnR2aWZjeUE0el9vTkZoUGJrZ3JUS3M4QzNSdG5LQWNoVmZUSlhfcndCbVFPdTFsY3VOOXJTQkZ1OUUwYmVz?oc=5",
-        "published": "Wed, 15 Jul 2026 07:00:00 GMT"
-      },
-      {
         "title": "Stocks are booming despite the Iran war, inflation and the country's dour mood. Here's why. - CBS News",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQWnI0bTNUbkE1dnZ4eURMSUJGTmc0ZEFqa2lzTHpaMlk3dVpubHB3aURJcFhrejN5REdvQWlyV25ab1JveXNCbExQaUtDSU5FVkRWMVRSdmRCTzlJaERfTldDQ0lfZzctNEpzcGtEWEEzNGY4WDhEcjlYMTd5dw?oc=5",
         "published": "Thu, 28 May 2026 07:00:00 GMT"
+      },
+      {
+        "title": "The bond market is signaling trouble ahead. This is why you should pay attention - NPR",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYVU5NU1oMWNLU0YtVDgtUU41QjBOYjdISkZvSnlFU0dZVGdmZXJXT25DWXlXMHdGMVpIUldKZld0TXVzS1dyS2RibV9yTjdfWEFVZHpJaWxOdmxfOFBRS01BWVRucnBVeVEtaDBjWTN4Qm9ZR095M0t3cWdPTC1mMS00Y2FVN0VXOU9v?oc=5",
+        "published": "Thu, 20 Aug 2026 07:00:00 GMT"
+      },
+      {
+        "title": "New stock market stories from Q2 2026 earnings - BlackRock",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWjhOV0ZubDltMl94dWl1bWtLM0IyNUp6T1pmbmd0UTdZMERpeHpXcnRDUGpEWDgyQVpDaDBrTzZGaFhQNzRMM05tWEdCdEt6VXhLOFA2UlBaZHd5d1RWT1hqZlFKcTgtU1RVNWNueUZLNHNZbVZOTE5ETFJBTG81VE1kUU9VdDFFRjd1WDlLY1ZGUHF1?oc=5",
+        "published": "Thu, 20 Aug 2026 07:00:00 GMT"
       }
     ],
     "crypto": [
@@ -55,9 +55,9 @@
         "published": "Fri, 06 Nov 2026 21:01:00 GMT"
       },
       {
-        "title": "Russia Approves Bitcoin, Ethereum, USDT for Retail Investors - Caspian Post",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajFHQlR0bWgyZTJveXkyWVpldEQyTC04V2pnZm1rWS16TnFmWGV2STJkMEZxaGc1TnlVeXlJcWdJTXAxalJNdWtiU3pyRW1uRkJXdkc0YXZlbEU3eEVtdy15YklrOVBHMzBsS1IxT3Q4TmJZQlo0T1l1SWE0U1pqWkg2WnhEMVoxUVNoWTlxaE41bjFaVUNB?oc=5",
-        "published": "Fri, 06 Nov 2026 16:27:56 GMT"
+        "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
+        "published": "Wed, 04 Nov 2026 20:05:00 GMT"
       },
       {
         "title": "Top Reasons Why Bitcoin, Ethereum and XRP Price Are Crashing Today - Cryptonews.net",
@@ -65,9 +65,9 @@
         "published": "Fri, 06 Nov 2026 22:29:42 GMT"
       },
       {
-        "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
-        "published": "Wed, 04 Nov 2026 20:05:00 GMT"
+        "title": "Russia Approves Bitcoin, Ethereum, USDT for Retail Investors - Caspian Post",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajFHQlR0bWgyZTJveXkyWVpldEQyTC04V2pnZm1rWS16TnFmWGV2STJkMEZxaGc1TnlVeXlJcWdJTXAxalJNdWtiU3pyRW1uRkJXdkc0YXZlbEU3eEVtdy15YklrOVBHMzBsS1IxT3Q4TmJZQlo0T1l1SWE0U1pqWkg2WnhEMVoxUVNoWTlxaE41bjFaVUNB?oc=5",
+        "published": "Fri, 06 Nov 2026 16:27:56 GMT"
       },
       {
         "title": "Daily ETH Prediction Markets for Ethereum Day Traders - SailGP",
@@ -80,9 +80,9 @@
         "published": "Fri, 06 Nov 2026 10:19:06 GMT"
       },
       {
-        "title": "Why is Ethereum price down today, November 6? - Crypto News",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01WGRHS2FPQzF6WVotY2swblJnY0pveVdaUW9rdml3Zm1pR0FaWEduTFNYUDA2Wi10Qk1KVkROU0x5eGNFZlRHLVZIMUNnQV8xRFhuQkNobDNSclVnRlFKSWo0aXNHM1JMRm9ud0ZGcmV3TkFVaW92WWZhVVV2RDQ?oc=5",
-        "published": "Fri, 06 Nov 2026 07:09:00 GMT"
+        "title": "Robinhood's crypto chain out-earned Ethereum in network revenue last quarter, exec says | CoinDesk Videos - CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMW9RWUw3WWhrRDJRWk93eGVFZzRaTTlPTWdLdlA2S3hXeEZyOVBPMGhISlV5ZWFpZ2sxMXUyZzI2RGRUb3Z1Ukxmb0tGLWd2S2xGdEZmbDJhcU1RUlZFMjE0V1IxWkVfQU5TRHg3WW5ydGJVMGhBVVFPZkdSc0hoN2E5TkJLUXh2bWdNdGxuRi1YM000SDQwYUdIamZ2ZkZ3R0NBWm5HN0xGSkhPSEJISVIwS01OXzkt?oc=5",
+        "published": "Fri, 06 Nov 2026 14:00:00 GMT"
       }
     ]
   }
