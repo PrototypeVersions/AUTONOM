@@ -1,7 +1,12 @@
 {
-  "as_of": "2026-11-09T22:30:04.073110+00:00",
+  "as_of": "2026-11-09T22:47:17.083364+00:00",
   "items": {
     "stocks": [
+      {
+        "title": "Weekly market commentary - BlackRock",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+        "published": "Mon, 09 Nov 2026 19:29:30 GMT"
+      },
       {
         "title": "How midterm elections affect the stock market - U.S. Bank",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPajZ2ZjFNZFhYeEl6dWNMT25UQjhZTUpYSjZaWVJtZWxSdmlHM2RveWtaYWpEeW44ekk0UmFWMlBVZzA3bmtqcHd1bElHSXhFOHVFVWZhQjF0dzBKV29GNDM0dlQ4SkNIUWczQW16Mmo3aG5oLWN5RnNBQ2VkQVJBRXhpVjBKUEJKbExvU1dxMG45S1QtenFQdnBEMk1hVTJEWFVaeFpCZTlyb215OVFIWE1Vbmp6SXl0YzRoNmh3?oc=5",
@@ -23,9 +28,9 @@
         "published": "Fri, 10 Jul 2026 07:00:00 GMT"
       },
       {
-        "title": "New stock market stories from Q2 2026 earnings - BlackRock",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWjhOV0ZubDltMl94dWl1bWtLM0IyNUp6T1pmbmd0UTdZMERpeHpXcnRDUGpEWDgyQVpDaDBrTzZGaFhQNzRMM05tWEdCdEt6VXhLOFA2UlBaZHd5d1RWT1hqZlFKcTgtU1RVNWNueUZLNHNZbVZOTE5ETFJBTG81VE1kUU9VdDFFRjd1WDlLY1ZGUHF1?oc=5",
-        "published": "Thu, 20 Aug 2026 07:00:00 GMT"
+        "title": "Can the stock market keep reaching all-time highs? - Fidelity Investments",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlpranFPY1JBZXBZaVIzVWJYYkR1Mzh5aE5LZTczQU5reENqYmZSaUxUTGxJVTNrYlM0cFBQUTMtU1VDUkcya2lGWEZOMjhhbXA0MmJQOVVPcEFELVN3djlweEk4RmdaY3pLTGdFZnR2aWZjeUE0el9vTkZoUGJrZ3JUS3M4QzNSdG5LQWNoVmZUSlhfcndCbVFPdTFsY3VOOXJTQkZ1OUUwYmVz?oc=5",
+        "published": "Wed, 15 Jul 2026 07:00:00 GMT"
       },
       {
         "title": "Stocks are booming despite the Iran war, inflation and the country's dour mood. Here's why. - CBS News",
@@ -33,14 +38,9 @@
         "published": "Thu, 28 May 2026 07:00:00 GMT"
       },
       {
-        "title": "Q4 2026 investment outlook: Strong earnings meet higher rates, midterms and energy risk - U.S. Bank",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHd4RWhId2p6U0diY2tMUDRWV0NOOTJsTGdudzI3UU1qLS1pbWhvTGVScW85aHNQc1JrTFZxUUU0d3hSWlQ0djRJQWFpT1MxWFhFcTc3RzVoUjhpS3ZfMDZ6STdia1NFZ21WdFlOX3JWQXZCUFNHdTdPVEs5YzdwX1hyalBNY3F0VHgwcDRzNA?oc=5",
-        "published": "Thu, 01 Oct 2026 07:00:00 GMT"
-      },
-      {
-        "title": "The S&P 500 Is Forecast to Climb as Earnings Growth Powers Stocks Higher - Goldman Sachs",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT21BbEYyM2ZUU1h5XzV5R2NBY1pOa056MUc5Q0xqbTFwYzg4cFFrMnk5bVBLcm4wQlhGb3lqTUJGYnlzLWRBZ0x5VXVJNWpHU0hIaEFxM2YtV1JJVHJxVTR4YUQtT3FzNXpWeTNYb29fTi1oQ295aDdyQXZlMjlXVmRMNkxBTTdtZjFKcHg5c1JKb0N5YTQzN0QtY2Y3YTF6R0R3bnpveHpjX25KRFBIVWJtbi1BTVE?oc=5",
-        "published": "Thu, 28 May 2026 07:00:00 GMT"
+        "title": "Five reasons India's stock market is sinking even when its economy is growing - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13eUZFdTFjQUFKSmQ5OVpacTRkRmhOOFFwSU5WTUkwdG13ZGZiLUk4T3BvYUlXZi05YWRldWFQRzlaZ24xTWhCdnhLWW53bHlJYUh6aGl5UjVHUjg?oc=5",
+        "published": "Mon, 05 Oct 2026 07:00:00 GMT"
       }
     ],
     "crypto": [
@@ -62,7 +62,7 @@
       {
         "title": "Bitcoin, Ethereum, XRP Whipsaw On Nvidia Scandal, Iran Tensions: Crypto Sell-Off Sparks $1B Liquidation Wave - Stocktwits",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVzRKQWR4a1hiUnpZVVRzX1UzTi1mdzNUMmd5Vlh5TEtfejNvS21rZDgwamZuWDJqZ3lmbUplWkdqMV9oR0hHTUlHS0NsYXhtWVBOYi0zQ294bFFvemJOUmI2bFJvWUF0T3BpeVdBeXc3cU5rZnlrRzJHMjVTUWdBaGl2dGdGOUJ5UGxYVDh5WGRZVDQ4THZqcEJVVGk3SHN6YkdUdUtsSTA0ZlV4NDdBYW5kNkJCMDdnanJEV25uUDhOYTU1Zk9Fd0lhSkk?oc=5",
-        "published": "Mon, 09 Nov 2026 16:10:23 GMT"
+        "published": "Mon, 09 Nov 2026 22:18:23 GMT"
       },
       {
         "title": "Why is the crypto market down today? Bitcoin, Ethereum in red - Crypto News",
