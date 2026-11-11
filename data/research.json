@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-11T18:42:23.923671+00:00",
+  "as_of": "2026-11-11T19:55:21.251289+00:00",
   "items": {
     "stocks": [
       {
@@ -11,6 +11,11 @@
         "title": "How midterm elections affect the stock market - U.S. Bank",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPajZ2ZjFNZFhYeEl6dWNMT25UQjhZTUpYSjZaWVJtZWxSdmlHM2RveWtaYWpEeW44ekk0UmFWMlBVZzA3bmtqcHd1bElHSXhFOHVFVWZhQjF0dzBKV29GNDM0dlQ4SkNIUWczQW16Mmo3aG5oLWN5RnNBQ2VkQVJBRXhpVjBKUEJKbExvU1dxMG45S1QtenFQdnBEMk1hVTJEWFVaeFpCZTlyb215OVFIWE1Vbmp6SXl0YzRoNmh3?oc=5",
         "published": "Thu, 05 Nov 2026 08:00:00 GMT"
+      },
+      {
+        "title": "Earnings Calendar and Analysis for This Week (November 9-13) - Kiplinger",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT2JlZjF1QU9yZTBqNVJ4aXJUUjVFMDA4SWxPdEVienI3d2dFcFF4Z3BVNE40LWxmOHV1REljUVFaSFY3X2FrQm1xV2NMYWY3SHRoOFdhMXc2ZWFyZGtYTGV3Ul9lY1htRExZOFpMLXJGRWVRSWU1dTBUcjVSc0lEckdXTEhkck45Ujh3?oc=5",
+        "published": "Tue, 10 Nov 2026 21:25:47 GMT"
       },
       {
         "title": "Why Are Stocks at Record Highs with no Iran Resolution? - J.P. Morgan",
@@ -36,11 +41,6 @@
         "title": "US stock market hits record highs as AI profits pile and oil prices ease - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYkxGTktpd3RhcFI2bzdDWDc0OU5XdlpQdU4xSWtOaVdzZVgtc3VLbXg0NHM2ZkVocVRLam5rVXFuV1FPYmRoY1hqdGFWdWdWYTFvMUhWVExIbHlXc0tJc2lVVjhIODVaRDhFMHdHU05hSElLQ0dqWHg3ODAtcTloYTl4LVFLSEo4ZHl4QnY2aVF4X1Y4TjNYT1h5T08?oc=5",
         "published": "Tue, 04 Aug 2026 07:00:00 GMT"
-      },
-      {
-        "title": "Stocks and the Economy Are Increasingly Relying on the A.I. Boom - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
-        "published": "Wed, 22 Jul 2026 07:00:00 GMT"
       }
     ],
     "crypto": [
@@ -65,14 +65,14 @@
         "published": "Wed, 11 Nov 2026 11:37:04 GMT"
       },
       {
-        "title": "Bitcoin Chatter Flips Back to Bearish. Here’s What Price Did Last Time - BeInCrypto",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DaUdoOWRKb3RHMjZBMklvVUdkYy1INnpnSkdjUGRTQmpyeUxqVW1FZndVZ3Z0YjRMY2o3eE5GX1ZzbW92Q1BGMnJEQzJzQU9qM3kxTlNIU1RiX2x3N1BuQUEtSnhOTlVsRTRiUG9R?oc=5",
-        "published": "Wed, 11 Nov 2026 14:47:44 GMT"
-      },
-      {
         "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
         "published": "Mon, 09 Nov 2026 20:05:00 GMT"
+      },
+      {
+        "title": "Bitcoin Chatter Flips Back to Bearish. Here’s What Price Did Last Time - BeInCrypto",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DaUdoOWRKb3RHMjZBMklvVUdkYy1INnpnSkdjUGRTQmpyeUxqVW1FZndVZ3Z0YjRMY2o3eE5GX1ZzbW92Q1BGMnJEQzJzQU9qM3kxTlNIU1RiX2x3N1BuQUEtSnhOTlVsRTRiUG9R?oc=5",
+        "published": "Wed, 11 Nov 2026 14:47:44 GMT"
       },
       {
         "title": "Bitcoin, Ethereum, XRP, Dogecoin Drop as Investors Weigh Rate Hike Odds: Analyst Explains Why ‘Horrific’ - Benzinga",
