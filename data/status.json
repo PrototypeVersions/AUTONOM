@@ -1,13 +1,17 @@
 {
   "market": {
     "status": "ok",
-    "last_success_at": "2026-11-11T22:26:01.808649+00:00",
-    "last_attempt_at": "2026-11-11T22:26:01.808649+00:00",
+    "last_success_at": "2026-11-12T01:35:21.392438+00:00",
+    "last_attempt_at": "2026-11-12T01:35:21.392438+00:00",
     "errors": []
   },
   "agent": {
     "connected": false,
-    "label": "No authenticated unattended GPT connector is installed.",
-    "decision_files_seen": 10
+    "label": "Scheduled decision files recorded; the engine does not authenticate model identity.",
+    "decision_files_seen": 10,
+    "last_decision_at": {
+      "stocks": "2026-11-11T13:26:45.149146+00:00",
+      "crypto": "2026-11-11T22:26:01.808649+00:00"
+    }
   }
 }
