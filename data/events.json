@@ -251,5 +251,22 @@
     "risk_notes": "The allocation risks loss from hotter November 13 PPI, Fed tightening, valuation compression, AI/semiconductor leadership instability, geopolitical/oil shocks and a gap between the observed November 11 SPY close and the future eligible simulated open. SPY is diversified but still cap-weighted and exposed to megacap technology. Cash could outperform if declines resume; conversely leaving 85% in cash creates opportunity cost if equities rally. Estimated model fee 0.10% plus adverse slippage 0.05% is about $0.225 for a $150 one-way notional; eventual exit incurs costs too, and real spreads/market impact are not represented. $150 is above the $10 minimum and well below the $350 35%-of-equity per-asset cap, with no other positions or pending orders. No real money, broker, leverage, shorts, derivatives, crypto-account activity or backdating. No claim of skill or executed fill.",
     "title": "BUY SPY",
     "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+  },
+  {
+    "type": "fill",
+    "at": "2026-11-12T21:22:49.565497+00:00",
+    "id": "stock_20261112_autonom-fill",
+    "decision_id": "stock_20261112_autonom",
+    "portfolio": "stocks",
+    "action": "BUY",
+    "symbol": "SPY",
+    "quantity": 0.1988448518,
+    "price": 754.35697046,
+    "reference_open": 753.97998047,
+    "fee": 0.15,
+    "bar_date": "2026-11-12",
+    "model": "AUTONOM engine",
+    "title": "BUY SPY paper fill",
+    "note": "Filled at next eligible daily open reference price with modeled slippage and fee; not an executable broker fill."
   }
 ]
