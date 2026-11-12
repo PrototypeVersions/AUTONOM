@@ -79,6 +79,41 @@ class ProtocolTests(unittest.TestCase):
         self.assertEqual(ev[0]["type"],"rejection")
         self.assertEqual(p["cash"],1000)
 
+    def test_buy_cap_uses_same_session_opening_marks(self):
+        m.NOW += timedelta(days=4)
+        p = dict(cash=600, positions={"SPY": 4}, pending=[{
+            "id": "opening_cap", "portfolio": "stocks", "action": "BUY",
+            "symbol": "AAPL", "amount_usd": 400, "accepted_at": self.now.isoformat(),
+        }])
+        state = {"portfolios": {"stocks": p}}
+        prices = {"AAPL": m.make_bar("2026-11-09", 100, 100, "test", "2026-11-09T14:30:00Z")}
+        market = {"prices": {"stocks": prices}}
+        events = []
+
+        prices["SPY"] = m.make_bar("2026-11-06", 100, 200, "test", "2026-11-06T14:30:00Z")
+        m.execute_pending(state, market, events, set())
+        self.assertEqual(len(p["pending"]), 1)
+        self.assertEqual(events, [])
+
+        prices["SPY"] = m.make_bar("2026-11-09", 100, 200, "test", "2026-11-09T14:30:00Z")
+        m.execute_pending(state, market, events, set())
+        self.assertEqual(events[0]["type"], "rejection")
+        self.assertIn("35%", events[0]["reason"])
+        self.assertEqual(p["cash"], 600)
+        self.assertEqual(p["pending"], [])
+
+    def test_unfilled_order_expires(self):
+        p = dict(cash=1000, positions={}, pending=[{
+            "id": "expired_buy", "portfolio": "stocks", "action": "BUY",
+            "symbol": "AAPL", "amount_usd": 100,
+            "accepted_at": (self.now - timedelta(days=7)).isoformat(),
+        }])
+        events = []
+        m.execute_pending({"portfolios": {"stocks": p}}, {"prices": {}}, events, set())
+        self.assertEqual(events[0]["type"], "rejection")
+        self.assertIn("expired", events[0]["reason"])
+        self.assertEqual(p["pending"], [])
+
     def test_benchmark_initializes_at_first_observed_close(self):
         st={"portfolios":{"stocks":{"startingCash":1000,"cash":1000,"positions":{},"benchmark":{"symbol":"SPY","units":0}},
                           "crypto":{"startingCash":1000,"cash":1000,"positions":{},"benchmark":{"symbol":"BTC","units":0}}}}

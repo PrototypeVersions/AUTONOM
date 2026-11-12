@@ -23,13 +23,17 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 INBOX = ROOT / "decisions" / "inbox"
 NOW = datetime.now(timezone.utc)
-STOCK_BASE = ("SPY", "QQQ", "AAPL", "NVDA", "MSFT", "AMZN", "GOOGL", "TSLA")
+STOCK_BASE = (
+    "SPY", "QQQ", "IWM", "RSP", "XLE", "XLV", "SGOV",
+    "AAPL", "NVDA", "MSFT", "AMZN", "GOOGL", "TSLA",
+)
 CRYPTO_BASE = ("BTC", "ETH", "SOL", "ADA", "LINK")
 CRYPTO_ALLOWED = set(CRYPTO_BASE) | {"AVAX", "DOGE", "LTC", "BCH"}
 SYMBOL_PATTERN = re.compile(r"^[A-Z][A-Z0-9.-]{0,7}$")
 FEE_RATE = 0.001
 SLIPPAGE = 0.0005
 MAX_POSITION_FRACTION = 0.35
+ORDER_LIFETIME = timedelta(days=7)
 MAX_POSITIONS = {"stocks": 10, "crypto": 6}
 NEW_YORK = ZoneInfo("America/New_York")
 HEADERS = {"User-Agent": "AUTONOM-Research/1.0 (+https://github.com/PrototypeVersions/AUTONOM)", "Accept": "application/json,text/csv,application/xml,*/*"}
@@ -242,13 +246,13 @@ def ingest_decisions(state, market, events, errors):
     return new_ids
 
 
-def equity(which, p, market):
+def equity(which, p, market, *, bar_date, price_field):
     total = float(p["cash"])
     for symbol, qty in p["positions"].items():
         bar = market["prices"].get(which, {}).get(symbol)
-        if not bar:
+        if not bar or bar["date"] != bar_date:
             return None
-        total += float(qty) * bar["close"]
+        total += float(qty) * bar[price_field]
     return total
 
 
@@ -264,13 +268,17 @@ def execute_pending(state, market, events, new_ids):
             if order["id"] in new_ids:
                 retained.append(order)
                 continue
+            accepted_at = as_utc(order["accepted_at"])
+            if NOW - accepted_at >= ORDER_LIFETIME:
+                reject(events, order, "Order expired after seven days without an eligible fill.")
+                continue
             bar = market["prices"].get(which, {}).get(order["symbol"])
             if not bar or not bar.get("bar_start_utc"):
                 retained.append(order)
                 continue
             # The bar must START after the server first observed the decision, and
             # must be newer than the previous recorded bar. No hindsight fills.
-            if as_utc(bar["bar_start_utc"]) <= as_utc(order["accepted_at"]):
+            if as_utc(bar["bar_start_utc"]) <= accepted_at:
                 retained.append(order)
                 continue
             if order.get("acceptedBarDate") and bar["date"] <= order["acceptedBarDate"]:
@@ -281,16 +289,16 @@ def execute_pending(state, market, events, new_ids):
             fill_price = open_price * (1 + SLIPPAGE if action == "BUY" else 1 - SLIPPAGE)
             qty = amount / fill_price
             fee = amount * FEE_RATE
-            current_equity = equity(which, p, market)
             err = None
-            if current_equity is None:
-                retained.append(order)
-                continue
             held = float(p["positions"].get(sym, 0))
             if action == "BUY":
+                opening_equity = equity(which, p, market, bar_date=bar["date"], price_field="open")
+                if opening_equity is None:
+                    retained.append(order)
+                    continue
                 if p["cash"] + 1e-6 < amount + fee:
                     err = "Insufficient cash including estimated transaction fee."
-                elif (held * open_price + amount) > MAX_POSITION_FRACTION * current_equity + 1e-6:
+                elif (held * open_price + amount) > MAX_POSITION_FRACTION * opening_equity + 1e-6:
                     err = "Per-symbol position limit of 35% of current portfolio equity exceeded."
                 elif not held and len([x for x in p["positions"].values() if x > 0]) >= MAX_POSITIONS[which]:
                     err = "Maximum simultaneous positions exceeded."
@@ -328,7 +336,7 @@ def mark_portfolios(state, market, history):
             p["benchmark"]["units"] = p["startingCash"] / b["close"]
             p["benchmark"]["baseline_date"] = b["date"]
             p["benchmark"]["baseline_price"] = b["close"]
-        total = equity(which, p, market)
+        total = equity(which, p, market, bar_date=b["date"], price_field="close")
         if total is None:
             continue
         bench = p["benchmark"]["units"] * b["close"]
@@ -376,8 +384,17 @@ def main():
     if success and not errors:
         st["last_success_at"] = NOW.isoformat()
     st["errors"] = errors[:15]
-    status["agent"] = {"connected": False, "label": "No authenticated unattended GPT connector is installed.",
-                       "decision_files_seen": sum(len(p["processed"]) for p in state["portfolios"].values())}
+    decisions = [event for event in events if event["type"] == "decision"]
+    latest_by_portfolio = {event["portfolio"]: event["at"] for event in decisions}
+    status["agent"] = {
+        "connected": False,
+        "label": (
+            "Scheduled decision files recorded; the engine does not authenticate model identity."
+            if decisions else "Awaiting the first accepted decision file."
+        ),
+        "decision_files_seen": len(decisions),
+        "last_decision_at": latest_by_portfolio,
+    }
     for name, obj in [("state.json", state), ("market.json", market), ("history.json", history),
                       ("research.json", research), ("events.json", events), ("status.json", status)]:
         write_json(name, obj)

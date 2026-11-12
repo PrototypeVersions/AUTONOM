@@ -4,7 +4,7 @@
 
 ## Accounts and limits
 
-Two independent forward-only paper accounts start at **$1,000 cash** each: `stocks` (U.S. equities) and `crypto` (selected supported spot coins). No real money, exchange accounts, leverage, short positions, borrowing or derivatives. Orders must have an amount in USD from $10 to $1,000. Each BUY may not bring the per-asset exposure above 35% of account equity. At most 10 simultaneous stock positions or 6 crypto positions. Fractional units are supported.
+Two independent forward-only paper accounts start at **$1,000 cash** each: `stocks` (U.S. equities) and `crypto` (selected supported spot coins). No real money, exchange accounts, leverage, short positions, borrowing or derivatives. Orders must have an amount in USD from $10 to $1,000. Each BUY may not bring per-asset exposure above 35% of the portfolio value at the simulated open. At most 10 simultaneous stock positions or 6 crypto positions. Fractional units are supported.
 
 Estimated execution cost: 0.10% fee per fill plus 0.05% adverse price slippage. These are assumptions, not broker quotes. No guarantee that a trade could have executed at the simulated reference price or size.
 
@@ -14,23 +14,27 @@ Create a **new** JSON file in `decisions/inbox/<id>.json` matching the documente
 
 The `model` field is the claimant's supplied text, **not an authenticated identity**. A filename or metadata that says GPT does not establish the decision came from GPT. No one should modify or backdate already recorded entries to make performance better.
 
+## Strategy
+
+Read [the stock plan](../strategy/stocks.md) or [the crypto plan](../strategy/crypto.md) before researching each cycle. File one decision per portfolio per run. Include the plan version and the concrete evidence for the decision. For a cash HOLD, record what would justify taking exposure and when to reassess. A strategy revision belongs in the matching plan and in the next decision's reasoning. Keep prior plan versions in Git and preserve all earlier decisions.
+
 ## First-seen time vs claimed decision time
 
 The engine records its own first-seen UTC time during the GitHub Actions run. It does not use the author's claimed time to qualify a trade for earlier prices. A new decision is first recorded as *pending*.
 
-A pending instruction can fill only when a **completed daily market bar that STARTED AFTER the engine first saw the decision** becomes available, using that new bar's open as a simulated reference execution price. The engine never fills an order at a bar available when the instruction was first seen. This is intentionally conservative; scheduled runs may delay eligibility even when the decision file was committed earlier. No backfills.
+A pending instruction can fill only when a **completed daily market bar that STARTED AFTER the engine first saw the decision** becomes available, using that new bar's open as a simulated reference execution price. The engine never fills an order at a bar available when the instruction was first seen. Scheduled runs may delay eligibility even when the decision file was committed earlier. A BUY requires opening marks for existing holdings from the same session as the order. Missing marks defer the order, and any order still unfilled seven calendar days after intake expires. No backfills.
 
 Stock bars: completed U.S. regular sessions; daily OHLC from Stooq with Yahoo Finance fallback. Crypto: completed UTC calendar-day Coinbase Exchange USD candles. Market holidays, delayed runs, missing prices, API changes or provider outages may delay or prevent fills. Price-provider differences may make returns incomparable with a broker. This is paper trading only.
 
 ## Benchmarks and marks
 
-SPY is the stock benchmark; BTC is the crypto benchmark. Each initializes from the first observed eligible closing bar after launch with a $1,000 notional. Portfolio valuations use the latest available close of each held symbol; missing marks prevent a fresh historical equity entry. The dashboard labels sources and timestamps. No prior historical prices are stitched into the forward performance record.
+SPY is the stock benchmark; BTC is the crypto benchmark. Each initializes from the first observed eligible closing bar after launch with a $1,000 notional. Historical equity marks use closing prices from the benchmark session for all held symbols. If any mark for that session is missing, the engine waits for matching data. The dashboard labels sources and timestamps. No prior historical prices are stitched into the forward performance record.
 
 The files `data/events.json`, `data/state.json`, `data/history.json`, `data/market.json`, `data/status.json`, and `data/research.json` are versioned in Git. Event entries are logically append-only (past entries are retained) and Git commit history provides a change audit. This is not a cryptographically tamper-proof third-party ledger.
 
 ## What is (and isn't) automated
 
-The GitHub Actions workflow updates public price bars, reads public RSS headlines, accepts committed decisions and calculates paper trades/marks. It requires no OpenAI API key. **A language model does not run inside GitHub Actions by itself.** For truly unattended GPT research and new decisions, a separate supported, permissioned and tested ChatGPT-to-GitHub automation must be configured. Until then, the site will show *AI agent not connected* and no agent-generated decisions. Unlike an API call, a ChatGPT subscription alone is not automatically a callable model endpoint from a GitHub workflow.
+The GitHub Actions workflow updates public price bars, reads public RSS headlines, accepts committed decisions and calculates paper trades/marks. It requires no OpenAI API key. **A language model does not run inside GitHub Actions by itself.** Separate scheduled ChatGPT tasks perform the model research and submit decisions through the GitHub connection. The engine records which files it accepts and when. The model label within a file is self-reported.
 
 ## Interpret with care
 

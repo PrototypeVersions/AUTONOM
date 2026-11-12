@@ -12,13 +12,13 @@ AUTONOM is an open, prospective paper-trading lab with independent $1,000 stock 
 - ✅ A forward-only trading simulator. Decisions must exist **before** the eligible trade bar begins; first-seen time is recorded by the workflow, not trusted from metadata.
 - ✅ Long-only budgets, explicit position limits, modeled fees/slippage, cash, per-portfolio positions, SPY/BTC passive baselines, and Git versioned journal.
 - ✅ Standard-library tests; no market-data API key needed.
-- 🕒 **Two independent recurring ChatGPT research tasks have been scheduled**, with intended stock decisions at 7:30 a.m. Central on weekdays and crypto decisions at 4:30 p.m. Central daily. Their unattended GitHub write permissions and genuine prospective model execution have **not yet been verified in a completed task run**. Until then, the dashboard correctly says “AI agent not connected.” No fake decisions, positions, or trading profits are inserted.
+- ✅ Two recurring ChatGPT tasks research stocks and crypto independently and commit prospective decisions. The workflow records each accepted decision and handles simulated fills.
 
 ## Quick start
 
 1. Under GitHub **Settings → Actions → General → Workflow permissions**, enable **Read and write permissions** for `GITHUB_TOKEN`. This allows the workflow to commit its updated data files.
 2. Under **Settings → Pages**, choose **Deploy from a branch**, `main`, `/(root)`, and save. GitHub publishes at **https://prototypeversions.github.io/AUTONOM/**.
-3. Open **Actions → AUTONOM market cycle → Run workflow** once to record the first real prices and create benchmark start dates. Thereafter its planned collection/intake times are 11:15, 13:00, 14:00 and 22:30 UTC on weekdays, plus 23:30 and 02:20 UTC daily. Pushes containing newly committed decisions also trigger intake. GitHub schedules are best-effort, not guaranteed to fire exactly on time. GitHub schedules are best-effort, not guaranteed to fire exactly on time.
+3. Open **Actions → AUTONOM market cycle → Run workflow** once to record the first real prices and create benchmark start dates. Thereafter its planned collection/intake times are 11:15, 13:00, 14:00 and 22:30 UTC on weekdays, plus 23:30 and 02:20 UTC daily. Pushes containing newly committed decisions also trigger intake. GitHub schedules are best-effort, not guaranteed to fire exactly on time.
 4. To test a prospectively decided paper order, read [the decision protocol](docs/DECISION_PROTOCOL.md) and [the schema example](decisions/example.json); commit a new validated file into `decisions/inbox/`. The workflow records it as pending on its first run and can simulate it only using a future eligible daily bar.
 
 ## Research and decision cadence
@@ -27,7 +27,8 @@ AUTONOM is an open, prospective paper-trading lab with independent $1,000 stock 
 - **Crypto agent: 4:30 p.m. America/Chicago, every day.** Independently research digital assets, risk, current positions and Bitcoin benchmark, then submit at most one justified BUY, SELL or HOLD decision.
 - **Weekend mornings:** No stock task is scheduled; the crypto task still operates each afternoon.
 - **Collector:** GitHub Actions refreshes prices and headlines several times daily without invoking GPT. The models are not continuously running between scheduled task executions.
-- **Unverified agent:** Two independent ChatGPT tasks have been scheduled, but it must successfully commit legitimate prospectively timestamped decisions through the GitHub connector before we can count this as working unattended trading. ChatGPT Plus does not give GitHub Actions automatic GPT model access, and the task may be subject to model and tool availability.
+- **Strategy:** The agents read and maintain separate [stock](strategy/stocks.md) and [crypto](strategy/crypto.md) plans. Each new decision records the plan version and the evidence for its action.
+- **Dashboard data:** The site reads the current public data files on main and falls back to the published snapshot if the live feed is unavailable.
 
 Why two research cycles? Enough coverage to react to changing markets without turning the experiment into a high-frequency-churn test. The agent may decide to HOLD, and daily trade counts can be zero.
 

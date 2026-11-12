@@ -7,8 +7,28 @@ const stamp=s=>{if(!s)return "Not yet";const d=new Date(s);return Number.isNaN(d
 const E=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const DOM=id=>document.getElementById(id);
 let state,history,market,status,research,events,filter="all";
-async function getJSON(path){const r=await fetch(path+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error(path+": "+r.status);return r.json();}
-async function refresh(){try{[state,history,market,status,research,events]=await Promise.all(["data/state.json","data/history.json","data/market.json","data/status.json","data/research.json","data/events.json"].map(getJSON));render();}catch(err){DOM("freshness").textContent="Data unavailable · see repository";console.error("AUTONOM could not load its data",err);}}
+const LIVE_DATA_ROOT = "https://raw.githubusercontent.com/PrototypeVersions/AUTONOM/main/";
+const DATA_FILES = ["state", "history", "market", "status", "research", "events"];
+async function loadData(root) {
+  const signal = AbortSignal.timeout(10000);
+  const revision = Date.now();
+  return Promise.all(DATA_FILES.map(async name => {
+    const path = root + "data/" + name + ".json?v=" + revision;
+    const response = await fetch(path, {cache: "no-store", signal});
+    if (!response.ok) throw Error(name + ": " + response.status);
+    return response.json();
+  }));
+}
+async function refresh() {
+  try {
+    const data = await loadData(LIVE_DATA_ROOT).catch(() => loadData(""));
+    [state, history, market, status, research, events] = data;
+    render();
+  } catch (error) {
+    DOM("freshness").textContent = "Market data unavailable";
+    console.error("AUTONOM could not load its data", error);
+  }
+}
 function navigate(){let page=location.hash.slice(1).toLowerCase();if(!ROUTES.includes(page))page="overview";document.querySelectorAll(".page").forEach(el=>el.classList.toggle("active",el.id==="page-"+page));document.querySelectorAll("[data-route]").forEach(el=>{let active=el.dataset.route===page;el.classList.toggle("active",active);if(el.tagName==="A"&&el.closest(".sidebar"))active?el.setAttribute("aria-current","page"):el.removeAttribute("aria-current");});DOM("breadcrumb-page").textContent=page.toUpperCase();document.title=(page==="overview"?"AUTONOM":page[0].toUpperCase()+page.slice(1)+" | AUTONOM")+" — Autonomous AI Trading Lab";window.scrollTo({top:0,behavior:"instant"});}
 function getPort(which){return state?.portfolios?.[which]||{cash:1000,positions:{},startingCash:1000,benchmark:{units:0}};}
 function priceOf(which,symbol){return market?.prices?.[which]?.[symbol]?.close;}
