@@ -36,6 +36,7 @@ MAX_POSITION_FRACTION = 0.35
 ORDER_LIFETIME = timedelta(days=7)
 MAX_POSITIONS = {"stocks": 10, "crypto": 6}
 NEW_YORK = ZoneInfo("America/New_York")
+CENTRAL = ZoneInfo("America/Chicago")
 HEADERS = {"User-Agent": "AUTONOM-Research/1.0 (+https://github.com/PrototypeVersions/AUTONOM)", "Accept": "application/json,text/csv,application/xml,*/*"}
 
 
@@ -120,7 +121,7 @@ def make_bar(day, op, cl, source, bar_start):
 def crypto_bar(symbol):
     # Coinbase public market candles. Never use the currently unfinished UTC day.
     end = datetime.combine(NOW.date(), time(0), timezone.utc)
-    start = end - timedelta(days=8)
+    start = end - timedelta(days=30 if symbol == "BTC" else 8)
     query = urllib.parse.urlencode({"granularity": 86400, "start": start.isoformat(), "end": end.isoformat()})
     url = "https://api.exchange.coinbase.com/products/" + symbol + "-USD/candles?" + query
     candles = http_json(url)
@@ -136,7 +137,19 @@ def crypto_bar(symbol):
         bars.append(make_bar(dt.date().isoformat(), item[3], item[4], "Coinbase Exchange daily candle", dt.isoformat()))
     if not bars:
         raise ValueError("No completed Coinbase candle")
-    return max(bars, key=lambda x: x["date"])
+    bars_by_date = {bar["date"]: bar for bar in bars}
+    latest = bars_by_date[max(bars_by_date)]
+    if symbol == "BTC":
+        last_day = date.fromisoformat(latest["date"])
+        days = [(last_day - timedelta(days=offset)).isoformat() for offset in range(24, -1, -1)]
+        if all(day in bars_by_date for day in days):
+            closes = [bars_by_date[day]["close"] for day in days]
+            latest["trend"] = {
+                "sma_20": round(sum(closes[-20:]) / 20, 8),
+                "sma_20_five_days_earlier": round(sum(closes[:20]) / 20, 8),
+                "return_5d": round(closes[-1] / closes[-6] - 1, 8),
+            }
+    return latest
 
 
 def symbols_for(which, state):
@@ -351,6 +364,74 @@ def mark_portfolios(state, market, history):
             rows[-1] = observation
 
 
+def decision_date(decision):
+    return as_utc(decision["decision_at_utc"]).astimezone(CENTRAL).date()
+
+
+def position_context(positions, fills, decisions_by_id):
+    context = {}
+    for symbol, quantity in positions.items():
+        remaining = float(quantity)
+        latest = opening = None
+        for fill in reversed(fills):
+            if fill["symbol"] != symbol:
+                continue
+            if fill["action"] == "SELL":
+                remaining += fill["quantity"]
+                continue
+            decision = decisions_by_id.get(fill["decision_id"])
+            if latest is None:
+                latest = decision
+            remaining -= fill["quantity"]
+            if remaining <= 1e-8:
+                opening = decision
+                break
+        context[symbol] = {
+            "opening_buy": opening,
+            "latest_filled_buy": latest if latest != opening else None,
+        }
+    return context
+
+
+def prior_month_review(decisions, fills, marks, today):
+    month_start = today.replace(day=1)
+    prior_start = (month_start - timedelta(days=1)).replace(day=1)
+    start, end = prior_start.isoformat(), month_start.isoformat()
+    month_decisions = [
+        event["id"] for event in decisions if prior_start <= decision_date(event) < month_start
+    ]
+    month_fills = [event for event in fills if start <= event["bar_date"] < end]
+    month_marks = [row for row in marks if start <= row["date"] < end]
+    if not month_decisions and not month_fills and not month_marks:
+        return None
+
+    preceding = next((row for row in reversed(marks) if row["date"] < start), None)
+    cash_fractions = [row["cash"] / row["equity"] for row in month_marks if "cash" in row and row["equity"] > 0]
+    return {
+        "month": start[:7],
+        "decision_ids": month_decisions,
+        "fills": month_fills,
+        "start_mark": preceding or (month_marks[0] if month_marks else None),
+        "end_mark": month_marks[-1] if month_marks else None,
+        "valuations": len(month_marks),
+        "mean_cash_fraction": round(sum(cash_fractions) / len(cash_fractions), 6) if cash_fractions else None,
+    }
+
+
+def agent_context(which, account, marks, events):
+    today = NOW.astimezone(CENTRAL).date()
+    decisions = [event for event in events if event["portfolio"] == which and event["type"] == "decision"]
+    fills = [event for event in events if event["portfolio"] == which and event["type"] == "fill"]
+    cutoff = today - timedelta(days=13)
+    recent = [event for event in decisions if cutoff <= decision_date(event) <= today]
+    return {
+        "as_of": NOW.isoformat(),
+        "recent_decisions": recent[-14:],
+        "positions": position_context(account["positions"], fills, {event["id"]: event for event in decisions}),
+        "prior_month": prior_month_review(decisions, fills, marks, today),
+    }
+
+
 def main():
     state = read_json("state.json", {})
     market = read_json("market.json", {"prices": {"stocks": {}, "crypto": {}}})
@@ -398,6 +479,9 @@ def main():
     for name, obj in [("state.json", state), ("market.json", market), ("history.json", history),
                       ("research.json", research), ("events.json", events), ("status.json", status)]:
         write_json(name, obj)
+    for which, account in state["portfolios"].items():
+        marks = history["portfolios"].get(which, [])
+        write_json(f"agent-{which}.json", agent_context(which, account, marks, events))
     print(json.dumps({"status": st["status"], "prices": {k: len(v) for k, v in market["prices"].items()},
                       "events": len(events), "errors": errors[:8]}, indent=2))
 

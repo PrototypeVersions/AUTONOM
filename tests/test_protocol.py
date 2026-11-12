@@ -114,6 +114,57 @@ class ProtocolTests(unittest.TestCase):
         self.assertIn("expired", events[0]["reason"])
         self.assertEqual(p["pending"], [])
 
+    def test_agent_context_tracks_only_current_filled_position_episode(self):
+        m.NOW = datetime(2026, 12, 1, 20, tzinfo=timezone.utc)
+
+        def decision(identifier, day, action="BUY", portfolio="stocks"):
+            return dict(id=identifier, type="decision", portfolio=portfolio, symbol="SPY",
+                        action=action, decision_at_utc=f"2026-11-{day:02d}T15:00:00Z")
+
+        def fill(identifier, day, action, quantity):
+            return dict(type="fill", portfolio="stocks", symbol="SPY", decision_id=identifier,
+                        bar_date=f"2026-11-{day:02d}", action=action, quantity=quantity)
+
+        events = [
+            decision("first_entry", 1), fill("first_entry", 2, "BUY", 10),
+            decision("closed", 3, "SELL"), fill("closed", 3, "SELL", 10),
+            decision("reopened", 4), fill("reopened", 4, "BUY", 8),
+            decision("added", 9), fill("added", 9, "BUY", 3),
+            decision("trimmed", 20, "SELL"), fill("trimmed", 20, "SELL", 2),
+            decision("unfilled", 24),
+            decision("other_account", 25, portfolio="crypto"),
+        ]
+        marks = [
+            {"date": "2026-10-30", "equity": 1000, "benchmark": 1000},
+            {"date": "2026-11-30", "equity": 1020, "benchmark": 1010},
+            {"date": "2026-12-01", "equity": 1030, "benchmark": 1020},
+        ]
+        context = m.agent_context("stocks", {"positions": {"SPY": 9}}, marks, events)
+
+        self.assertEqual(context["positions"]["SPY"]["opening_buy"]["id"], "reopened")
+        self.assertEqual(context["positions"]["SPY"]["latest_filled_buy"]["id"], "added")
+        self.assertEqual([d["id"] for d in context["recent_decisions"]], ["trimmed", "unfilled"])
+        self.assertEqual(context["prior_month"]["decision_ids"][-1], "unfilled")
+        self.assertEqual(len(context["prior_month"]["fills"]), 5)
+        self.assertEqual(context["prior_month"]["start_mark"], marks[0])
+        self.assertEqual(context["prior_month"]["end_mark"], marks[1])
+
+    def test_bitcoin_trend_uses_complete_consecutive_daily_candles(self):
+        start = self.now.replace(hour=0) - timedelta(days=30)
+        candles = [
+            [(start + timedelta(days=i)).timestamp(), 99, 999, 100, 100 + i]
+            for i in range(31)
+        ]
+        with patch.object(m, "http_json", return_value=list(reversed(candles))):
+            bar = m.crypto_bar("BTC")
+        self.assertEqual(bar["close"], 129)
+        self.assertEqual(bar["trend"]["sma_20"], 119.5)
+        self.assertEqual(bar["trend"]["sma_20_five_days_earlier"], 114.5)
+        self.assertAlmostEqual(bar["trend"]["return_5d"], 129 / 124 - 1)
+
+        with patch.object(m, "http_json", return_value=candles[:15] + candles[16:]):
+            self.assertNotIn("trend", m.crypto_bar("BTC"))
+
     def test_benchmark_initializes_at_first_observed_close(self):
         st={"portfolios":{"stocks":{"startingCash":1000,"cash":1000,"positions":{},"benchmark":{"symbol":"SPY","units":0}},
                           "crypto":{"startingCash":1000,"cash":1000,"positions":{},"benchmark":{"symbol":"BTC","units":0}}}}

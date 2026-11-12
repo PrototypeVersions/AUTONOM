@@ -18,6 +18,16 @@ The `model` field is the claimant's supplied text, **not an authenticated identi
 
 Read [the stock plan](../strategy/stocks.md) or [the crypto plan](../strategy/crypto.md) before researching each cycle. File one decision per portfolio per run. Include the plan version and the concrete evidence for the decision. For a cash HOLD, record what would justify taking exposure and when to reassess. A strategy revision belongs in the matching plan and in the next decision's reasoning. Keep prior plan versions in Git and preserve all earlier decisions.
 
+## Carrying research forward
+
+The workflow writes a compact context file for each account in `data/agent-<portfolio>.json`. It contains up to 14 days of accepted decisions, the BUY that opened each current position and any later filled BUY, and a prior-month summary. A submitted order that never filled does not become a position thesis. The full journal remains the source record. For BTC, `data/market.json` also publishes the 20-day average, that average five days earlier, and five-day return when 25 consecutive completed Coinbase USD candles are available.
+
+Read the current plan and `strategy/lessons-<portfolio>.md` at each run. For every holding, compare today's evidence with its original thesis and exit conditions. An asset can be worth keeping even if a new purchase would be unattractive after accounting for position size and trading costs. Every new BUY should record an observable reason to reconsider or exit.
+
+On the first run with an unreviewed prior month, use the context file's period marks, actual fills and original decision IDs to update the matching lessons file. Compare portfolio and benchmark over the same dates, label a partial month, and distinguish the cost or benefit of cash exposure from evidence about a signal. Carry forward only actionable observations, and mark weak evidence as provisional. Record the reviewed month so a retry does not repeat the review. Daily decisions continue if a review cannot be saved.
+
+The two scheduled agents may update their own plan and lessons. The simulation, published records, and other portfolio remain under separate maintenance.
+
 ## First-seen time vs claimed decision time
 
 The engine records its own first-seen UTC time during the GitHub Actions run. It does not use the author's claimed time to qualify a trade for earlier prices. A new decision is first recorded as *pending*.

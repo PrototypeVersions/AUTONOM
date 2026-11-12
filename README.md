@@ -27,7 +27,7 @@ AUTONOM is an open, prospective paper-trading lab with independent $1,000 stock 
 - **Crypto agent: 4:30 p.m. America/Chicago, every day.** Independently research digital assets, risk, current positions and Bitcoin benchmark, then submit at most one justified BUY, SELL or HOLD decision.
 - **Weekend mornings:** No stock task is scheduled; the crypto task still operates each afternoon.
 - **Collector:** GitHub Actions refreshes prices and headlines several times daily without invoking GPT. The models are not continuously running between scheduled task executions.
-- **Strategy:** The agents read and maintain separate [stock](strategy/stocks.md) and [crypto](strategy/crypto.md) plans. Each new decision records the plan version and the evidence for its action.
+- **Strategy:** The agents read and maintain separate [stock](strategy/stocks.md) and [crypto](strategy/crypto.md) plans. Each new decision records the plan version and the evidence for its action. The agents read the recent journal and the original thesis for any open position, and review the evidence monthly in separate [stock](strategy/lessons-stocks.md) and [crypto](strategy/lessons-crypto.md) lessons files.
 - **Dashboard data:** The site reads the current public data files on main and falls back to the published snapshot if the live feed is unavailable.
 
 Why two research cycles? Enough coverage to react to changing markets without turning the experiment into a high-frequency-churn test. The agent may decide to HOLD, and daily trade counts can be zero.
