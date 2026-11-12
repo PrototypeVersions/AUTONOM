@@ -1,45 +1,45 @@
 {
-  "as_of": "2026-11-12T01:55:21.389028+00:00",
+  "as_of": "2026-11-12T03:14:51.723409+00:00",
   "prices": {
     "stocks": {
       "AAPL": {
         "date": "2026-11-11",
-        "open": 349.58499146,
+        "open": 349.54998779,
         "close": 355.63000488,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "AMZN": {
         "date": "2026-11-11",
-        "open": 273.26501465,
+        "open": 273.51998901,
         "close": 266.17001343,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "GOOGL": {
         "date": "2026-11-11",
-        "open": 290.08999634,
+        "open": 290.10998535,
         "close": 293.45001221,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "MSFT": {
         "date": "2026-11-11",
-        "open": 534.2199707,
-        "close": 521.125,
+        "open": 534.23999023,
+        "close": 521.13000488,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "NVDA": {
         "date": "2026-11-11",
-        "open": 172.72000122,
+        "open": 172.80000305,
         "close": 173.72999573,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "QQQ": {
         "date": "2026-11-11",
-        "open": 687.27502441,
+        "open": 687.2800293,
         "close": 690.38000488,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-11T14:30:00+00:00"
@@ -59,39 +59,39 @@
         "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "IWM": {
-        "date": "2026-11-10",
-        "open": 279.79000854,
-        "close": 280.57998657,
+        "date": "2026-11-11",
+        "open": 282.98999023,
+        "close": 283.08999634,
         "source": "Yahoo daily chart",
-        "bar_start_utc": "2026-11-10T14:30:00+00:00"
+        "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "RSP": {
-        "date": "2026-11-10",
-        "open": 219.58999634,
-        "close": 220.88000488,
+        "date": "2026-11-11",
+        "open": 221.42999268,
+        "close": 222.6499939,
         "source": "Yahoo daily chart",
-        "bar_start_utc": "2026-11-10T14:30:00+00:00"
+        "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "SGOV": {
-        "date": "2026-11-10",
-        "open": 100.51000214,
-        "close": 100.52999878,
+        "date": "2026-11-11",
+        "open": 100.52500153,
+        "close": 100.51999664,
         "source": "Yahoo daily chart",
-        "bar_start_utc": "2026-11-10T14:30:00+00:00"
+        "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "XLE": {
-        "date": "2026-11-10",
-        "open": 60.86999893,
-        "close": 62.20999908,
+        "date": "2026-11-11",
+        "open": 62.88000107,
+        "close": 63.36999893,
         "source": "Yahoo daily chart",
-        "bar_start_utc": "2026-11-10T14:30:00+00:00"
+        "bar_start_utc": "2026-11-11T14:30:00+00:00"
       },
       "XLV": {
-        "date": "2026-11-10",
-        "open": 187.88999939,
-        "close": 188.88000488,
+        "date": "2026-11-11",
+        "open": 187.38999939,
+        "close": 188.94999695,
         "source": "Yahoo daily chart",
-        "bar_start_utc": "2026-11-10T14:30:00+00:00"
+        "bar_start_utc": "2026-11-11T14:30:00+00:00"
       }
     },
     "crypto": {
