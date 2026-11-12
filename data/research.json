@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-12T03:14:51.723409+00:00",
+  "as_of": "2026-11-12T03:59:00.609601+00:00",
   "items": {
     "stocks": [
       {
@@ -18,11 +18,6 @@
         "published": "Fri, 24 Apr 2026 07:00:00 GMT"
       },
       {
-        "title": "Why the stock market and economy may seem out of sync - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vcWg0QXpqWk91X05BclFWbHdfOXotd2YzRlBpS0lSeFN4ZGJwSDhvRE5uWkliU095bnYyMy11cEktM3U1SGZXd24wdlRoajBrTDVOR01wUGNDMElqbFVheEJjUko2MTk5Vlpad3hYQWVzRk90QkRuSUpUOFZUQdIBgwFBVV95cUxOU0NUczI0QXNNbXlrWTlINlBJTkVGZHFtQi1tS05ocmVsWlVzcWFNRjhic01aVWxSdWRCRU1ISTU0WnVrX1E4RGRZWG0tWHcxa3BqSnhLSXNhSzlNb2k1Z3g1V3Y4SkRoUUVmMUsyTTNZTmZIVWpHYzJsM3FYVUpGaWtzVQ?oc=5",
-        "published": "Fri, 10 Jul 2026 07:00:00 GMT"
-      },
-      {
         "title": "Are US Stock Market Valuations Outpacing Fundamentals? - Goldman Sachs",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
         "published": "Fri, 10 Jul 2026 07:00:00 GMT"
@@ -38,21 +33,26 @@
         "published": "Thu, 28 May 2026 07:00:00 GMT"
       },
       {
-        "title": "Earnings Calendar and Analysis for This Week (November 9-13) - Kiplinger",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT2JlZjF1QU9yZTBqNVJ4aXJUUjVFMDA4SWxPdEVienI3d2dFcFF4Z3BVNE40LWxmOHV1REljUVFaSFY3X2FrQm1xV2NMYWY3SHRoOFdhMXc2ZWFyZGtYTGV3Ul9lY1htRExZOFpMLXJGRWVRSWU1dTBUcjVSc0lEckdXTEhkck45Ujh3?oc=5",
-        "published": "Tue, 10 Nov 2026 21:25:47 GMT"
+        "title": "Stocks and the Economy Are Increasingly Relying on the A.I. Boom - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
+        "published": "Wed, 22 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
+        "published": "Thu, 19 Feb 2026 08:00:00 GMT"
       }
     ],
     "crypto": [
       {
-        "title": "Crypto Market Today, Nov. 11: 2. Bitcoin Climbs Back Above $74,000 as Wall Street's Crypto Outlook Begins to Shift - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORk9ScXgtanU2N1BfMl96WG1mbkVaRzFKUzFLdXF6RzEzbm4waUJuNk9jRi14VnZienZlS2t1cHdyRDBkc056OWdtV2VMTmNnbElVaGhZcHV1VzVXOTE0V0E5dnFrbHczTnBqcm9zN2xMdWRXbm15MWFPTkpyZWhvSXlJekg5TXlTZ3phUGpOdnlfUlFMYVE?oc=5",
-        "published": "Wed, 11 Nov 2026 22:20:03 GMT"
-      },
-      {
         "title": "Bitcoin, Ethereum, XRP Steady, but Dogecoin Dips: Analyst Bets a Repeat of BTC's Short Squeeze, Driving I - Benzinga",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd05nMFYwLWlpMm9YMHJnMDlVWnBiSmJpOXdIUXRBN2VRenBvQ1NWaG9uZXRwdHVrRV9NdkVXYkpjQVhlbEdLUXE0YXRmMGV1REY3VXBSalJ6dWpvMVJVMlAwY24wVExBZWdJN0dPdHJOckVndW9IQW5TTFZWRU9fc1J6aHk3eThwcUc2TVNqTG1YTGVIS2xkY3NmOE1tVUwyeWc?oc=5",
         "published": "Thu, 12 Nov 2026 01:53:13 GMT"
+      },
+      {
+        "title": "What Will Bitcoin and Ethereum Be Worth in 5 Years? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTG5UY1MzMnhDcDhMS0I3cHFiWkNCbWVUR0VxWEV3bnhSb1lBOXpiUGZNUXBuN0VqUG5VNG5obGd5bHlBWHRsY3dNRW5mLVh4eF9FZlZwazVpUkxrNmVsMlZOcENMTFQzVUVyTXA2ZFJ4dlIyelU2QUp5ektRRnZ6YWYxZHdNc1kxMy1jeFpISUt1amlTeTFBcDJDWQ?oc=5",
+        "published": "Wed, 11 Nov 2026 17:34:06 GMT"
       },
       {
         "title": "Crypto Market Today, Nov. 11: 2. Bitcoin Climbs Back Above $74,000 as Wall Street's Crypto Outlook Begins to Shift - The Motley Fool",
@@ -60,14 +60,14 @@
         "published": "Wed, 11 Nov 2026 22:00:00 GMT"
       },
       {
-        "title": "Crypto Crash Aftermath: What’s Next For Bitcoin, Ethereum And XRP Prices? - Coinpedia",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUXl2WFllaXVzWUFmRHE0MnF5WDV3RDVUbzMtbi13RXFMUDVOa0VaWU5nV0dXTWt1Y3Q4U0Z2U2VrVURhVS1LcUNzWVNRd002cjN3S2NQaU5WTzlPTEVJQXV0bE1hWUJvdGFwYlh5eXFXN0pna2dBcXlaMU9lVkFVRTQ4a3BmZlNvN0dWajh6QTVCa2lubDFqbGE2cU5NZ9IBowFBVV95cUxPbUo5QkxnNjhpUUFZLUdZMjRfemNxYkJnR2ZoWHVsMnpnM2dTUnhmZTl5S00wY3ViVHJxOFp4bTJGcDAwbi1GRmNXVktNYkU0U3ZCTk9IVlZFVFVQN3I2VERBcTlHOVAtbDNVQW5lYVhMRFZLWGE2WkJadzdxa3FBMUF4VG5CMHdLQ21jOXpiZW5Ha28zVHZiVW51VE04Ty1pZ0Mw?oc=5",
-        "published": "Wed, 11 Nov 2026 13:47:59 GMT"
-      },
-      {
         "title": "What Will Bitcoin and Ethereum Be Worth in 5 Years? - 24/7 Wall St.",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbGl5QTZSV2hLYTJtZTc1b1ZMRU5oMktueloyaXQ1N2I2Nk80eHEwUzlfSExwemNsRDc2cXduenplM0RUaHFOU2ZQQXZ3VGQxMzBBaWp1VHhNZlUzOVJlUTZxRFYyRGhjanlHcnhMVTN0ZGZiTmltR19KSFdoUFlnaks0aWs2c1E5VGxoLV9BaTNBUnRSOW1yaUhTYzlOcFlySDdFRDVUbURWTkxXNXc?oc=5",
         "published": "Wed, 11 Nov 2026 17:34:00 GMT"
+      },
+      {
+        "title": "Crypto Crash Aftermath: What’s Next For Bitcoin, Ethereum And XRP Prices? - Coinpedia",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUXl2WFllaXVzWUFmRHE0MnF5WDV3RDVUbzMtbi13RXFMUDVOa0VaWU5nV0dXTWt1Y3Q4U0Z2U2VrVURhVS1LcUNzWVNRd002cjN3S2NQaU5WTzlPTEVJQXV0bE1hWUJvdGFwYlh5eXFXN0pna2dBcXlaMU9lVkFVRTQ4a3BmZlNvN0dWajh6QTVCa2lubDFqbGE2cU5NZ9IBowFBVV95cUxPbUo5QkxnNjhpUUFZLUdZMjRfemNxYkJnR2ZoWHVsMnpnM2dTUnhmZTl5S00wY3ViVHJxOFp4bTJGcDAwbi1GRmNXVktNYkU0U3ZCTk9IVlZFVFVQN3I2VERBcTlHOVAtbDNVQW5lYVhMRFZLWGE2WkJadzdxa3FBMUF4VG5CMHdLQ21jOXpiZW5Ha28zVHZiVW51VE04Ty1pZ0Mw?oc=5",
+        "published": "Wed, 11 Nov 2026 13:47:59 GMT"
       },
       {
         "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
@@ -75,9 +75,9 @@
         "published": "Mon, 09 Nov 2026 20:05:00 GMT"
       },
       {
-        "title": "Why is the crypto market down today? Bitcoin, Ethereum in red - Crypto News",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNam8yWV9mS0w1czZOOFBHWFFrZ2Z4TGZ5b0h4emd0aFpKUFN1azV2bjVLbjZ6QUhtcm1EVHVGNV9OZFNXU1luck1iR0VrREZrUVgtUjRIRXVlS29IOW54Zm5jVl9PX0I1dHRTaXdqMVlrdmV3MVFRS2luLXhGM0NUSVpDOVFsWFk?oc=5",
-        "published": "Mon, 09 Nov 2026 05:46:00 GMT"
+        "title": "Bitcoin, Ethereum, XRP Steady, but Dogecoin Dips: Analyst Bets a Repeat of BTC's Short Squeeze, Driving It Toward $90,000 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPT0l6dDFSUHJIY2t1cjNBaVkwMVlrVXUtRG5CandYSzlyX0FLMzhWMW1zS3FmbGlqVk1waUVLdnBGYmJzR3JKY0hueGlQZWtkZm0wZWgtdW5qQmF6WmZhRGNUcXhSR3kwRnBuYmpGU3dzYS1ZZEtWeGJwdHpheVhTSGFYZHJHaVdVRzVONzVwNFNwX1IzdmNhYUNqcmk2SVhVT2NCM2NpZlFOZGlwZTJIZ29LaEFmdGtNZWJqSFNzaTBYX296TWVzbURXNVE4UGt4Zk9tZ3NGYTE4emdnNVVPdG9tU1ZXOFJfQXdhYTBhS2RHdUhRUkkyakQ0X0JhX2NsSXdhVg?oc=5",
+        "published": "Thu, 12 Nov 2026 01:53:00 GMT"
       },
       {
         "title": "Germany’s Biggest Bank Goes Crypto: Deutsche Bank Launches Bitcoin Custody - BeInCrypto",
