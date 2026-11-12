@@ -268,5 +268,28 @@
     "model": "AUTONOM engine",
     "title": "BUY SPY paper fill",
     "note": "Filled at next eligible daily open reference price with modeled slippage and fee; not an executable broker fill."
+  },
+  {
+    "type": "decision",
+    "at": "2026-11-12T22:35:21.544642+00:00",
+    "id": "crypto_20261112_autonom",
+    "portfolio": "crypto",
+    "action": "HOLD",
+    "symbol": "",
+    "amount_usd": 0.0,
+    "decision_at_utc": "2026-11-12T22:34:43+00:00",
+    "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+    "thesis": "Crypto strategy v1 (November 11, 2026). Prospective cash HOLD, review after the next completed UTC Coinbase candle and daily thereafter, with a multiweek entry horizon. Current independently published AUTONOM state shows $1,000 crypto cash, no positions, no pending orders and six accepted HOLD decisions from November 6–11; no open holding has an exit thesis to reassess, and a SELL is impossible. The BTC benchmark began at $75,969.06 on November 5 and at the last common completed November 11 mark is $973.128139 versus $1,000 cash, a $26.87 difference due to zero market exposure, not proof of timing skill. Completed November 11 Coinbase BTC/USD close was $73,927.63; its 20-day average $77,705.2935 was falling from $79,641.384 five days earlier, with five-day BTC return -2.381335%. BTC was approximately 4.86% below its 20-day average. The completed bar is NOT a November 12 live quote or a prospective execution price. November 12 Fortune reported BTC $73,208.24 at 06:30 ET, while The Block's November 12 14:09 ET update reported a roughly $71,200 intraday low and broad weakness in ETH and SOL; these differently timed public observations cannot substitute for the collector's next completed Coinbase UTC bar. Reuters November 11 reported dollar strength and December Fed hike expectations amid inflation concerns; a November 12 Reuters-syndicated report describes MSCI's planned removal of Bitcoin treasury firm Strategy, which may affect related equities but does not quantify direct BTC selling. A reported macro/market linkage is not a verified on-chain causal mechanism. BTC broad exposure offers a plausible longer-run participation thesis, and a modest 5–15% starter is allowed without a proven forecast, but today the negative reproducible BTC trend, fresh intraday weakness and uncertain policy/liquidity backdrop make the cost of immediate exposure less compelling than cash. ETH and SOL also weakened in the November 11 completed bars and November 12 reporting; no independently corroborated, coin-specific catalyst or advantage net of costs justifies them, and ADA/LINK lack a distinct verified thesis. Reconsider a small BTC spot BUY if a completed Coinbase BTC close recovers above its 20-day average with improving five-day momentum, or if corroborated spot-demand/liquidity evidence materially changes the risk balance; reassess after the November 12 completed UTC candle.",
+    "sources": [
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+      "https://www.reuters.com/world/asia-pacific/dollar-gains-traction-fed-speakers-warn-risks-inflation-2026-11-11/",
+      "https://www.investing.com/news/stock-market-news/msci-to-drop-strategy-from-global-indexes-putting-billions-in-passive-fund-inflows-at-risk-5020015"
+    ],
+    "risk_notes": "Cash may lag a sharp BTC rebound; the apparent $26.87 lead is from avoiding crypto exposure over a seven-date, partial-November record, not evidence of a successful signal. Latest completed Coinbase BTC bar is November 11, and November 12 reports are intraday and differently sourced. Fed rate expectations, MSCI-related equity selling, ETF narratives and on-chain effects may be revised or lack verified causal linkage. HOLD incurs no fee/slippage. A future $100 illustrative BTC BUY would face modeled 0.10% fee and 0.05% adverse slippage (about $0.15 one way), plus exit costs; current $1,000 cash, zero positions and pending orders permit such an order but do not require it. Future buys must be $10–$1,000 and at most 35% exposure per asset, supported spot only, with no leverage, shorts, derivatives, real funds, stocks or cross-account transfers. The engine alone determines prospective eligibility and any eventual paper fills.",
+    "title": "HOLD / no trade",
+    "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
   }
 ]

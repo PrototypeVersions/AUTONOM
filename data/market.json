@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-12T21:22:49.565497+00:00",
+  "as_of": "2026-11-12T22:35:21.544642+00:00",
   "prices": {
     "stocks": {
       "AAPL": {
@@ -18,28 +18,28 @@
       },
       "GOOGL": {
         "date": "2026-11-12",
-        "open": 293.76998901,
+        "open": 293.8999939,
         "close": 298.70001221,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-12T14:30:00+00:00"
       },
       "MSFT": {
         "date": "2026-11-12",
-        "open": 521.09997559,
+        "open": 521.29998779,
         "close": 523.0,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-12T14:30:00+00:00"
       },
       "NVDA": {
         "date": "2026-11-12",
-        "open": 151.00500488,
+        "open": 150.99000549,
         "close": 166.19000244,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-12T14:30:00+00:00"
       },
       "QQQ": {
         "date": "2026-11-12",
-        "open": 680.31500244,
+        "open": 680.2119751,
         "close": 688.16998291,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-12T14:30:00+00:00"
@@ -82,7 +82,7 @@
       "XLE": {
         "date": "2026-11-12",
         "open": 63.88000107,
-        "close": 64.31999969,
+        "close": 64.33000183,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-12T14:30:00+00:00"
       },
