@@ -1,0 +1,145 @@
+{
+  "as_of": "2026-11-12T01:55:21.389028+00:00",
+  "recent_decisions": [
+    {
+      "type": "decision",
+      "at": "2026-11-06T22:35:13.210286+00:00",
+      "id": "crypto_20261106_223441_gpt6_hold",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-06T22:34:41+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "HOLD the entire $1,000 crypto paper portfolio in cash for this cycle. The independent state file confirms $1,000 cash, no spot positions, no pending instructions, no prior processed crypto decisions, and no fills. The passive BTC benchmark began on November 5 at $75,969.06 per BTC (0.013163253566649371 units per $1,000); its last recorded completed candle is the same November 5 close, so its recorded value remains $1,000, not a November 6 real-time valuation. The collector successfully refreshed at 20:18 UTC November 6, but crypto prices in market.json are November 5 completed UTC daily bars: BTC $75,969.06, ETH $2,234.61, SOL $89.20, ADA $0.18062 and LINK $10.656. These are stale as execution quotes and do not establish an intraday reversal. November 5's BTC candle opened $80,428.30 and closed $75,969.06 (about -5.54%); ETH fell about 7.75% from its recorded open, with broad declines in other supported assets. Reuters reported on November 4 that crypto markets faced political, exchange-security and risk-appetite uncertainties. Reporting published November 6 describes an additional liquidation wave and Thursday spot-crypto ETF outflows above $500 million, but liquidation and ETF estimates are third-party reported, not independently verified on-chain measurements. Reuters' November 6 equity report describes a rebound in technology shares alongside an upside October jobs surprise; the cross-market rebound does not independently prove crypto stabilization. With only one completed crypto bar since benchmark inception, no validated short-horizon edge, and no current eligible completed November 6 candle in the repository, a new BUY would be speculative bottom-fishing rather than a repeatable supported signal. A SELL is impossible with zero positions. Remain in cash and reassess after a later completed UTC candle and refreshed independent evidence. This is a prospective decision, not a simulated fill or a claim of forecasting skill.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/status.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/docs/DECISION_PROTOCOL.md",
+        "https://www.reuters.com/business/finance/crypto-dips-democrat-midterm-wins-binance-hack-dent-optimism-2026-11-04/"
+      ],
+      "risk_notes": "Principal cost of HOLD is missing a potentially sharp BTC or altcoin rebound; cash also avoids direct crypto drawdown and the modeled 0.10% fee plus 0.05% adverse slippage per fill. Recent leveraged-liquidation figures are media estimates, not independently confirmed order-book or on-chain data. Exchange/security headlines and ETF-flow reports may be revised and do not alone establish causality. A BTC benchmark can outperform cash if crypto rallies; the comparison period is only one recorded daily mark, so performance is not statistically informative. If a future BUY is justified, limit a single asset to at most 35% of portfolio equity, use supported spot assets only, and wait for engine first-seen time plus a subsequent eligible completed daily bar. No real money, leverage, shorts, derivatives or cross-portfolio transfers.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-07T22:32:31.529424+00:00",
+      "id": "crypto_20261107_223208_gpt6_hold",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-07T22:32:08+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "HOLD the independent $1,000 cryptocurrency paper account entirely in cash. The verified repository state reviewed today has $1,000 cash, zero crypto positions, no pending instructions and one previously processed crypto HOLD (November 6); there are no assets to SELL and no conflicting open order. The portfolio's November 6 recorded equity is $1,000, versus $996.866882 for its passive BTC benchmark (baseline November 5 at $75,969.06/BTC, 0.013163253566649371 units), a trivial +0.3133 percentage-point short-period cash advantage that does not demonstrate timing skill. The independent collector succeeded at 08:48:54 UTC November 7 with no errors, but market.json still contains only the completed November 6 UTC crypto candles: BTC $75,731.04 (versus $75,969.06 the preceding close, -0.3133%), ETH $2,235.37, SOL $90.02, ADA $0.18393 and LINK $10.845. These are prior-day marks, not November 7 live executable prices; the November 7 UTC candle is still incomplete at this decision time. A November 7 report by The Block, based on SoSoValue figures, estimates $1.28 billion of U.S. spot Bitcoin ETF net outflows for the week and $365.3 million for Ether ETFs, evidence of recent weak fund demand but not a verified on-chain causal explanation or a predictive signal. CoinDesk's November 3 reporting also noted substantial earlier ETF outflows, exchange security uncertainty and elevated short-term option-implied volatility. Weekend reports suggest Bitcoin near $75,900 and Ethereum near $2,235, but their snapshots differ by venue/time and are not independently validated live Coinbase bars. No fresh, independently corroborated improvement in market structure or reliable positive expected return net of execution costs is established by the available evidence. A new BTC/ETH/altcoin BUY would risk speculative bottom-fishing following ETF redemptions and a volatile week; HOLD preserves optionality and avoids needless churn. This is a prospective judgment, not a simulated fill, and does not imply market-forecasting skill.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/status.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/docs/DECISION_PROTOCOL.md"
+      ],
+      "risk_notes": "Opportunity cost: Bitcoin or other supported assets could rebound sharply before the next decision, causing cash to lag the BTC benchmark. Conversely another risk-off move, liquidation cascade, ETF redemptions, security incidents or macro repricing could deepen losses; ETF-flow reports are estimates from secondary reporting, not independently checked primary exchange/on-chain transactions. The November 6 recorded Coinbase closing bars are stale for November 7 execution; weekend intraday quotes are unverified here. The portfolio has no positions or pending orders, so SELL is inapplicable. HOLD incurs no simulated fee/slippage; any future spot BUY must remain within $10–$1,000 and 35% per-asset equity exposure, with modeled 0.10% fee plus 0.05% adverse slippage, and can fill only prospectively after the engine first sees it and a later eligible completed UTC bar. No leverage, shorting, derivatives, transfers, real funds or exchange orders.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-08T22:28:23.741636+00:00",
+      "id": "crypto_20261108_222814_gpt6_hold",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-08T22:28:14+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "HOLD the separate cryptocurrency paper portfolio in cash this cycle. Verified AUTONOM state on November 8 shows $1,000 cash, zero positions, zero pending orders and two processed crypto HOLD decisions (November 6 and 7), with no simulated crypto fills. The November 7 completed UTC Coinbase candle, collected November 8 at 09:01 UTC, marked BTC at $75,753.96, ETH $2,236.55, SOL $89.67, ADA $0.18157 and LINK $10.813. These are prior-day closes, not executable November 8 quotes. BTC's November 7 close is only about 0.0303% above November 6's $75,731.04, insufficient to establish a trend reversal after recent sharp declines. The passive BTC benchmark started November 5 at $75,969.06 (0.013163253566649371 units) and was $997.168584 on November 7, while the cash-only portfolio remained $1,000; the 0.2831 percentage-point lead is a very short-sample outcome, not evidence of skill. Contemporary November 8 reporting by crypto.news says BTC remained below $76,000 on Sunday, altcoins suffered significant weekly losses, and U.S. spot BTC ETFs had approximately $1.28 billion in reported outflows during November 2–6. Benzinga separately reports Friday BTC ETF outflows above $411 million attributed to SoSoValue. These are third-party flow estimates, not independently audited on-chain flows, and their timing/causal interpretation is uncertain. Another November 8 Reuters report describes a fresh decline in crypto prices amid political/regulatory and security worries; without a timestamp-aligned verified Coinbase close for the ongoing November 8 UTC candle, it should not be used as an execution quote. With broad risk-off pressure, no verifiable positive catalyst or tested short-horizon edge and no assets to SELL, opening a new spot BUY is not justified merely because prices have fallen. Preserve optionality and reassess with completed later UTC bars and corroborated evidence. This is a prospective decision only, not a fill or a prediction of certain further losses.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/status.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/docs/DECISION_PROTOCOL.md"
+      ],
+      "risk_notes": "Opportunity cost is substantial if BTC or supported altcoins rebound rapidly; HOLD avoids exposure but may underperform the passive BTC benchmark. Weekend liquidity, abrupt news, exchange-security risks, policy shifts and ETF-flow revisions can change the picture quickly. Reported ETF flows are off-chain fund figures and should not be confused with verified blockchain movements. No authenticated live executable quotes, independent order-book depth, or independently verified on-chain signals were obtained; the repository's November 7 closes are stale for November 8 trading. A future spot BUY would be limited to 35% of portfolio equity in any one asset, with modeled 0.10% fee plus 0.05% adverse slippage per fill, and could execute only on a completed UTC daily bar beginning after engine first-seen time. No leverage, shorts, derivatives, transfers, real-money orders or stock-account changes.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-09T22:30:04.073110+00:00",
+      "id": "crypto_20261109_222926_gpt6_hold",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-09T22:29:26+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "HOLD the independent cryptocurrency paper account at $1,000 cash. The November 9 AUTONOM repository review confirms no crypto positions, no pending instructions, and three previously processed crypto HOLDs on November 6–8; there is nothing to sell and no duplicate buy to reconcile. The last recorded portfolio equity is $1,000 on November 8, compared with $984.00691 for the passive BTC benchmark, initialized November 5 at $75,969.06/BTC (0.013163253566649371 BTC). This 1.60% short-period relative advantage of cash does not establish forecasting skill. The collector last succeeded at 21:26:41 UTC November 9 with no reported errors, but its latest completed crypto candles are November 8 UTC: BTC $74,754.08, ETH $2,125.32, SOL $86.45, ADA $0.17512, LINK $10.396. BTC was down about 1.32% from its November 7 close ($75,753.96); ETH fell about 4.97% from its November 8 open ($2,236.53), with broad weakness in the supported altcoins. These completed daily bars are stale for November 9 execution; the ongoing November 9 UTC candle is incomplete and must not be treated as a fillable price. Fortune's November 9 07:30 ET snapshot put BTC at $74,549.48, down 1.67% from the previous morning, but that is an earlier third-party observation, not a synchronized Coinbase executable quote. CoinDesk's November 9 market commentary cautions against assuming ETF flows will sustain a Bitcoin rally. Reuters' November 2–3 reporting documents significant Binance withdrawals following a major hack; the exchange's reported stabilization and the market effects are not independently verified on-chain here. November 9 secondary reporting describes weak ether performance and continued ETF withdrawals, but fund-flow and liquidation figures are estimates, not direct on-chain confirmation and not demonstrated predictive signals. The contrast between November 9 equity-market strength and crypto weakness further cautions against assuming a broad risk-on rebound will lift BTC. No independently validated positive expected-return edge net of fees and slippage is evident for a new BTC, ETH or altcoin BUY; falling prices alone are not a thesis. Preserve cash and reassess after a subsequent completed UTC candle and independently corroborated evidence. This is a prospective judgment only, not a fill or a claim of skill.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/status.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/docs/DECISION_PROTOCOL.md"
+      ],
+      "risk_notes": "A rapid BTC or altcoin rebound would cause cash to lag the BTC benchmark; staying out of crypto carries opportunity cost. Continued security uncertainty, ETF redemptions, leveraged liquidations, macro-rate repricing and policy/geopolitical headlines could exacerbate declines, but no particular causal story or further fall is certain. Public price snapshots are venue/time dependent; repository crypto marks stop at the November 8 completed candle and are not live quotes. ETF-flow and liquidation estimates are not independently verified on-chain. No spot positions exist to SELL. HOLD has no simulated trading cost; any later BUY must use supported spot assets only, $10–$1,000 order size, maximum 35% per-asset exposure and the simulator's 0.10% fee plus 0.05% adverse slippage per fill. The independent collector first-seen timestamp and a later eligible completed UTC daily bar govern any future fill. No leverage, shorting, derivatives, real funds, exchange orders, stock orders or transfers b",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-10T22:30:50.273550+00:00",
+      "id": "crypto_20261110_223036_gpt6_hold",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-10T22:30:36.717000+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "HOLD the independent $1,000 cryptocurrency paper portfolio entirely in cash on November 10. Verified GitHub state shows $1,000 cash, no crypto positions, no pending orders, and four already processed HOLD decisions dated November 6–9; no SELL is possible and no conflicting BUY is pending. The latest completed portfolio mark is November 9: $1,000 equity against $990.656986 for the passive BTC benchmark (0.013163253566649371 BTC from the November 5 inception price $75,969.06), an approximately 0.94% short-period advantage for cash that does not establish forecasting skill. The collector's November 10 20:44 UTC update succeeded without errors, but the latest completed Coinbase UTC candle in the repository is November 9: BTC $75,259.28, ETH $2,132.15, SOL $86.62, ADA $0.17732 and LINK $10.652. BTC rebounded roughly 0.68% from the November 8 close of $74,754.08, but one modest positive daily bar after recent weakness does not independently establish trend recovery. November 10 intraday prices are not verified by that completed candle and must not be treated as executable reference marks. November 10 reports citing Farside indicate November 9 U.S. spot BTC ETF net outflows near $201 million, including roughly $213 million from IBIT; separate reporting puts ETH ETF outflows around $184.6 million. These are secondary reports of off-chain fund flows, not independently audited on-chain transactions or a proven causal predictor. Reuters' November 2–3 coverage of substantial Binance customer withdrawals after a hack provides additional recent security context but does not prove ongoing exchange stress today. Market commentary from Wintermute cited November 10 cautions that BTC remains below its 50-week average and highlights the downside risk around $73,000, but such technical thresholds are conditional opinions, not verified forecasts. No independent on-chain confirmation, current executable quote, or demonstrated net-of-cost positive expected-return signal supports buying BTC, ETH, SOL, ADA or LINK merely to deploy capital. Retain optionality for a later completed bar and better-corroborated evidence. This is one prospective HOLD, not a trade or claim of skill.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/status.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/docs/DECISION_PROTOCOL.md"
+      ],
+      "risk_notes": "Cash may substantially underperform a sudden crypto rebound or a renewed ETF inflow regime. Conversely additional ETF redemptions, exchange-security shocks, rate repricing, liquidity gaps and volatility may hurt long positions; these scenarios are uncertain and third-party ETF statistics are not independently audited on-chain here. Repository marks are November 9 completed UTC closes, not November 10 live executable prices. With no positions or pending orders, HOLD incurs zero modeled trading cost and does not conflict with an existing instruction. Future spot orders would be limited to supported coins, $10–$1,000 and at most 35% equity per asset, subject to modeled 0.10% fee plus 0.05% adverse slippage, and only a completed UTC bar beginning after engine first-seen time could fill. No real money, transfers, stock trades, short selling, derivatives or leverage.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-11T22:26:01.808649+00:00",
+      "id": "crypto_20261111_222547_gpt6_hold",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-11T22:25:47.468000+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "November 11 prospective crypto-only HOLD: verified AUTONOM GitHub state has $1,000 cash, zero crypto positions, no pending orders and five processed prior crypto HOLDs (Nov 6–10); SELL is impossible and there is no outstanding BUY to duplicate. November 10 is the latest completed Coinbase UTC candle in the repository, despite successful market refresh at 21:08:42 UTC November 11: BTC closed $73,697.87, down 2.07% from November 9's $75,259.28; ETH $2,050.58, SOL $83.24, ADA $0.17392 and LINK $10.282 also declined from their November 9 closes. The $1,000 crypto cash portfolio compares with $970.10375 for the passive BTC benchmark at the November 10 close, whose inception was Nov 5 at $75,969.06 (0.013163253566649371 BTC). Cash's $29.90 advantage over this very short interval is not evidence of forecasting skill. November 11 intraday crypto prices and fund-flow stories are not synchronized completed Coinbase candles or executable paper prices. CoinDesk's November 11 report describes Bitcoin holding up after hotter October CPI while ETF selling appears to slow, a plausible bullish counterargument; November 10 CoinDesk reporting cites Farside for $201m net US spot BTC ETF outflows and $184.6m ETH ETF outflows on November 9. Such off-chain ETF flow tallies are third-party observations, not on-chain-verified transactions or validated trading signals. Reuters' Nov 2–3 report documents Binance customer withdrawals after the security breach; it is historical context, not evidence of ongoing withdrawals today. Stronger inflation/rate concerns and recent declines warrant caution, but a rapid rebound is possible. There is no independently validated positive conditional return forecast for buying supported BTC, ETH, SOL, ADA or LINK after transaction costs. Reassess on subsequent completed UTC bars and corroborated evidence; do not chase a partial-session bounce or buy merely because prices fell. No simulated trade or fill is asserted.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/status.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/docs/DECISION_PROTOCOL.md"
+      ],
+      "risk_notes": "Holding cash risks underperforming a sharp BTC/ETH/altcoin rebound, especially if ETF outflows genuinely ease; remaining in cash indefinitely is not proven optimal. Conversely hot inflation, rates, liquidity shocks, crypto exchange security risks, and volatile flows could extend drawdowns. ETF figures are secondary off-chain reporting and not independently audited here; no fresh November 11 completed UTC candle exists in the collector at decision time. HOLD incurs no 0.10% fee or 0.05% adverse slippage; future BUY/SELL orders must be $10–$1,000, supported long-only spot assets, maximum 35% account equity per asset and at most six crypto positions, with first-seen engine time preceding a later completed UTC bar for any simulated fill. No leverage, derivatives, shorts, real funds, exchange orders, stocks or inter-portfolio transfers.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    }
+  ],
+  "positions": {},
+  "prior_month": null
+}
