@@ -314,5 +314,28 @@
     "risk_notes": "The held SPY position is about 15.1% of marked equity, comfortably below the 35% cap; no pending orders and $849.85 cash. Immediate sale would incur another modeled 0.10% fee and 0.05% adverse slippage, approximately $0.225 for $150 notional, on top of entry costs, making reactive one-day churn unattractive. Holding risks losses if PPI is hotter than expected, rates rise, AI/megacap concentration unwinds, oil/geopolitical tensions worsen, or SPY gaps down. Remaining ~85% cash risks underperformance if broad equities rebound. Yesterday's fill is in the independent ledger; today's HOLD requests no trade and incurs no new fees. Reference marks are November 12 completed bars and today's futures/indications are not executable ETF quotes. No real money, brokers, leverage, derivatives, shorts, crypto-account activity, backdating, or guaranteed performance.",
     "title": "HOLD / no trade",
     "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+  },
+  {
+    "type": "decision",
+    "at": "2026-11-13T22:28:54.537729+00:00",
+    "id": "crypto_20261113_autonom",
+    "portfolio": "crypto",
+    "action": "HOLD",
+    "symbol": "",
+    "amount_usd": 0.0,
+    "decision_at_utc": "2026-11-13T22:28:31+00:00",
+    "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+    "thesis": "Crypto strategy v1 (November 11, 2026); prospective HOLD all $1,000 in cash with a multiweek BTC-versus-cash allocation horizon and daily review after the next completed UTC Coinbase candle. Verified default-branch state as of this run: $1,000 cash, no positions, no pending orders, seven processed crypto HOLD decisions November 6–12, and no recorded crypto fills. The November 13 inbox file did not exist before this submission; no duplicate order is warranted. BTC benchmark inception was $75,969.06 on November 5, with 0.013163253566649371 benchmark units. On the common November 12 completed mark the cash account remains $1,000 versus BTC benchmark $939.460091, a $60.54 gap attributable to cash exposure over a short, partial November period, NOT validated forecasting skill. Coinbase completed November 12 BTC/USD candle closed $71,369.90 from $73,927.63 open (-3.46%); BTC 20-day SMA $77,219.8865, down from $79,328.7395 five days earlier; five-day return -5.787235%. BTC is about 7.58% below its declining 20-day average. ETH $2,017.36, SOL $81.62, ADA $0.17416 and LINK $10.138 were also weak at November 12 completed marks. November 13 news is separate from completed repository bars: Barron's reports BTC briefly $67,683 and around $69,127 on Friday, while Wall Street Journal reports BTC around $69,342 and about $1.57 billion of ETF outflows over five sessions; the latter is reported secondary flow data, not independently audited on-chain evidence. Reuters November 13 describes a stronger dollar and elevated rate expectations after October PPI, a plausible broad risk-asset headwind; macro causality and exact contemporaneous BTC execution levels are uncertain. Barron's also reports some spot buying, a counterargument to assuming capitulation. BTC's broad participation thesis remains plausible over longer horizons, and strategy v1 allows a modest 5–15% starter without proven prediction, but the sharply declining completed trend, reported additional intraday losses, and uncertain liquidity/rates do not justify even a $50–$150 BTC BUY today. No distinct verified coin-specific thesis establishes ETH/SOL/ADA/LINK or another eligible asset as superior to BTC net of costs. A SELL is impossible with no positions. Reconsider a modest $100 BTC BUY if a completed Coinbase close regains the falling 20-day SMA with improving five-day momentum, or if multiple completed bars show",
+    "sources": [
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/agent-crypto.json",
+      "https://www.barrons.com/articles/bitcoin-price-coinbase-stock-robinhood-strategy-55be11f9"
+    ],
+    "risk_notes": "Main HOLD risk is missing a fast crypto rebound; continued full cash exposure could systematically lag the BTC benchmark if recovery begins before the moving-average confirmation. Recent reported BTC spot buying offers a plausible bullish alternative but does not yet override negative completed trend. Intraday November 13 quotes, reported ETF flows, and causal narratives are distinct from verified November 12 Coinbase UTC bars; do not use them as prospective fill prices. No crypto holdings to exit or existing theses to reassess. A hypothetical $100 BTC paper BUY would exceed the $10 minimum, use 10% of equity (below 35% per-asset cap), leave about $899.90 cash after a 0.10% fee, and incur modeled 0.05% adverse slippage plus exit costs; actual simulated fills are determined solely by the engine after first-seen time and a later eligible completed bar. HOLD creates no order, fee or slippage. No real funds, exchange trading, stocks, leverage, shorts, derivatives or inter-portfolio transfe",
+    "title": "HOLD / no trade",
+    "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
   }
 ]
