@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-13T20:09:59.376397+00:00",
+  "as_of": "2026-11-13T20:48:34.058612+00:00",
   "items": {
     "stocks": [
       {
@@ -45,6 +45,11 @@
     ],
     "crypto": [
       {
+        "title": "Claude AI Predicts What Bitcoin and Ethereum Could Be Worth by 2030 - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNXRfWndNQ1JKVGE4MWt4dS1NTVNSRmhkZWhNZlpVbkp3UXBoNmp1S1VzVUZvSy1aM2EyQ19Tak9DZVVOWEc4VEJFWUVIMnU5b3g0Y0s3QnNIMUI0UjdRc2dNNEFrTUN2RUYtdURuaFR1SGNxTWdBbHF3dDlKZEpzV0E1aGdHMXNSYXhJcTN4TzlUNTc1eHlld1Y3b0dUQXdDcExYRjJ6THBCSkEwbnpqeWRkZUpBaDZidk55ZHNSbS1NN2Q1?oc=5",
+        "published": "Fri, 13 Nov 2026 18:43:00 GMT"
+      },
+      {
         "title": "Most large cryptocurrencies decline on Bitcoin, Ethereum drops - MarketWatch",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYUdfX29ZdXR3c0hGZGV5WVdPUU5PbUNITHBkUVE1UFdqRm9WWTFQTU44dHotSXZBUEpDZGY5Ukt0N3VXMklYWXc2Mk9pSHhOTzBXVDJHNV9EWjJoeVotZElEY1RJUjd1V1RKZ0lKS3NKSzRfNUJ1bEwxcWtpenhULUhNdnJ6T2pMMGNUa2lkSTh1ZzlFRlE4YnJ6aEFFNTlnM2s3VEZyQ2dWeWNwem56U0xfSGlvekFTZXdFLUJB?oc=5",
         "published": "Fri, 13 Nov 2026 15:00:00 GMT"
@@ -78,11 +83,6 @@
         "title": "Ethereum Price Crashes Below $2,000: How Low Can ETH Go? - CryptoTicker.io",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JQWFKdzVMb1JaN0NGaEZZVG5aeUV3dVNXVnM4djE4T0pMbXJHckVsZy1ZVi02cU53N3B4WTNmaVZld1k5ZXE3MTFReG9yN0FUdEhzRU43bjNSNHZiamw5X3RaWnljY2hmS0pLRWhKd1h6Nk5WLWFlam90cUI3Mjg?oc=5",
         "published": "Fri, 13 Nov 2026 13:27:14 GMT"
-      },
-      {
-        "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
-        "published": "Mon, 09 Nov 2026 20:05:00 GMT"
       }
     ]
   }
