@@ -1,16 +1,16 @@
 {
-  "as_of": "2026-11-13T13:33:36.328961+00:00",
+  "as_of": "2026-11-13T18:31:18.551037+00:00",
   "items": {
     "stocks": [
-      {
-        "title": "Reading the economy from earnings calls with generative AI - CEPR",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR09RVkJ3cWVXVUJhT3pHN1ZYWGhiOHVGY2lxUnVzb1czaFFPN1J5eTg4LTJRa1dKZ1dYWHNydmVKbnFCNmdHTXVKOEhfYWNnX3h2UjhCMjRGS2t6djVyWERyU3F5YXdCUGxlZE9uR0o2UFpFalRKTEttc29JSk5yVg?oc=5",
-        "published": "Thu, 12 Nov 2026 00:38:30 GMT"
-      },
       {
         "title": "Weekly market commentary - BlackRock",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
         "published": "Mon, 09 Nov 2026 08:00:00 GMT"
+      },
+      {
+        "title": "Reading the economy from earnings calls with generative AI - CEPR",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR09RVkJ3cWVXVUJhT3pHN1ZYWGhiOHVGY2lxUnVzb1czaFFPN1J5eTg4LTJRa1dKZ1dYWHNydmVKbnFCNmdHTXVKOEhfYWNnX3h2UjhCMjRGS2t6djVyWERyU3F5YXdCUGxlZE9uR0o2UFpFalRKTEttc29JSk5yVg?oc=5",
+        "published": "Thu, 12 Nov 2026 00:38:30 GMT"
       },
       {
         "title": "How midterm elections affect the stock market - U.S. Bank",
@@ -38,16 +38,16 @@
         "published": "Thu, 28 May 2026 07:00:00 GMT"
       },
       {
-        "title": "Why a ‘K-Shaped’ US Economy Means More Risk for Stock Investors - Morningstar",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmdGMHNQRFRSelVGUVVHNmN2TjI1ek1wREw4RFRpQXlSTWloeFdEZzdfdXEyVWt3MXMyd1lsTXNGcnBJRkdrWXNTcVB4LVFCNHo2am1WaGdfODgweDhkMVFrX3FZdko4QmN2ZFkwNjVrMzZyRWMxNWFlYVAyWkFsVExrRDJEX3AwRXAtdGJOdHZRa1Buc3c5TGh6TnpwWjVlM1E?oc=5",
-        "published": "Thu, 19 Feb 2026 08:00:00 GMT"
+        "title": "The Rally Is Back, But Risks Are Rising - Morgan Stanley",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcDZTY2g3eGlvbWRqQTQ4WU5kcmJIWUlZRFB2UDd4XzVMVExBSDRpX1RkODkwTFlYMWlFZUhjM2NzSXNzb3RjNFFZZkJpTXhPMjA2UGg3SE02UGlLUnVRY2pFWFVQUGd0Ni0yTWRHM1lGQ19DSktFRFJ0VktmNkZtU2NhRVBROXpZdnVhOW5kQ296YlpsS3g3Uk53?oc=5",
+        "published": "Wed, 27 May 2026 07:00:00 GMT"
       }
     ],
     "crypto": [
       {
-        "title": "How much lower can Bitcoin, Ethereum and XRP go? - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd09lTTVCRXJvSk13SG9HQ3pkTGdSUlVKQXNFa2xpUFIzYVg0YnMwU0lLT0RMdXpDSEtXZjJMREgtc0pYUE51V25GbWZaQUc1VXBraGNaTG0tM2owTUt4T3pCMG9iMW8zU1p6cTYzMzZ5LVRaczIzeHRLUDdCRHpvQlBUN3l4bHJCZmlXQnlMLWt0VWNtRHAwWFYyeDhNSDFPNklZUEhZdElPRzdvZDYyblhIUzdEdkYwZE1JV2hiRE5hVk1tTkl4QVBFc08wS2JH?oc=5",
-        "published": "Fri, 13 Nov 2026 09:29:06 GMT"
+        "title": "Most large cryptocurrencies decline on Bitcoin, Ethereum drops - MarketWatch",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYUdfX29ZdXR3c0hGZGV5WVdPUU5PbUNITHBkUVE1UFdqRm9WWTFQTU44dHotSXZBUEpDZGY5Ukt0N3VXMklYWXc2Mk9pSHhOTzBXVDJHNV9EWjJoeVotZElEY1RJUjd1V1RKZ0lKS3NKSzRfNUJ1bEwxcWtpenhULUhNdnJ6T2pMMGNUa2lkSTh1ZzlFRlE4YnJ6aEFFNTlnM2s3VEZyQ2dWeWNwem56U0xfSGlvekFTZXdFLUJB?oc=5",
+        "published": "Fri, 13 Nov 2026 15:00:00 GMT"
       },
       {
         "title": "Why are Bitcoin, Ethereum and XRP crashing as crypto liquidity dries up? - Crypto News",
@@ -55,34 +55,34 @@
         "published": "Fri, 13 Nov 2026 05:37:00 GMT"
       },
       {
-        "title": "BTC news: Prices slip below $70K, triggering $1.2 billion in liquidations - CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUFvUmV4NkRTR3k0bnVVUjBYQTh5Z1BNX3NsTE1YWE9YUEpRMTJ4TEF5NFJfVmxPaUZQWl9CZEJpNGQtOTRMNmtYRHV0N3NUM2FtOUp1dWNaSV9OSlVYMFRwNld4ZWI4bUV4a251VjdzeUVnTW1EbFBuUndERzNjTWg1cDZ4Y1d1aXFPbzZYUXFoT2NJcnVBcXFXdFo?oc=5",
-        "published": "Fri, 13 Nov 2026 03:59:00 GMT"
-      },
-      {
-        "title": "Bitcoin Implodes to $69,000, Ethereum, XRP Down on ETF Outflows, Nvidia Turmoil - Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVE8wTVlwckVDM3VuZTIxd19qUlJYN3lhRmdrWDBfRTBNdXJ1UUpnRHRHdUJJWXZWeXdGanRrV0E0TGVpd2pJZUxJTjNod3owSTM2WkU3cGx2aFFpVXl6bjVYVlFpNkFYVGNxVkJyM1hTcjNJWG5uLWNKXzlDYlRFZEFkWVl5dEFsT3BkdFBJLXFVM185aDdSTnNMZkJpdUdMMGJ4aDc4MmlGY3J0aENUV3drZTdoejJ0am9McHhaT0ZianV2TmMxVFlvZTNxdjFlTUE?oc=5",
-        "published": "Fri, 13 Nov 2026 12:41:41 GMT"
-      },
-      {
         "title": "Nearly $600 Million in Crypto Longs Liquidated as Bitcoin and Ethereum Fall to August Lows - BeInCrypto",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jSkxvVlFEZXVFVnk0cUhsN2JXNnFQaUplOFFGOWNhbHZESGVZZllWc1VfS0VKc1JvUlpwQW9kYmtjcmIyUVFienRkWk81V2lYaXlDV25qN0JzRnkwRVlXWDR5YWtCeXR1RGlTYnFqUlhqNzFDVUNndEhkb0g?oc=5",
-        "published": "Fri, 13 Nov 2026 07:36:28 GMT"
+        "published": "Fri, 13 Nov 2026 13:16:26 GMT"
       },
       {
-        "title": "Why is Bitcoin Falling? ETH And XRP Prices Crash As $60 Billion Leaves Crypto - Coinpedia",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdHFZc1ZBT01fQjgtZUI3SEt6bFpCOHVmWEoyZUlCcllWTHEzc3lDeWxYd2xiUjh6eXU5SGZfR01BdFdNazZWWUJBME9ESWxzWHNrTllaamNLX3UyZzNFeUkwakdjejd0YVY5V3BUM1k1V2ZZdVViS3JoZXpoYlJuaU1iSWtKZTRncHlvTDBDRGoxUFJCcC1QejBJTThUaVM3dG1uWS1R0gGrAUFVX3lxTE1HRXl3WDZwcmRKWTJrRWMweFZmY3VwQjJZSldzNGtFR0lSR3VJcTVWQ0VsMGZIVEJUVVhwMnBJYjF0U3JKVHlwYVRZTDdGdC1VMEFXWHJTd3JESUVZUGRGN2pTUGNfdGszT1JhSFF2bWhvNFNEcXdyanVObDBWRE5lQllfSHdMVjl5S0luNmhIYXZPNXItYjByam1sdm5fMzBwT3BVZVYxN2dYUQ?oc=5",
-        "published": "Fri, 13 Nov 2026 06:27:39 GMT"
+        "title": "Cryptocurrencies price prediction: Bitcoin, Ethereum & Cryptos – American Wrap 13 November - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaEE3TUFIenQ2a1FXSDhDWXdJMDBreWlsVFEyT3JUMjVXcDNVdjVYWS1vTTZicG4wRW5ZSjVaUmVHaEh2YUVrUEdFdW5VN21ON2xQcExEUVB2eHdCaDl5V3ktZzk2VkpKWUl6NW5IOUJydXZ4X3R3ZENONkk1OVhIQzVyYlQ0QXRFaVAtUFhRamxnM1JlRGM4RzltZnNDZk10U0o1RTVaQVZ3aEdZSWlhRzNFUHRKWVhodmQ5bTAzNFNpWm5TbHlua1dHUkJ0aldpUnpyWjZNejctejNN?oc=5",
+        "published": "Fri, 13 Nov 2026 16:24:55 GMT"
       },
       {
-        "title": "What Will Bitcoin and Ethereum Be Worth in 5 Years? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTG5UY1MzMnhDcDhMS0I3cHFiWkNCbWVUR0VxWEV3bnhSb1lBOXpiUGZNUXBuN0VqUG5VNG5obGd5bHlBWHRsY3dNRW5mLVh4eF9FZlZwazVpUkxrNmVsMlZOcENMTFQzVUVyTXA2ZFJ4dlIyelU2QUp5ektRRnZ6YWYxZHdNc1kxMy1jeFpISUt1amlTeTFBcDJDWQ?oc=5",
-        "published": "Wed, 11 Nov 2026 17:34:06 GMT"
+        "title": "Bitcoin ETFs Face $1B Exodus As Ethereum, Solana Funds Bleed: Is Institutional Crypto Demand Cracking? - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUXlQeUJESjlLZEhnaFRoRi0xNTUyVWFXcWxZbkVaUGJZT0RoVU52TG53bENnWllSNm1TZDltOU5SQ1FpMDJHQmxTbDIwVWluV0lkTFVMYk5ieHRyZnc3WW4yTnppSUtEeUJNVHY3cEwwY01ucTFIS2RzUlBoMmg0eWVDYWpRLVFiRG9GYW5ESXIyM3RYRi0xelF2QU0tX3BDUkI0eVpLTW1xd2tSenVyeFJLMTlDQmZ4NVkyTE0yMmhjOUpwYi1YMHRYUmZVUl9qOFlSaE80RTFWNno1RjZmRDRnWnFXQnp2Z3NvZkdyWQ?oc=5",
+        "published": "Fri, 13 Nov 2026 17:40:08 GMT"
+      },
+      {
+        "title": "Bitcoin falls below $70,000 as dollar surges and $1.6 billion liquidated - CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbmN2SHc5R3NaLW95Rkw4bzdvbzA5NldfS0ZDTFlES0hYZjAwVlBXS2t1bk5ocDJfZjlkS0NmTWFqUjdVWFVmYThReUxyWmFueEU5RXQ4NXZoRGxXS3N1UVc4enJueVdwdlZYc2xSQmtsVnNaZTJWWExFU0s5c1N1YjhJMkpIOGtxSmlQbEpveU44OWxSWUtJVC11R09KQlB4TktFd296RE5RODdicENOemhtZU5YLWxmdWhxc0RZZmt3Y24tN1ZES05vSFM5elVsVGYyNjRkUC00cTg?oc=5",
+        "published": "Fri, 13 Nov 2026 11:52:25 GMT"
       },
       {
         "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
         "published": "Mon, 09 Nov 2026 20:05:00 GMT"
+      },
+      {
+        "title": "What Will Bitcoin and Ethereum Be Worth in 5 Years? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTG5UY1MzMnhDcDhMS0I3cHFiWkNCbWVUR0VxWEV3bnhSb1lBOXpiUGZNUXBuN0VqUG5VNG5obGd5bHlBWHRsY3dNRW5mLVh4eF9FZlZwazVpUkxrNmVsMlZOcENMTFQzVUVyTXA2ZFJ4dlIyelU2QUp5ektRRnZ6YWYxZHdNc1kxMy1jeFpISUt1amlTeTFBcDJDWQ?oc=5",
+        "published": "Wed, 11 Nov 2026 17:34:06 GMT"
       }
     ]
   }
