@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-14T08:59:14.033264+00:00",
+  "as_of": "2026-11-14T22:37:53.856092+00:00",
   "recent_decisions": [
     {
       "type": "decision",
@@ -182,6 +182,29 @@
         "https://www.barrons.com/articles/bitcoin-price-coinbase-stock-robinhood-strategy-55be11f9"
       ],
       "risk_notes": "Main HOLD risk is missing a fast crypto rebound; continued full cash exposure could systematically lag the BTC benchmark if recovery begins before the moving-average confirmation. Recent reported BTC spot buying offers a plausible bullish alternative but does not yet override negative completed trend. Intraday November 13 quotes, reported ETF flows, and causal narratives are distinct from verified November 12 Coinbase UTC bars; do not use them as prospective fill prices. No crypto holdings to exit or existing theses to reassess. A hypothetical $100 BTC paper BUY would exceed the $10 minimum, use 10% of equity (below 35% per-asset cap), leave about $899.90 cash after a 0.10% fee, and incur modeled 0.05% adverse slippage plus exit costs; actual simulated fills are determined solely by the engine after first-seen time and a later eligible completed bar. HOLD creates no order, fee or slippage. No real funds, exchange trading, stocks, leverage, shorts, derivatives or inter-portfolio transfe",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-14T22:37:53.856092+00:00",
+      "id": "crypto_20261114_autonom",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-14T22:37:09+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "Crypto strategy v1 (2026-11-11). HOLD $1,000 in cash, no crypto positions and no pending orders; reassess after the next completed Coinbase UTC candle and daily, with a multiweek BTC-versus-cash allocation horizon. The default-branch state and independent event ledger show eight accepted crypto HOLD decisions Nov 6–13 and no crypto fills; today's unique inbox path was absent before this submission. The BTC benchmark started at $75,969.06 on Nov 5 (0.013163253566649371 BTC). At the latest common Nov 13 completed mark the paper portfolio remains $1,000, BTC benchmark $898.214879: the $101.79 relative lead comes entirely from 100% cash exposure during a partial November observation window, not proof of a predictive signal. Collector succeeded at 2026-11-14 08:59 UTC with no errors, but the latest completed Coinbase BTC/USD daily candle is Nov 13: open $71,369.90, close $68,236.54 (-4.39% open-to-close). Its 20-day SMA is $76,593.23 versus $78,974.559 five days earlier; BTC closed 10.91% below the declining average, and five-day completed-bar return is -8.718641%. The November 14 UTC candle is still incomplete and any news-site live price is NOT a synchronized completed Coinbase mark or a fill quote. November 14 The Block reports U.S. spot BTC ETFs lost $1.07 billion over the latest week and $1.91 billion across seven trading sessions, based on third-party fund-flow aggregation, not independently validated on-chain transfers; ETH ETFs also reportedly lost $398.9 million. Reuters reports Binance still working to reopen withdrawals after its October security breach, a separate venue/liquidity risk; this does not prove a direct BTC price effect. These fresh reports reinforce caution rather than demonstrate that another decline is inevitable. A modest BTC starter position could capture a sharp recovery, but a still-falling completed trend, reported fund withdrawals and venue risks leave the prospective broad-exposure case weaker than cash today, even with a plausible long-term BTC participation thesis. ETH and SOL both declined in the latest completed Coinbase bars (ETH $1,928.28; SOL $78.11); neither nor ADA/LINK has a verified independent coin-specific catalyst strong enough to overcome BTC and cash after costs. No asset is held, so there is no position thesis or exit condition to revalidate and SELL is unavailable. Reconsider a 5–15% BTC paper BUY if completed BT",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+        "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337"
+      ],
+      "risk_notes": "HOLD risks missing a rapid BTC rebound and persistent benchmark underperformance if the downtrend reverses before confirmation. The $101.79 cash lead is not evidence of trading skill, and the November sample is short and incomplete; cash exposure is 100%, with zero crypto trades/fills. Reported ETF flows are secondary financial-product figures, not verified on-chain evidence; market headlines and venue incidents cannot establish price causation. A hypothetical $100 BTC BUY would be above the $10 minimum and below the $350 per-asset 35% cap, with estimated 0.10% fee plus 0.05% adverse slippage (~$0.15 one way) and similar costs on eventual exit; a future simulated fill is solely the engine's decision after first-seen time and a later eligible completed daily candle. HOLD incurs no transaction costs, creates no pending order and uses no real funds, brokers, exchange trading accounts, leverage, shorts, derivatives, stocks or portfolio transfers.",
       "title": "HOLD / no trade",
       "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
     }
