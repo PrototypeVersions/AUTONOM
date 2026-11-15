@@ -37,7 +37,8 @@
         "crypto_20261111_222547_gpt6_hold",
         "crypto_20261112_autonom",
         "crypto_20261113_autonom",
-        "crypto_20261114_autonom"
+        "crypto_20261114_autonom",
+        "crypto_20261115_autonom"
       ],
       "benchmark": {
         "symbol": "BTC",

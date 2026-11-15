@@ -360,5 +360,28 @@
     "risk_notes": "HOLD risks missing a rapid BTC rebound and persistent benchmark underperformance if the downtrend reverses before confirmation. The $101.79 cash lead is not evidence of trading skill, and the November sample is short and incomplete; cash exposure is 100%, with zero crypto trades/fills. Reported ETF flows are secondary financial-product figures, not verified on-chain evidence; market headlines and venue incidents cannot establish price causation. A hypothetical $100 BTC BUY would be above the $10 minimum and below the $350 per-asset 35% cap, with estimated 0.10% fee plus 0.05% adverse slippage (~$0.15 one way) and similar costs on eventual exit; a future simulated fill is solely the engine's decision after first-seen time and a later eligible completed daily candle. HOLD incurs no transaction costs, creates no pending order and uses no real funds, brokers, exchange trading accounts, leverage, shorts, derivatives, stocks or portfolio transfers.",
     "title": "HOLD / no trade",
     "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+  },
+  {
+    "type": "decision",
+    "at": "2026-11-15T22:28:48.728067+00:00",
+    "id": "crypto_20261115_autonom",
+    "portfolio": "crypto",
+    "action": "HOLD",
+    "symbol": "",
+    "amount_usd": 0.0,
+    "decision_at_utc": "2026-11-15T22:28:29+00:00",
+    "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+    "thesis": "Crypto strategy v1 (November 11, 2026). HOLD the separate $1,000 spot-crypto paper portfolio entirely in cash; review daily after the next completed UTC Coinbase candle, with a multiweek BTC-versus-cash horizon. Verified default-branch state: $1,000 available cash, no positions, no pending instructions, nine previously processed crypto HOLD decisions (Nov 6–14), no crypto fills. The November 15 inbox file was absent before submission and the ledger has no decision for November 15. On the last common November 14 completed mark, equity is $1,000 versus $844.011891 for the passive BTC benchmark (0.013163253566649371 BTC initiated at $75,969.06 on Nov 5); the $155.99 lead is wholly due to 100% cash exposure through a short, partial November window, not evidence of forecast skill. The collector's November 15 09:28:38 UTC refresh succeeded, but its last completed Coinbase BTC/USD candle is November 14: open $68,236.54, close $64,118.79 (about -6.03% open-to-close); 20-day SMA $75,796.5115 versus $78,590.61 five days earlier, placing the close 15.41% below a declining average; five-day completed-bar return -14.802812%. This is a completed historical daily mark, not a live or executable November 15 quote. Bloomberg reporting published November 15 (republished in Business Standard) describes a weekend drop to around $62,112, roughly $2 billion in exchange-reported crypto liquidations over 24 hours, and almost $3 billion of US spot BTC ETF outflows Oct 30–Nov 13; those figures are attributed to third-party tracking and are not independently verified on-chain. CoinDesk November 13 separately reported dollar strength and rate expectations alongside BTC weakness. Weekend rebounds remain possible and contemporaneous market snapshots differ in time and venue, but no completed-bar stabilization or robust independently supported BTC entry case is established. ETH ($1,768.41), SOL ($70.25), ADA ($0.14776) and LINK ($8.88) also weakened in November 14 Coinbase closes; there is no sufficiently corroborated distinct positive thesis for another supported coin. A 5–15% BTC starter would offer broad participation and could be defensible after stabilization, but currently cash avoids buying into a rapidly deteriorating trend. SELL is impossible without positions. Reconsider a $50–$150 BTC starter if subsequent completed bars stabilize, five-day momentum turns positive and/or BTC rec",
+    "sources": [
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+      "https://www.business-standard.com/markets/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-leveraged-bets-face-mass-liquidations-126111500058_1.html"
+    ],
+    "risk_notes": "Main risk of remaining 100% in cash is missing a sharp BTC rebound and then lagging the BTC benchmark. The $155.99 historical lead is mechanical downside avoidance, not evidence of predictive skill; the forward observation period is only November 5–14. Reports of leveraged liquidations, fund outflows, and rate expectations are attributed estimates and cannot alone prove causal drivers or predict returns. November 15 price snapshots are not synchronized completed Coinbase candles. No transaction costs on HOLD. A hypothetical $100 BTC spot BUY would satisfy the $10 minimum and 35%-of-$1,000 ($350) asset cap, with assumed 0.10% fee plus 0.05% adverse slippage (~$0.15 one-way and additional exit costs); any future fill must be simulated by the independent engine on a later eligible completed bar after first-seen time. No real trading, leverage, shorts, derivatives, stocks or transfers.",
+    "title": "HOLD / no trade",
+    "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
   }
 ]
