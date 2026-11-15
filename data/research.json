@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-15T02:55:18.559345+00:00",
+  "as_of": "2026-11-15T09:28:38.326588+00:00",
   "items": {
     "stocks": [
       {
@@ -38,12 +38,17 @@
         "published": "Fri, 24 Apr 2026 07:00:00 GMT"
       },
       {
-        "title": "Are US Stock Market Valuations Outpacing Fundamentals? - Goldman Sachs",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
-        "published": "Fri, 10 Jul 2026 07:00:00 GMT"
+        "title": "Can the stock market keep reaching all-time highs? - Fidelity Investments",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlpranFPY1JBZXBZaVIzVWJYYkR1Mzh5aE5LZTczQU5reENqYmZSaUxUTGxJVTNrYlM0cFBQUTMtU1VDUkcya2lGWEZOMjhhbXA0MmJQOVVPcEFELVN3djlweEk4RmdaY3pLTGdFZnR2aWZjeUE0el9vTkZoUGJrZ3JUS3M4QzNSdG5LQWNoVmZUSlhfcndCbVFPdTFsY3VOOXJTQkZ1OUUwYmVz?oc=5",
+        "published": "Wed, 15 Jul 2026 07:00:00 GMT"
       }
     ],
     "crypto": [
+      {
+        "title": "Crypto Market Downturn: Bitcoin Below $64K, Altcoins Drop 22% - Bitcoin Foundation",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdnY1YmdIbXBNWERaVVI1bUhZRGxCeFg3N3V1cHo2NHp4b0s1eklXQWxPcmNLelI1Zzl3akVDUzk4dDJjSm5mUVBVX2dPeTgzUlBZSXhYM01UOGdIQTFyczBlMHU3Q05TRTQ3RXA4ZVdCNWs5c2NjR3owakNXT21iVF9NUGJXaHUtTVk0LWxmUlVUNXE4RW9PSm9tSkR0ZTVLYUQ3eFpn?oc=5",
+        "published": "Sun, 15 Nov 2026 08:56:46 GMT"
+      },
       {
         "title": "Bitcoin vs Ethereum: Which Is Safer to Own in a Crypto Crash? - 24/7 Wall St.",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbnlyS25pWFZQOTZXYWlQaVBkSzZ1RExuX2IzZ3h3YVJzRkZxU2pYY0NpR0xKMFo0RTlyR3RFdURGT1pmWXZKZFlUd3ZuS19mOExCQjc2cU5haW9rZ2g5NVRxR2pNVDlzTGV2MW9OOGJmdi1kQWNzaEtIX3lDWWx0TEEtTDFyUHluRC1PMDFBbzY3bzhYUkxUekxfZng4XzUwbkVRT3lVNGhTeWN0dDhyRFJhdWJXek1RUmc?oc=5",
@@ -60,29 +65,24 @@
         "published": "Fri, 13 Nov 2026 18:43:26 GMT"
       },
       {
-        "title": "Ethereum Flashes Death Cross as ETF Outflows Surge, Futures Open Interest Dives - Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRXJfZUgxeXcwejNwdUJLRFBMc2xsOC1oUkFoVFREY19CZC1KaHRXRUtsQm1SVXJEd2RhNzEyVTBCcUx2WTR1LWtXcmx3TjBzNlltdkNQV3owNE5GMGdUQTEwUXVvaEhxREo3QlZrY2pZNXp5S2FUT1FpQ0NNX0l1RnVfbUNwWnI1LW5IbDlDbU5TeV9oeDNrQmJOZHo2QnpHNEZNMFR3UUtLNkh4bF9JZkJCRHR2dEJBbUtWV1lwdHI1d1U?oc=5",
-        "published": "Sat, 14 Nov 2026 19:30:05 GMT"
-      },
-      {
         "title": "Crypto News: Bitcoin, Ethereum And XRP Hit Make-Or-Break Levels After Brutal Sell-Off - Coinpedia",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY1JxUURPWFdCbTM3NTlrc3lwdk9zRXdZSGdsOEVjbTYtTThPWE9LVW9meFpHWVVqSTV5a0I0UEFrcXRDdnBRaW85ZjBNREpIYmFoMDY3WDlDQnZ0U0RrRWdGQkswdC1JajdRdTdLRzhndy1JaTN4MzlyX3RlZU9lNVE5VGZ2anRUeUdNdzc4MlVzc2E5V1dFNlJGWWVNU0VqWXp5UXRiSDFtR3VHMHp3UNIBtgFBVV95cUxNYlZJc1ZwSlFJdVZXVWdzTmVlLTlSSXRJTEgycEQ5RWVtRnc0M3hfU0EzNnBjZGpqRGpaeWpJdHI4dDVlYTVkR0lNOGN5NU1nTjlyS2h1Nk15dlMzVVRDRURWQV9EbEdXXzBvYzF6aDVYblRMVEVaOUF0Q21JVDdlY1FwRDljODVKT1dLd2t5X3luaFdjSFdfMG4xU3h1RlVQanBPVmEyQ2k3RGRnd0N4R2FvRE1PQQ?oc=5",
-        "published": "Sat, 14 Nov 2026 13:59:48 GMT"
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY1JxUURPWFdCbTM3NTlrc3lwdk9zRXdZSGdsOEVjbTYtTThPWE9LVW9meFpHWVVqSTV5a0I0UEFrcXRDdnBRaW85ZjBNREpIYmFoMDY3WDlDQnZ0U0RrRWdGQkswdC1JajdRdTdLRzhndy1JaTN4MzlyX3RlZU9lNVE5VGZ2anRUeUdNdzc4MlVzc2E5V1dFNlJGWWVNU0VqWXp5UXRiSDFtR3VHMHp3UNIB7AFBVV95cUxQaVlRcTF0Z21nN0RSQWxDaDBKNFA4MC0wcVN0TzNmZFJBQXZyNW9KbE5WWC01OExGMmoxVkxsWVVaX1pmY180dkpGcWNSQjZEM0txcjZOZjhhRGtJc0NLbnVMZXk1M2UwdWE3Tk0wU0JDWkFXS1VnMjJXWWR6TU80WlctMzdoZTduSmp4Ti1Jb0ptbGtmMHlVd3ByZTVBT0tYMjZIajNMTVhUVzRDaUNCbnpJckxiTzVmRmdiRmNXMXMxM1lsVzBTN2xNeUozc1dDdTI4S1RiQm1tSkpYeHM2enl3NThjWEVuTTcwTw?oc=5",
+        "published": "Sat, 14 Nov 2026 16:59:00 GMT"
       },
       {
-        "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
-        "published": "Mon, 09 Nov 2026 20:05:00 GMT"
-      },
-      {
-        "title": "Bitcoin, Ethereum, XRP Bottom Calls Get Louder but Prediction Markets Disagree - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa2VmSUtpVkxWU1lnZWh2eW1LQTNzSjk5WkZqN2VaZ01ETHotVzRWY3QyeklsbFpOLXRmTjdhVTVqNU5PYXduYmw1cldtMGZvSFdYWkZDc0Z0RU5SazA0dVh1YmJyaFBXSV9fRVYzbHB5MThNb0NCQ0VfYm9BT1FHXzBCOHFTR3ZXNWROV0RTX00wNzhfVDVSQ1JXRkZ6QjZ0aE12a0xzM3doTHZGanhkbV9ISmQ1TE5wZ0pJQm1iMVY0QkY3bjJXTGZ3Sk5DME1v?oc=5",
-        "published": "Fri, 13 Nov 2026 22:00:08 GMT"
+        "title": "Bitcoin, Ethereum, XRP Steady, but Dogecoin Dips: Analyst Bets a Repeat of BTC's Short Squeeze, Driving I - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd05nMFYwLWlpMm9YMHJnMDlVWnBiSmJpOXdIUXRBN2VRenBvQ1NWaG9uZXRwdHVrRV9NdkVXYkpjQVhlbEdLUXE0YXRmMGV1REY3VXBSalJ6dWpvMVJVMlAwY24wVExBZWdJN0dPdHJOckVndW9IQW5TTFZWRU9fc1J6aHk3eThwcUc2TVNqTG1YTGVIS2xkY3NmOE1tVUwyeWc?oc=5",
+        "published": "Thu, 12 Nov 2026 01:53:13 GMT"
       },
       {
         "title": "Top 3 Price Predictions: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP extend losses as downside momentum dominates - FXStreet",
         "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOczRpek1FN0tvYlN5YWs0YVJaTzJEdmxxcGNhaW8xdklnQXNHWElFNGwyVUVJWFdyMVJyX3ZEQzN6cTRnYzhtelUzbWpXTWlaWTBRTVh2dDNQcm15MFZTd0F0TktSWUYyak45VVZtMy1EV2ZDS1lnSGNlMDZPbUZReDdfdHZPd1dDUkg3YUVJVndobTBzU2l1YVV0WlpsOU9VX3RpdUQzR3RsRnR0Y0E5R2dKU3hQSWhvMTJNZW9yZXRBSEVWa0prTDFzMmpOa1R6QlJmcmhEcWdaYjNmT2ROa2hHZ1hudTlMQm9jS3l4R1ZianliOHhUQnU2Sjk?oc=5",
         "published": "Fri, 13 Nov 2026 03:42:58 GMT"
+      },
+      {
+        "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
+        "published": "Mon, 09 Nov 2026 20:05:00 GMT"
       }
     ]
   }
