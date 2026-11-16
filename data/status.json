@@ -1,9 +1,11 @@
 {
   "market": {
-    "status": "ok",
+    "status": "degraded",
     "last_success_at": "2026-11-16T22:38:12.051243+00:00",
-    "last_attempt_at": "2026-11-16T22:38:12.051243+00:00",
-    "errors": []
+    "last_attempt_at": "2026-11-16T23:16:05.518425+00:00",
+    "errors": [
+      "news/stocks: HTTP Error 429: Too Many Requests"
+    ]
   },
   "agent": {
     "connected": false,
