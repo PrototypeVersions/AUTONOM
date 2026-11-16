@@ -1,0 +1,19 @@
+{
+  "id": "crypto_20261116_autonom",
+  "portfolio": "crypto",
+  "action": "HOLD",
+  "symbol": "",
+  "amount_usd": 0,
+  "model": "OpenAI GPT-6 (ChatGPT scheduled research)",
+  "decision_at_utc": "2026-11-16T22:33:23.261Z",
+  "thesis": "Strategy v1 (2026-11-11): HOLD the independent crypto paper portfolio at $1,000 cash, with no positions, pending orders or recorded fills; all ten earlier crypto HOLD decisions through Nov 15 are processed. The latest completed Coinbase UTC candle (Nov 15) closed BTC at $65,315.35, up from Nov 14's $64,118.79 but still 12.98% below the falling 20-day SMA of $75,061.84 (five days earlier $78,074.27), with five-day return -11.37%. This single positive day does not establish sustained stabilization. At the Nov 15 common mark, crypto equity is $1,000 versus $859.762514 for the passive BTC benchmark (Nov 5 baseline), a cash-exposure advantage rather than proof of timing skill. Today's Nov 16 candle is incomplete; third-party Monday quotes are not completed Coinbase marks. Nov 16 Wintermute OTC commentary reports a difficult rates environment, heavy liquidation and weak ETF flows; these are desk estimates and interpretations, not independently verified on-chain evidence or proven causes. Reuters' Nov 2-3 Binance withdrawal reporting provides additional venue-risk context but is older. ETH, SOL, ADA and LINK have completed Nov 15 closes in the collector, but no independently substantiated distinct risk-adjusted catalyst outweighs their correlation and liquidity/volatility risk. No SELL is possible with zero holdings. Preserve cash, reassess daily after the next completed Coinbase bar, and reconsider a modest 5-15% BTC spot BUY if completed BTC closes regain the 20-day SMA with improving short-term momentum, or show several days of convincing stabilization supported by more reliable flow/macro evidence. No strategy revision is justified by this limited sample.",
+  "risk_notes": "Cash can materially underperform on a sharp rebound; a one-day BTC recovery may develop into a reversal. Conversely trend remains weak and macro/ETF-flow and exchange-security risks persist. ETF flows, liquidation estimates and rates narratives are reported assessments, not independently audited blockchain observations. Last verified completed Coinbase candle is Nov 15, not an executable Nov 16 quote. HOLD has zero simulated cost; a later BUY must consider estimated 0.10% fee plus 0.05% adverse slippage per fill, $10 minimum, $1,000 maximum and <=35% per-asset exposure, with execution only after independent collector intake and a later eligible completed UTC bar. No leverage, derivatives, shorts, real orders or cross-account transfers.",
+  "sources": [
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+    "https://www.wintermute.com/insights/market-color/market-update/market-update-16-november-2026",
+    "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+  ]
+}
