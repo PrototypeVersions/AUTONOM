@@ -15,7 +15,8 @@
         "stock_20261111_132633_gpt6_hold",
         "stock_20261112_autonom",
         "stock_20261113_autonom",
-        "stock_20261116_autonom"
+        "stock_20261116_autonom",
+        "stock_20261117_autonom"
       ],
       "benchmark": {
         "symbol": "SPY",
