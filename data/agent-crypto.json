@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-17T22:06:40.970941+00:00",
+  "as_of": "2026-11-17T22:35:24.872059+00:00",
   "recent_decisions": [
     {
       "type": "decision",
@@ -251,6 +251,29 @@
         "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
       ],
       "risk_notes": "Cash can materially underperform on a sharp rebound; a one-day BTC recovery may develop into a reversal. Conversely trend remains weak and macro/ETF-flow and exchange-security risks persist. ETF flows, liquidation estimates and rates narratives are reported assessments, not independently audited blockchain observations. Last verified completed Coinbase candle is Nov 15, not an executable Nov 16 quote. HOLD has zero simulated cost; a later BUY must consider estimated 0.10% fee plus 0.05% adverse slippage per fill, $10 minimum, $1,000 maximum and <=35% per-asset exposure, with execution only after independent collector intake and a later eligible completed UTC bar. No leverage, derivatives, shorts, real orders or cross-account transfers.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-17T22:35:24.872059+00:00",
+      "id": "crypto_20261117_autonom",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-17T22:34:34+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "Strategy v1 (2026-11-11): HOLD the independent crypto paper account in cash and reassess after the next completed Coinbase UTC daily bar, with a multiweek horizon for any eventual position. At the repository collector's 2026-11-17 22:06:40 UTC update, crypto state shows $1,000 cash, no positions, no pending orders, and 11 processed HOLD decisions through November 16; there is nothing to SELL and no conflicting order. The latest completed BTC/USD Coinbase candle is November 16, close $64,816.79 (not a live November 17 executable quote), versus its 20-day SMA $74,262.70, approximately 12.72% below; the SMA has fallen from $77,705.29 five days earlier and BTC's completed five-day return is -12.32%. The passive BTC benchmark's November 16 matched mark is $853.20 versus $1,000 portfolio equity; this $146.80 difference results from 100% cash exposure during a declining BTC market, not a proven trading signal. ETH $1,819.02, SOL $71.51, ADA $0.153 and LINK $9.133 are also November 16 completed closes; no independently established distinct catalyst justifies preferring an altcoin to BTC after costs. CoinDesk's November 17 06:36 EST report quotes BTC near $64,200 and says the seven-day US spot BTC ETF outflow streak ended with a small $7.9 million Monday inflow (attributed to Farside); that is a timestamped intraday report, not a completed Coinbase bar, and reported ETF flows are off-chain fund data rather than verified on-chain signals. Reuters November 17 describes wider risk-off pressure and uncertain interest-rate outlook. One modest positive ETF-flow day does not offset a sharply declining completed-price trend. The next entry review will look for a completed BTC close back above a stabilizing 20-day average with improving five-day momentum, or several completed days of sustained stabilization with corroborated demand and acceptable costs. A 5–15% initial BTC paper position could then be justified without claiming a proven predictive edge; waiting risks missing a rebound. No strategy change is warranted on this evidence.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/agent-crypto.json",
+        "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends"
+      ],
+      "risk_notes": "No open crypto positions, pending orders or fills; cash exposure is 100%. HOLD incurs no transaction cost. A future buy of at least $10 and at most 35% of portfolio equity per asset must account for modeled 0.10% fee plus 0.05% adverse slippage per fill (about 0.30% round-trip if both sides fill). Intraday quotes and ETF-flow estimates can be stale or revised; macro explanations and market-maker forecasts are uncertain and not independently validated on-chain. The primary HOLD risk is missing a sharp BTC rebound; downside risk of entry includes continuing trend losses, liquidity stress and gap moves. The collector alone can accept a prospective instruction and simulate a later eligible fill; no real-money trading, leverage, derivatives, shorts, cross-portfolio transfers or stock actions.",
       "title": "HOLD / no trade",
       "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
     }
