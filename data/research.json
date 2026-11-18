@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-18T21:45:06.211458+00:00",
+  "as_of": "2026-11-18T22:30:38.097913+00:00",
   "items": {
     "stocks": [
       {
@@ -38,12 +38,17 @@
         "published": "Mon, 16 Nov 2026 09:56:42 GMT"
       },
       {
-        "title": "Weekly market commentary - BlackRock",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
-        "published": "Mon, 16 Nov 2026 08:00:00 GMT"
+        "title": "U.S. indexes are mixed after Nvidia earnings; gold declines (SP500:) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdmgzRC1VQTRidGk3TUNUV3JhR0NmMXNINVhXcHhZUVZZNXRYdUpPeXliY3lUazdWRTJqNzZfSm1BMmNMcTY3VzN1YmxmbWFVZWtuYmx0aW1mNW0wYm9LMFJFRGhBUkJzTUphc01MYXVhZjRWVHl1THlvWHo4eHM2bjhDM1pHUi1KQzI1dTB6aVd6RFJmNGl6THB3?oc=5",
+        "published": "Wed, 18 Nov 2026 19:18:38 GMT"
       }
     ],
     "crypto": [
+      {
+        "title": "Crypto Market Today, Nov. 18: Bitcoin's 12% Weekly Plunge Has Triggered a Rare Signal With a Surprising History - The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNm0wSG9oR01TLXJDZXVjTkp3d0w4dXdxY0lBRUtPeW5sRlZOVnI2NU1RWHhkNXlyZVRrTHY5SURyQkhlVkZDOGlDeEdBVzZZeTRIRjdjOE8wYTBsQjRoN0lhYm1iNHdVYlhIQkl3R1VVZDlySHlrUW16ZW9NYVEzZFdGVmFVaF8zdmtFNW03Ymwwb3hIWjVBMUt1NXctcUJ4TWZLczdtcFlQUzYzV1FSaGZsTTY4c0VPeGhsMWR3WFlhbTEzRGlKb1pYTXhfWmQ3Y1JkSzN1RGpRcTRSNUhwMXZBVTFrREhiaEQ3WnhfSS1zZzN2RVJJLUdNbzU?oc=5",
+        "published": "Wed, 18 Nov 2026 22:25:02 GMT"
+      },
       {
         "title": "Tom Lee: Bitcoin, Ethereum, Solana Are ‘Still at the Beginning’ - Benzinga",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZFp2VDdkTlhIc1I1eE9udDZiZUpNR3lGdHFXTmtONXc0RjJfc3JxODR5U2VvSWlHcjdJdWFxbjhkNW8yZVpwQ205dWtaUTNQc1VvNjc2b3JXTURjU0E2VGsxVnh3WXFoVE4wLVpJNnZKUjMtWHV3MGJpbmNTY0E1dzNyd0NaSDROZ2JEYTFGZ25feWNfekFUZ1pCaEx1YWt3QjN4dlVMNDg2ZmVvMElaRkl1ZWRzeEZBRHg2dg?oc=5",
@@ -70,19 +75,14 @@
         "published": "Mon, 16 Nov 2026 00:19:01 GMT"
       },
       {
-        "title": "Crypto Market Downturn: Bitcoin Below $64K, Altcoins Drop 22% - Bitcoin Foundation",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdnY1YmdIbXBNWERaVVI1bUhZRGxCeFg3N3V1cHo2NHp4b0s1eklXQWxPcmNLelI1Zzl3akVDUzk4dDJjSm5mUVBVX2dPeTgzUlBZSXhYM01UOGdIQTFyczBlMHU3Q05TRTQ3RXA4ZVdCNWs5c2NjR3owakNXT21iVF9NUGJXaHUtTVk0LWxmUlVUNXE4RW9PSm9tSkR0ZTVLYUQ3eFpn?oc=5",
-        "published": "Sun, 15 Nov 2026 08:56:46 GMT"
-      },
-      {
         "title": "Crypto Today: Bitcoin pressured below $65K, ETH tests $1,800 while XRP reclaims $1.00 - www.tmgm.com",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRGhwQ2ZiZWlzRW1wWm9DOGcyNzRpT2N2Tm5pNWNnSmxObEJTd1VEX2FwVUktcjROYlgteGFPOUFRVVNOUDNWVUU5czI0bGNIT284WHFrZW5ZdjVwSkxiQ1BFcjA5ZndOTXAxRnBhM1FJR3hiamJfOXNmS01nZ1ZmUHZ0V0lsaTIwQTB4clJJUXBLTVFXNFNUS3hUd3dLODdVa1F3WjBSZnVXdDZlOHZMZ1ZDWTZpM2hsVlljU1ZoWl80LXpUUFFwcjlmZXJsVmVJaGtRSDg3TkdkcjVScVE?oc=5",
         "published": "Wed, 18 Nov 2026 14:34:13 GMT"
       },
       {
-        "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC consolidates, ETH and XRP stall - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU3hBTDR5UVhEYkE0M3VMTDJlakJicW5zQ0ttX0tLQ2VHME1yczd3N2hCM2RtdUphUFEwUGxLSm10a3VELXhuVkZpZVlNaFM2Tm9MU2tYNXpCZ2NfNGh3NWNBLUhmZkxTYUw2RE1UMHgxTFFyWkNJbEJzWVNUejBHT2JFSHBGcjJGNEVZcnU1OG0zQm0yUmJiallqNVJXQU44Tlp2SVNueUhDZHB2YVNTTkJmUk5EdjBpalMxckUwRTlvdXlsMGVFUXNrQndkX3p2dFd1T0JsdUo?oc=5",
-        "published": "Wed, 18 Nov 2026 02:56:16 GMT"
+        "title": "Crypto Market Downturn: Bitcoin Below $64K, Altcoins Drop 22% - Bitcoin Foundation",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdnY1YmdIbXBNWERaVVI1bUhZRGxCeFg3N3V1cHo2NHp4b0s1eklXQWxPcmNLelI1Zzl3akVDUzk4dDJjSm5mUVBVX2dPeTgzUlBZSXhYM01UOGdIQTFyczBlMHU3Q05TRTQ3RXA4ZVdCNWs5c2NjR3owakNXT21iVF9NUGJXaHUtTVk0LWxmUlVUNXE4RW9PSm9tSkR0ZTVLYUQ3eFpn?oc=5",
+        "published": "Sun, 15 Nov 2026 08:56:46 GMT"
       }
     ]
   }
