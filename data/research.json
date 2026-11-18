@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-18T19:24:22.219720+00:00",
+  "as_of": "2026-11-18T20:58:48.047069+00:00",
   "items": {
     "stocks": [
       {
@@ -11,16 +11,6 @@
         "title": "U.S. stock futures mixed as investors gauge Nvidia earnings (US100:IND:) - Seeking Alpha",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSW5uYVBIb0Z5YzBWM3EydFphMGxEdlVSb1dOUDI3alNDNFRmdEQxaVNCQk9QendUMl9Db0djcGlld2FmVE11bDlQa0dTblVWSjJNZUF3cTNMTVNqemp4cG1zOGdING1LX2JkYkFMWkh2V1FublRxSFNLRTkyaElxb1dSTmJGVmg4ck41UEZKWFRxMlBCTTVzWVBwcGpnQkJYbUc3Qg?oc=5",
         "published": "Wed, 18 Nov 2026 09:12:38 GMT"
-      },
-      {
-        "title": "Macro signals from today's earnings: Target, TJX and Lowe’s - investingLive",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOekRKX004VjN0OXZUSHZILTYwVldCUk8wdnRMRWJQT1VXZUtEbWhIX2MtWVUtM1R3MUVsVUFOR0gzSW9VNmV0QnJ1X2l3akl0WnZadGNPTGlaY2VuQjdsT0s0T3BxNnRrQXRDZHpHYnp0ek9WanVFQnJTMlZvQ2huU1VTZEd1d1FvYVoySkMzRTdTOFpSWWc?oc=5",
-        "published": "Wed, 18 Nov 2026 14:05:40 GMT"
-      },
-      {
-        "title": "U.S. Market Sells Off Ahead of Nvidia Earnings - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQR3JOZE5sOUFQbjVfQlZXLUlhUlQyYmE3QnY3dENUOEc0VFlRY3JvQ0oxX0pJQ0Y1cDIzV2REdHZ5NWlieEJKeGpBWHhfN0dqaTZ6ZjN2VFFlSmdWNVBRUGpteUhEQkV2X1k2dVNaRTVfYXJpM3E1OE1uT2JDSkk3UA?oc=5",
-        "published": "Tue, 17 Nov 2026 21:03:14 GMT"
       },
       {
         "title": "Morgan Stanley sends strong signal on where stocks are headed - Yahoo Finance",
@@ -38,9 +28,19 @@
         "published": "Tue, 17 Nov 2026 10:51:00 GMT"
       },
       {
-        "title": "U.S. indexes are mixed after Nvidia earnings; gold declines (SP500:) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdmgzRC1VQTRidGk3TUNUV3JhR0NmMXNINVhXcHhZUVZZNXRYdUpPeXliY3lUazdWRTJqNzZfSm1BMmNMcTY3VzN1YmxmbWFVZWtuYmx0aW1mNW0wYm9LMFJFRGhBUkJzTUphc01MYXVhZjRWVHl1THlvWHo4eHM2bjhDM1pHUi1KQzI1dTB6aVd6RFJmNGl6THB3?oc=5",
-        "published": "Wed, 18 Nov 2026 18:44:12 GMT"
+        "title": "US Stock Futures Decline Ahead of Nvidia Earnings as Investors Await Federal Reserve Signals: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3loNDRFRS1qcXRkNU4zd2dEbEt0VEpENld4UU9ES3pEOXNhMzkteGVfYXVaaHc1ZUZqRWtwckFiT1NfX3BJTHZzQmtGMUV0MmwzT1p0a1FsNFUxQTZMSmlWWVVqa25FNlNxMXFBM1BRc2E3S2hxYnc3WEdiWThDRzRfNEZfUkg0ZVAxMllvdzJmTlZiNUo3WlRjRQ?oc=5",
+        "published": "Mon, 16 Nov 2026 09:56:42 GMT"
+      },
+      {
+        "title": "Weekly market commentary - BlackRock",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+        "published": "Mon, 16 Nov 2026 08:00:00 GMT"
+      },
+      {
+        "title": "Weekly market wrap - Edward Jones",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVcxcmtaeVJRVm9kQ2VyWmVQNG9GNDZzWkJpT01xTUFJbVhYdGF6dG1qZndCb2hFaHhCM0I5NFk2RGxhY1drcWRHVnhyNzc0RWJvTU50S0dnWENrRk1UYVQ4S25xVHBtYzJsU1dabkhWeVBCckxzTHRpS3M2dklsOF84LTJRV1RJLVFRVUdGbHh2SE5CbFVPQVpROGtRa2M?oc=5",
+        "published": "Fri, 13 Nov 2026 08:00:00 GMT"
       }
     ],
     "crypto": [
@@ -70,19 +70,19 @@
         "published": "Mon, 16 Nov 2026 00:19:01 GMT"
       },
       {
-        "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC consolidates, ETH and XRP stall - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU3hBTDR5UVhEYkE0M3VMTDJlakJicW5zQ0ttX0tLQ2VHME1yczd3N2hCM2RtdUphUFEwUGxLSm10a3VELXhuVkZpZVlNaFM2Tm9MU2tYNXpCZ2NfNGh3NWNBLUhmZkxTYUw2RE1UMHgxTFFyWkNJbEJzWVNUejBHT2JFSHBGcjJGNEVZcnU1OG0zQm0yUmJiallqNVJXQU44Tlp2SVNueUhDZHB2YVNTTkJmUk5EdjBpalMxckUwRTlvdXlsMGVFUXNrQndkX3p2dFd1T0JsdUo?oc=5",
-        "published": "Wed, 18 Nov 2026 02:56:16 GMT"
-      },
-      {
         "title": "Crypto Market Downturn: Bitcoin Below $64K, Altcoins Drop 22% - Bitcoin Foundation",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdnY1YmdIbXBNWERaVVI1bUhZRGxCeFg3N3V1cHo2NHp4b0s1eklXQWxPcmNLelI1Zzl3akVDUzk4dDJjSm5mUVBVX2dPeTgzUlBZSXhYM01UOGdIQTFyczBlMHU3Q05TRTQ3RXA4ZVdCNWs5c2NjR3owakNXT21iVF9NUGJXaHUtTVk0LWxmUlVUNXE4RW9PSm9tSkR0ZTVLYUQ3eFpn?oc=5",
         "published": "Sun, 15 Nov 2026 08:56:46 GMT"
       },
       {
-        "title": "Crypto Market Today, Nov. 17: A Warning Sign Not Seen Since 2022 Is Flashing Across Cryptocurrency Markets - The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPR1lZcVJ0aGlrN1ZxRW9sbVBJa1AxRFBBT1BMXzVtSVd3N3pleEJQdFh1WmpNNnhsR0xfUXZka0dRem4yREcxWElsSzduNGptM3JvdjFJVmo2LVdBVWRxLWRUbHZqaWJkUVQwN1BjbHF6NWtLRW8wRnRkNTdlVVFSWklXMjR6UXZ4Q1UzcnRBaTlRUERzYm9QbE9sRE5hU3dFenBWa28ya0M4ZUR3VFRiMkRZZEJ6ZDVoR1JhV080eURQNnE0cUNPTHJmQzVRYUhfOG9kQlZMdEdEN1NVRm5RdDVJTzNpYkt4M2g3TGQwa0c5NlY2c0xz?oc=5",
-        "published": "Tue, 17 Nov 2026 22:45:00 GMT"
+        "title": "Citi cuts Bitcoin price target to $99,532, Ethereum to $2,838 - Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5dl9KNnJ3VXg0N3hFNkdNN0xFMkZXRVYzSmFyNU1oOVFMNXFWYVA5M0RhNzhnZTVrdzFaMHZ5b09zMzYyQWotNWpFaGxUVXBWLVNMcmVnNXlWeEVYaGtaTGZGcnJyakR3d3dCSDRFTFkzZmNUSnAw?oc=5",
+        "published": "Wed, 18 Nov 2026 13:18:22 GMT"
+      },
+      {
+        "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC consolidates, ETH and XRP stall - FXStreet",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU3hBTDR5UVhEYkE0M3VMTDJlakJicW5zQ0ttX0tLQ2VHME1yczd3N2hCM2RtdUphUFEwUGxLSm10a3VELXhuVkZpZVlNaFM2Tm9MU2tYNXpCZ2NfNGh3NWNBLUhmZkxTYUw2RE1UMHgxTFFyWkNJbEJzWVNUejBHT2JFSHBGcjJGNEVZcnU1OG0zQm0yUmJiallqNVJXQU44Tlp2SVNueUhDZHB2YVNTTkJmUk5EdjBpalMxckUwRTlvdXlsMGVFUXNrQndkX3p2dFd1T0JsdUo?oc=5",
+        "published": "Wed, 18 Nov 2026 02:56:16 GMT"
       }
     ]
   }
