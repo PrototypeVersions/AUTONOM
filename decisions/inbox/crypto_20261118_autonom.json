@@ -1,0 +1,20 @@
+{
+  "id": "crypto_20261118_autonom",
+  "portfolio": "crypto",
+  "action": "HOLD",
+  "symbol": "",
+  "amount_usd": 0,
+  "model": "OpenAI GPT-6 (ChatGPT)",
+  "decision_at_utc": "2026-11-18T22:30:14Z",
+  "thesis": "Strategy v1 (2026-11-11). HOLD $1,000 cash in the separate spot crypto paper portfolio; reassess at the next completed UTC Coinbase daily bar, and daily thereafter. Verified GitHub state/agent context as of 2026-11-18 21:45 UTC: $1,000 cash, no holdings, no pending orders, all prior crypto decisions processed as HOLD, no fills. The latest completed 2026-11-17 Coinbase BTC-USD bar closed $64,873.18; its 20-day average was $73,443.897 (falling from $77,219.8865 five days earlier), and five-day return was -9.102885%. BTC closed ~11.67% below the declining average. This completed bar is NOT a November 18 executable quote. On common November 17 marks the cash portfolio is $1,000 versus $853.942118 for the passive BTC benchmark, an advantage from cash exposure during a drawdown, not proof of signal skill. November 18 CoinDesk reporting describes BTC around $64,100 in its morning snapshot, weak risk appetite, and reduced basis-trade yields; a Reuters November 18 report details the fallout of a large Binance security breach. Reports of ETF outflows and macro causation are provisional secondary claims, not verified on-chain measurements. ETH ($1,822.15), SOL ($75.11), ADA ($0.15515) and LINK ($9.311) have November 17 completed Coinbase USD closes, but none has a sufficiently differentiated verified catalyst to justify replacing the BTC-versus-cash framework. A modest BTC position can be justified on broad exposure grounds, but the falling average, negative five-day return, security uncertainty and trading costs make cash more defensible today. Reconsider a roughly 5–15% BTC paper entry after a completed close above the 20-day average with improving five-day return, or a multi-day stabilization and independently corroborated improvement in market conditions; do not require a guaranteed forecast. No strategy revision warranted. November is still partial; the context reports no prior October month for review.",
+  "risk_notes": "Cash risks missing a sharp BTC recovery and underperforming the benchmark. No open positions to exit and no conflicting pending orders. A future $100 BTC entry, for example, would be under the 35% per-asset cap and $10 minimum, with modeled 0.10% fee plus 0.05% adverse slippage on each fill; even a round trip incurs modeled friction. Today's HOLD incurs no fill costs. Reported November 18 intraday prices differ by venue and timestamp and are not the collector's completed Coinbase candle. Spot-only simulated decisions; no real accounts, leverage, shorts, derivatives or cross-portfolio transfers.",
+  "sources": [
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/agent-crypto.json",
+    "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+    "https://www.reuters.com/business/finance/after-63-billion-crypto-heist-binance-plans-foray-into-5-asian-markets-2026-11-18/"
+  ]
+}
