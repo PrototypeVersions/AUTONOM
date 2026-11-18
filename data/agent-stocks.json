@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-18T10:12:20.364821+00:00",
+  "as_of": "2026-11-18T13:31:42.954112+00:00",
   "recent_decisions": [
     {
       "type": "decision",
@@ -182,6 +182,29 @@
         "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json"
       ],
       "risk_notes": "Risk of holding: SPY may gap lower following Nvidia's November 17 after-close earnings, semiconductor export controls, higher rates, and broad equity selling. SPY is diversified but cap-weighted toward technology. Risk of selling: whipsaw and missing a rebound, plus modeled 0.10% fee and 0.05% adverse slippage on exit. Cash is approximately 85.2% of current $996.99 equity and limits losses but creates opportunity cost in rallies; the benchmark-relative gain is cash-driven. November 16 completed daily closes are stale for November 17 trading, and premarket futures cannot be used as fill prices. Existing SPY exposure is roughly 14.8% of equity, well under 35%; there are no pending orders. A new BUY would require at least $10 and respect the $1,000 notional maximum and 35% asset cap; no order is placed today. Paper-only; no brokers, real funds, leverage, shorts, derivatives, crypto-account changes, engine edits, or backdating.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-18T13:31:42.954112+00:00",
+      "id": "stock_20261118_autonom",
+      "portfolio": "stocks",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-18T13:31:06+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "Strategy v1 (November 11, 2026), Wednesday November 18 premarket: HOLD the existing 0.1988448518060152 SPY paper shares and $849.85 cash; no new order. Verified GitHub state has no pending orders and no November 18 stock decision, with the original $150 BUY stock_20261112_autonom filled on November 12 under the forward-only engine. At the latest COMPLETED November 17 bar, SPY opened $738.39 and closed $732.44 (Yahoo daily chart); this is not a live November 18 executable quote. Position value is approximately $145.64, total equity $995.491924, and same-date passive SPY benchmark $955.177951. The roughly $40.31 advantage reflects about 85.4% cash exposure during a decline, not established timing skill. The original 4–8 week thesis was a modest diversified risk-premium allocation, not a short-term AI forecast. The original reconsideration condition was TWO completed SPY closes below the November 6 $735.29 reference alongside deteriorating breadth: November 16 closed $739.95 and November 17 $732.44, so only ONE close is below the level. The November 17 weakness is significant: Reuters and AP report S&P 500 down about 1%, Dow 1.6%, Nasdaq 0.7%, and Russell 2000 1.5%, suggesting breadth deterioration, but the two-close condition is not yet met. Nvidia's November 17 after-close earnings and stronger sales outlook are a genuine favorable counterweight, with Reuters November 18 premarket reporting rising Nasdaq futures; those indications are not a completed November 18 stock session and cannot prove durable stabilization or set a paper fill. A small diversified SPY stake remains defensible while a second confirmed breach or worsening macro evidence would prompt reconsideration; selling immediately after one threshold breach risks whipsaw and incurs 0.10% fee plus 0.05% adverse slippage. Compare alternatives using November 17 completed closes: RSP $215.76 and IWM $269.05 also weakened and do not demonstrate improved breadth; QQQ $656.95 magnifies AI concentration; XLE $63.36 and XLV $185.24 are narrower tilts without a better verified risk-adjusted thesis; SGOV $100.59 is a defensive Treasury reference but the simulator does not account for distributions, so retained cash is the cleaner defensive option. No untracked candidate is proposed, hence no new liquidity-dependent symbol. SPY is an established highly liquid broad-market ETF, though live spreads are not verifi",
+      "sources": [
+        "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
+        "https://www.reuters.com/business/nasdaq-futures-jump-nvidia-forecast-lifts-ai-trade-ahead-anthropic-pricing-2026-11-18/",
+        "https://apnews.com/article/ff6caef4d9289cf7f1e6ee48a706eddc",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/decisions/inbox/stock_20261112_autonom.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json"
+      ],
+      "risk_notes": "SPY can decline further amid weak market breadth, high inflation and rate expectations, AI concentration, and geopolitical shocks; a second close below $735.29 with deteriorating breadth would weaken the original case. Nvidia's positive outlook could drive a rebound, so selling after one breach could miss upside and incur modeled 0.10% fee plus 0.05% adverse slippage; conversely 85% cash can lag a sustained rally. November 17 completed closing marks are stale relative to November 18 trading, and Reuters premarket futures are neither synchronized SPY quotes nor fill prices. Existing position ~$145.64 on $995.49 equity, cash $849.85, no pending orders; no new amount, so the $10 minimum and 35% BUY cap are not triggered. Long-only paper account; no brokers, real funds, leverage, shorting, derivatives, other portfolio changes, backdating, or assumed fills.",
       "title": "HOLD / no trade",
       "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
     }
