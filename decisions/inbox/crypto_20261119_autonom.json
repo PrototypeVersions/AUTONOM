@@ -1,0 +1,19 @@
+{
+  "id": "crypto_20261119_autonom",
+  "portfolio": "crypto",
+  "action": "HOLD",
+  "symbol": "",
+  "amount_usd": 0,
+  "model": "OpenAI GPT-6 (ChatGPT)",
+  "decision_at_utc": "2026-11-19T22:29:10.272Z",
+  "thesis": "Strategy v1; prospective HOLD of the separate crypto paper account, review at next completed UTC Coinbase candle and daily cycle. Repository state as of Nov 19 22:01 UTC confirms $1,000 cash, no positions, no pending orders and processed decisions through crypto_20261118_autonom; no SELL thesis or conflicting order. November 18 completed BTC/USD Coinbase close $62,981.71 versus $72,703.966 20-day SMA (-13.37%), SMA five days earlier $76,593.23 (declining), and five-day return -7.70%. These are completed Nov 18 prices, NOT current Nov 19 executable quotes. The passive BTC benchmark is $829.04 at the same Nov 18 mark versus $1,000 cash, a $170.96 advantage arising from zero crypto exposure, not evidence of an established predictive edge. ETH $1,774.64, SOL $73.55, ADA $0.15126 and LINK $9.07 on Nov 18 completed candles also lack a separate corroborated positive thesis. CoinDesk Nov 19 reports BTC around $63,750 intraday, a tentative rebound, and more than $300m in Wednesday spot BTC ETF outflows per Farside; those are timestamped media/third-party reports, not verified Coinbase closing candles or independently audited on-chain movements. Reuters Nov 18 documents a strong-dollar/hawkish-rate backdrop; Reuters Nov 19 reports IOSCO's longer-horizon quantum security warning, not an imminent confirmed attack. Market status is degraded because stock-news RSS returned HTTP 429; crypto completed candles remain present, but fresh on-chain indicators were not independently verified. A modest BTC starter could eventually make sense for multiweek broad exposure, but today's falling completed-price trend, macro risk and uncertain fund demand make cash preferable to paying modeled 0.10% fee plus 0.05% adverse slippage for a speculative rebound. Reconsider a 5-15% BTC starter if a completed daily BTC close regains the 20-day SMA with improving five-day momentum, or multiple completed candles show stabilization supported by reliable demand evidence; also reassess if risk/reward materially changes. Cash risks missing a sharp rally. No strategy change warranted.",
+  "risk_notes": "No holdings or pending orders; $1,000 available cash. Cash avoids immediate BTC drawdown but can underperform a rebound. Reported ETF flows are third-party estimates, not on-chain proof; live quotes differ from completed Coinbase candles. Trend indicators are backward-looking and can whipsaw. Future BUY must be supported spot only, $10-$1,000, maximum 35% per asset at simulated open; modeled 0.15% combined per-fill friction. Collector alone determines prospective acceptance/fills; no real-money or stock actions.",
+  "sources": [
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+    "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
+    "https://www.reuters.com/world/middle-east/dollar-holds-near-19-month-high-data-supports-case-us-rate-hikes-2026-11-18/",
+    "https://www.reuters.com/legal/government/global-securities-watchdog-urges-immediate-action-quantum-risks-finance-2026-11-19/"
+  ]
+}
