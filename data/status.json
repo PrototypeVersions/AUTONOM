@@ -1,19 +1,17 @@
 {
   "market": {
-    "status": "degraded",
-    "last_success_at": "2026-11-19T21:04:50.657507+00:00",
-    "last_attempt_at": "2026-11-19T22:01:53.255584+00:00",
-    "errors": [
-      "news/stocks: HTTP Error 429: Too Many Requests"
-    ]
+    "status": "ok",
+    "last_success_at": "2026-11-19T22:29:21.101541+00:00",
+    "last_attempt_at": "2026-11-19T22:29:21.101541+00:00",
+    "errors": []
   },
   "agent": {
     "connected": false,
     "label": "Scheduled decision files recorded; the engine does not authenticate model identity.",
-    "decision_files_seen": 23,
+    "decision_files_seen": 24,
     "last_decision_at": {
       "stocks": "2026-11-19T13:34:29.384375+00:00",
-      "crypto": "2026-11-18T22:30:38.097913+00:00"
+      "crypto": "2026-11-19T22:29:21.101541+00:00"
     }
   }
 }
