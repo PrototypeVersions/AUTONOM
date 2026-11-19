@@ -544,5 +544,22 @@
     "risk_notes": "Selling after a decline risks whipsaw, especially given reported November 19 AI-led premarket strength and a possible sustained rally. Continued declines, inflation/Fed tightening, AI concentration and geopolitical developments threaten the residual holding. The $130 notional is less than the November 18 ~$145.19 position value, but a sufficiently large overnight gap lower could cause the future engine to reject for insufficient units; no execution or fill is claimed. Estimated one-way costs $0.13 fee plus ~0.05% adverse slippage (~$0.065), and any later repurchase also costs money. The 35% per-asset cap governs BUY; this is a long-only SELL of an existing holding, with no borrowing, derivatives, leverage, real funds, broker activity, crypto account modifications or backdating. Five-session evidence and the breadth interpretation remain provisional; do not treat a defensive action as demonstrated alpha.",
     "title": "SELL SPY",
     "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+  },
+  {
+    "type": "fill",
+    "at": "2026-11-19T22:01:53.255584+00:00",
+    "id": "stock_20261119_autonom-fill",
+    "decision_id": "stock_20261119_autonom",
+    "portfolio": "stocks",
+    "action": "SELL",
+    "symbol": "SPY",
+    "quantity": 0.1763689266,
+    "price": 737.09129196,
+    "reference_open": 737.46002197,
+    "fee": 0.13,
+    "bar_date": "2026-11-19",
+    "model": "AUTONOM engine",
+    "title": "SELL SPY paper fill",
+    "note": "Filled at next eligible daily open reference price with modeled slippage and fee; not an executable broker fill."
   }
 ]
