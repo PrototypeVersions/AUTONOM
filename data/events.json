@@ -521,5 +521,28 @@
     "risk_notes": "Cash risks missing a sharp BTC recovery and underperforming the benchmark. No open positions to exit and no conflicting pending orders. A future $100 BTC entry, for example, would be under the 35% per-asset cap and $10 minimum, with modeled 0.10% fee plus 0.05% adverse slippage on each fill; even a round trip incurs modeled friction. Today's HOLD incurs no fill costs. Reported November 18 intraday prices differ by venue and timestamp and are not the collector's completed Coinbase candle. Spot-only simulated decisions; no real accounts, leverage, shorts, derivatives or cross-portfolio transfers.",
     "title": "HOLD / no trade",
     "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+  },
+  {
+    "type": "decision",
+    "at": "2026-11-19T13:34:29.384375+00:00",
+    "id": "stock_20261119_autonom",
+    "portfolio": "stocks",
+    "action": "SELL",
+    "symbol": "SPY",
+    "amount_usd": 130.0,
+    "decision_at_utc": "2026-11-19T13:34:19.083000+00:00",
+    "model": "OpenAI GPT-6 (ChatGPT)",
+    "thesis": "Strategy v1 (2026-11-11), Thursday 2026-11-19 premarket: prospectively SELL $130 notional of the existing SPY paper holding, reducing broad equity exposure materially rather than manufacturing a new BUY. The original stock_20261112_autonom BUY allocated $150 to diversified SPY for a 4–8-week risk-premium thesis with an explicit reconsideration condition: two completed SPY closes below the November 6 $735.29 reference accompanied by deteriorating breadth. That condition now warrants a reduction: completed Yahoo daily SPY closes were $732.44 on November 17 and $730.20 on November 18, both below $735.29. The S&P 500 fell for a fifth straight session November 18, Reuters/AP reported; equal-weight RSP slipped from $215.76 November 17 to $215.43 November 18, while IWM recovered modestly from $269.05 to $270.12, so breadth is weak/mixed rather than uniformly collapsing. Nvidia's strong sales forecast did not sustain the rally and NVDA closed $150.96 November 18; Reuters reported uncertainty around AI spending and leadership and hawkish Fed minutes. There is a genuine bullish countercase: November 19 Reuters premarket reporting indicates a Nasdaq futures jump of about 2.08% on enthusiasm surrounding Anthropic's IPO, while UBS projected S&P 500 growth into 2027. These are time-specific premarket reports, not a completed November 19 SPY bar or proof of recovery. Given the original trigger, five-session market weakness, and the weak breadth evidence, retaining the entire small position from here has a weaker expected risk/reward than taking most risk off; this is a risk-control judgment, not a proven timing signal. Portfolio verified from GitHub: 0.1988448518060152 SPY shares, $849.85 cash, no pending orders; November 18 completed SPY close $730.20 gives position about $145.19 and equity $995.05, against same-date passive SPY benchmark $952.26. The $42.79 benchmark difference primarily reflects 85% cash exposure, not validated predictive skill. A $130 SELL (above $10 minimum) is deliberately below the marked holding value to allow some future-price gap before an insufficient-shares rejection; the engine calculates quantities at a future eligible completed bar open, with 0.05% adverse slippage and 0.10% fee. It may leave a residual SPY stake near $15 at unchanged prices. The portfolio retains most funds in cash; a later full exit or rebuilding SPY exposure requires a ne",
+    "sources": [
+      "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
+      "https://www.reuters.com/business/nasdaq-futures-jump-nvidia-forecast-lifts-ai-trade-ahead-anthropic-pricing-2026-11-18/",
+      "https://apnews.com/article/990749d3d269f7ef05b9f6c089713a58",
+      "https://www.reuters.com/business/ubs-sees-sp-500-8200-by-end-2027-earnings-strength-resilient-economy-2026-11-18/",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/decisions/inbox/stock_20261112_autonom.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json"
+    ],
+    "risk_notes": "Selling after a decline risks whipsaw, especially given reported November 19 AI-led premarket strength and a possible sustained rally. Continued declines, inflation/Fed tightening, AI concentration and geopolitical developments threaten the residual holding. The $130 notional is less than the November 18 ~$145.19 position value, but a sufficiently large overnight gap lower could cause the future engine to reject for insufficient units; no execution or fill is claimed. Estimated one-way costs $0.13 fee plus ~0.05% adverse slippage (~$0.065), and any later repurchase also costs money. The 35% per-asset cap governs BUY; this is a long-only SELL of an existing holding, with no borrowing, derivatives, leverage, real funds, broker activity, crypto account modifications or backdating. Five-session evidence and the breadth interpretation remain provisional; do not treat a defensive action as demonstrated alpha.",
+    "title": "SELL SPY",
+    "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
   }
 ]
