@@ -1,30 +1,16 @@
 {
   "market": {
-    "status": "degraded",
-    "last_success_at": "2026-11-20T04:07:57.897208+00:00",
-    "last_attempt_at": "2026-11-20T10:03:47.152609+00:00",
-    "errors": [
-      "stocks/AAPL: HTTP Error 429: Too Many Requests",
-      "stocks/AMZN: HTTP Error 429: Too Many Requests",
-      "stocks/GOOGL: HTTP Error 429: Too Many Requests",
-      "stocks/IWM: HTTP Error 429: Too Many Requests",
-      "stocks/MSFT: HTTP Error 429: Too Many Requests",
-      "stocks/NVDA: HTTP Error 429: Too Many Requests",
-      "stocks/QQQ: HTTP Error 429: Too Many Requests",
-      "stocks/RSP: HTTP Error 429: Too Many Requests",
-      "stocks/SGOV: HTTP Error 429: Too Many Requests",
-      "stocks/SPY: HTTP Error 429: Too Many Requests",
-      "stocks/TSLA: HTTP Error 429: Too Many Requests",
-      "stocks/XLE: HTTP Error 429: Too Many Requests",
-      "stocks/XLV: HTTP Error 429: Too Many Requests"
-    ]
+    "status": "ok",
+    "last_success_at": "2026-11-20T13:34:51.649520+00:00",
+    "last_attempt_at": "2026-11-20T13:34:51.649520+00:00",
+    "errors": []
   },
   "agent": {
     "connected": false,
     "label": "Scheduled decision files recorded; the engine does not authenticate model identity.",
-    "decision_files_seen": 24,
+    "decision_files_seen": 25,
     "last_decision_at": {
-      "stocks": "2026-11-19T13:34:29.384375+00:00",
+      "stocks": "2026-11-20T13:34:51.649520+00:00",
       "crypto": "2026-11-19T22:29:21.101541+00:00"
     }
   }
