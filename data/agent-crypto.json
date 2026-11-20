@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-20T21:44:15.860645+00:00",
+  "as_of": "2026-11-20T22:35:05.416069+00:00",
   "recent_decisions": [
     {
       "type": "decision",
@@ -297,6 +297,29 @@
         "https://www.reuters.com/legal/government/global-securities-watchdog-urges-immediate-action-quantum-risks-finance-2026-11-19/"
       ],
       "risk_notes": "No holdings or pending orders; $1,000 available cash. Cash avoids immediate BTC drawdown but can underperform a rebound. Reported ETF flows are third-party estimates, not on-chain proof; live quotes differ from completed Coinbase candles. Trend indicators are backward-looking and can whipsaw. Future BUY must be supported spot only, $10-$1,000, maximum 35% per asset at simulated open; modeled 0.15% combined per-fill friction. Collector alone determines prospective acceptance/fills; no real-money or stock actions.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-20T22:35:05.416069+00:00",
+      "id": "crypto_20261120_autonom",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-20T22:34:40.501000+00:00",
+      "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+      "thesis": "Strategy v1 (2026-11-11): HOLD all $1,000 in cash; reassess after the next completed Coinbase UTC daily bar and each subsequent daily run, on a multiweek entry horizon. Verified November 20 GitHub state: cash $1,000, no positions or pending orders, 14 previously processed crypto HOLDs through November 19. Last common completed portfolio/benchmark mark November 19: $1,000 versus $814.979546 for the BTC benchmark established November 5; the $185.02 relative advantage is entirely due to cash exposure during BTC's decline, not evidence of forecast skill. Completed Coinbase November 19 BTC candle closed $61,913.23; its 20-day SMA was $71,940.6065 versus $75,796.5115 five days earlier, with a five-day BTC return of -3.439803%. BTC is about 13.94% below its falling average. ETH $1,755.38, SOL $73.06, ADA $0.15175 and LINK $8.995 also have November 19 completed closing marks, but none has a separately corroborated favorable multiweek thesis after costs. Reuters November 20 reported Bitcoin below $60,000 (snapshot $59,381) amid broader risk-asset weakness; this is an intraday report, NOT the November 20 completed Coinbase bar or an execution reference. The Block November 20 reports $582.2m of November 19 US spot BTC ETF outflows citing SoSoValue, a secondary fund-flow estimate rather than independently verified on-chain data or a predictive causal explanation. The weak completed trend, additional reported intraday weakness and fund outflows do not warrant buying solely because prices have fallen. Observable reconsideration condition: BTC closes back above its 20-day SMA with improving five-day returns and a flattening or rising SMA, or a multi-day stabilization accompanied by independently corroborated stronger spot demand. No strategy revision justified by these observations; a modest 5-15% initial BTC position could then be evaluated rather than automatically bought.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/agent-crypto.json",
+        "https://www.reuters.com/technology/bitcoin-falls-below-60000-level-2026-11-20/"
+      ],
+      "risk_notes": "Cash can underperform a sharp BTC rebound; prolonged inactivity risks missing a recovery. Market and ETF flow narratives are uncertain, and reported intraday November 20 prices are neither completed Coinbase bars nor executable simulated prices. Falling markets can reverse suddenly; no on-chain flows were independently verified. HOLD incurs no simulated fee. Any future supported spot BUY must be $10-$1,000, respect <=35% per-asset exposure and six-position limit, and model 0.10% fill fee plus 0.05% adverse slippage; a subsequent eligible completed UTC bar beginning after collector first-seen time governs fills. No leverage, shorts, derivatives, real funds, exchange orders, stock-account changes or portfolio transfers.",
       "title": "HOLD / no trade",
       "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
     }

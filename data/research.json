@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-20T21:44:15.860645+00:00",
+  "as_of": "2026-11-20T22:35:05.416069+00:00",
   "items": {
     "stocks": [
       {
@@ -28,6 +28,11 @@
         "published": "Tue, 17 Nov 2026 23:09:34 GMT"
       },
       {
+        "title": "Markets News, Nov. 18, 2026: Dow Plunges 560 Points, S&P 500 Extends Losing Streak as Nvidia Stock Falls After Earnings; Nasdaq Snaps Skid - Investopedia",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSVUxeDdRem5Zb0VyQ01uYl9PZTY1dnJTS2I2dmNSdW5nNG1QN0dLUGJyUkh0dGJvcU5XeHFyYlBsdGQ4eG84ckFlT1pHcDhGNS1rWURPVFJSNnd6TWs3TzllbjZvQ01uUjBYaWZVOEhUcWtFNWdWWl8zLWFrWlVLaUNpSV9ZZE5RVHpxcUlxTnRrOHYwdUszM01B?oc=5",
+        "published": "Wed, 18 Nov 2026 22:23:00 GMT"
+      },
+      {
         "title": "Above The Noise: 10 Things Investors Can Be Thankful For - Seeking Alpha",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWmRzZ2lZMC1hQnVyZXlzWDRsYjRUdzNSVC1DdzZqQzlRdkJpV3JGU1A0Z2hHT2NZTlg4eENJUFFHd0RIdHRrbExDZ1k5d3dEc0tLZXVPZ09SM0plVDNNZUswdjAwS284ZGRQRjJHbTJjcnZUamZGWDJBbVNHdXlQeExvU29Lb0VJQ2JBdlRR?oc=5",
         "published": "Fri, 20 Nov 2026 08:39:00 GMT"
@@ -36,23 +41,13 @@
         "title": "Wall Street expects corporate earnings growth to halve next year - Financial Times",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVWtSNUJDdFJoVEZSVHRYNmJ2SVZ2SmNYU2wyQkdfUzNSVXVuaURxWjdPWG1Eb0Jib1Q0a1hubUp6WHluOW5yTE12a1FZZVBLLUUtUGtDWktmaWlQajFUQ2NNdlZlRDA2WEVaY2NjN3ZyZTR2Uk5ETWI1OVp5T1FJQ0F1eUU?oc=5",
         "published": "Wed, 18 Nov 2026 05:00:16 GMT"
-      },
-      {
-        "title": "Market Storylines: Chip Giant Earnings Beat, AI IPO's + Equity Selloff - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR3Q0N1dMclBzY3hOOU9iZkU2clQ1dk9LUzljaFdmazNlMW96Rkw4bGpLNjNsWXBLUVNXQ3lsYm1lUmt1M0R4QjJPQVMwdzBZX0ZEQnN4R0ZvQVZxaFZGLWQ3N1dMcEE3VWNrNm42cV9kcXp6dGlVcjZWU1U0ejhnQzhidGRmSnRxb3g4VQ?oc=5",
-        "published": "Thu, 19 Nov 2026 20:50:16 GMT"
       }
     ],
     "crypto": [
       {
-        "title": "Crypto market crash today: Why are Ethereum, ZEC and altcoins down? - Crypto News",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcXlzVk40X1p3RTNEenFfcHJfbW9IbHJ3aFQzclpYenUweDF0clh1TmM0ZVFBZU5tY1ExSHk1WmFvVjlJaGloS3d1LXBaNHFZR3FRbWl4SU0zNEs0T0lCalVhb05neWFoMklwVk1lZjlpVVcxT3ZtczVKaUxSSmxYRC16eVktRDgwcTJEV0x3?oc=5",
-        "published": "Fri, 20 Nov 2026 06:17:00 GMT"
-      },
-      {
-        "title": "Bitcoin, Ethereum, XRP, and Solana slide as $90 billion exits crypto market - Crypto Briefing",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kNjhoQjJLWklFanpZUmNkVWx2dVdoeUFaYzZVZHZkSnlaR0FUZHZYS0RTZkpXU3FNVlZzWHlTX2Y5ZmN1Znc2UGtwcFh5SktxOXk1Vm9GXy1FNkJxNWpacm5lSWxTM3QwWjlsdkFxbU1oRXhsWDVBTmFIM2ktWjg?oc=5",
-        "published": "Fri, 20 Nov 2026 15:26:45 GMT"
+        "title": "Crypto Market Today, Nov. 20: Bitcoin Plunges Below $60,000 as Wall Street's Sell-Off Spreads to Crypto - The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQ3VYWl9jUU5oTUQweVFUTGszYlNoVDBrWnhRLXJpVDVXc1dZZV83M1djV2pJSXRPXzlQTUVnM0VtYXlhWEFxcmtnT0VleUtxS0xoU2prblZhTHhZS3BxY3B2RElYQjkybTFqZkFHWEktY2g4Vzc4OGlfV3JPNm8tdUJDekNpV0RaVGo2RjVFbnZ2dGdFeXZYbV9LbFQzc3lZVWQ4Z3RmeXloSVY5RXJmeW5GRXFxVWRrcDd6NUl5MGZUenl3YzFxT094azZjX21pc3BBeDRGUEkwREkzcE9faDN0WGJQdndnejZrZVBtd0k3Z1lnNEE?oc=5",
+        "published": "Fri, 20 Nov 2026 21:45:03 GMT"
       },
       {
         "title": "Why Crypto Is Crashing: Bitcoin (BTC) nears new 2026 low as strategists say cash Is king amid Fed fears - CoinDesk",
@@ -60,14 +55,24 @@
         "published": "Fri, 20 Nov 2026 18:13:52 GMT"
       },
       {
+        "title": "ETH Price Prediction: Exchange Inflows and $1,500 Support - Bitcoin Foundation",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPalVranhpaklfTFZCbmk5STJSVTNIZDZiWC1xTDlRS0h3Njg3eTZDVGxzdUFGZEpKbUJfTzdVNWR3WC1lUXdlQWhERXVFRm11UEM3NkhuOWxqOTltNjd1SUFST2NPQjBpZl9oWWw4dUZZR1U0c2ZaNnNSRW81bXNUVWplQ3hLMjkwWFJTMlZLZ3QteGtnWmliRTd4WDZ5aVJQLXV4eA?oc=5",
+        "published": "Fri, 20 Nov 2026 09:37:27 GMT"
+      },
+      {
+        "title": "Bitcoin, Ethereum, XRP, and Solana slide as $90 billion exits crypto market - Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kNjhoQjJLWklFanpZUmNkVWx2dVdoeUFaYzZVZHZkSnlaR0FUZHZYS0RTZkpXU3FNVlZzWHlTX2Y5ZmN1Znc2UGtwcFh5SktxOXk1Vm9GXy1FNkJxNWpacm5lSWxTM3QwWjlsdkFxbU1oRXhsWDVBTmFIM2ktWjg?oc=5",
+        "published": "Fri, 20 Nov 2026 15:26:45 GMT"
+      },
+      {
         "title": "Today's Crypto News: Bitcoin, Ether and Altcoin Insights - Investing News Network",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
         "published": "Wed, 18 Nov 2026 17:05:00 GMT"
       },
       {
-        "title": "ETH Price Prediction: Exchange Inflows and $1,500 Support - Bitcoin Foundation",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPalVranhpaklfTFZCbmk5STJSVTNIZDZiWC1xTDlRS0h3Njg3eTZDVGxzdUFGZEpKbUJfTzdVNWR3WC1lUXdlQWhERXVFRm11UEM3NkhuOWxqOTltNjd1SUFST2NPQjBpZl9oWWw4dUZZR1U0c2ZaNnNSRW81bXNUVWplQ3hLMjkwWFJTMlZLZ3QteGtnWmliRTd4WDZ5aVJQLXV4eA?oc=5",
-        "published": "Fri, 20 Nov 2026 09:37:27 GMT"
+        "title": "Bitcoin Crashes to $59,000 as Ethereum, XRP Dump 8%: What Is Going On? - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU3ItdEN1Nk9XbkU3WVFpZXhUZXFjM0R0cnJVUWIwU0hKSkF2Sy1ZUmJRSHlhalk0WjdCN3NyWjdUWTk2RFBKQjRwbjVlYzJCZnloOXhYeXFLb08xSWh0YW1FVVdPTUstaGJuSUJVMzhFRXhzWW1pd2dSMlFyanBrNTJuYmthRHJ5YVkwdVV2UjlnZlhyTFFaaFFMN29qQmFMMEstaC1Ma0p4S19SNUFzdVZGRlFCQW9tZzhMeEN3amxMOWtH?oc=5",
+        "published": "Fri, 20 Nov 2026 16:43:55 GMT"
       },
       {
         "title": "Tom Lee Says the Anthropic IPO Looks Like SpaceX: What Ethereum Did Back Then - 24/7 Wall St.",
@@ -75,14 +80,9 @@
         "published": "Fri, 20 Nov 2026 18:53:00 GMT"
       },
       {
-        "title": "Top 4 Reasons Why BTC, ETH and XRP Price Are Crashing Today - CoinGape",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQnBRalIwLUtsS3N1Y3JPLXZlS0xoUlBLQnd0YWFFSFRaaEdER2ZJOFRSMkhnVkV5Y3pnb2ZfTDd5c0d2Tng4WnE3cEtHaE9sdDl5Y1pMQzk1a2pjY0l6cFc4RXFKc0pMYXBrNkdRekJZQVdCWEJRZ2EyUzBvWWgzMTZLUTlsVXhJSkR4ZW1Bbkszdw?oc=5",
-        "published": "Fri, 20 Nov 2026 14:10:09 GMT"
-      },
-      {
-        "title": "Bitcoin Crashes to $59,000 as Ethereum, XRP Dump 8%: What Is Going On? - Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU3ItdEN1Nk9XbkU3WVFpZXhUZXFjM0R0cnJVUWIwU0hKSkF2Sy1ZUmJRSHlhalk0WjdCN3NyWjdUWTk2RFBKQjRwbjVlYzJCZnloOXhYeXFLb08xSWh0YW1FVVdPTUstaGJuSUJVMzhFRXhzWW1pd2dSMlFyanBrNTJuYmthRHJ5YVkwdVV2UjlnZlhyTFFaaFFMN29qQmFMMEstaC1Ma0p4S19SNUFzdVZGRlFCQW9tZzhMeEN3amxMOWtH?oc=5",
-        "published": "Fri, 20 Nov 2026 16:43:55 GMT"
+        "title": "Crypto market crash today: Why are Ethereum, ZEC and altcoins down? - Crypto News",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcXlzVk40X1p3RTNEenFfcHJfbW9IbHJ3aFQzclpYenUweDF0clh1TmM0ZVFBZU5tY1ExSHk1WmFvVjlJaGloS3d1LXBaNHFZR3FRbWl4SU0zNEs0T0lCalVhb05neWFoMklwVk1lZjlpVVcxT3ZtczVKaUxSSmxYRC16eVktRDgwcTJEV0x3?oc=5",
+        "published": "Fri, 20 Nov 2026 06:17:00 GMT"
       }
     ]
   }
