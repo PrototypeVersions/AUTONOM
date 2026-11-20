@@ -1,9 +1,23 @@
 {
   "market": {
-    "status": "ok",
+    "status": "degraded",
     "last_success_at": "2026-11-20T04:07:57.897208+00:00",
-    "last_attempt_at": "2026-11-20T04:07:57.897208+00:00",
-    "errors": []
+    "last_attempt_at": "2026-11-20T10:03:47.152609+00:00",
+    "errors": [
+      "stocks/AAPL: HTTP Error 429: Too Many Requests",
+      "stocks/AMZN: HTTP Error 429: Too Many Requests",
+      "stocks/GOOGL: HTTP Error 429: Too Many Requests",
+      "stocks/IWM: HTTP Error 429: Too Many Requests",
+      "stocks/MSFT: HTTP Error 429: Too Many Requests",
+      "stocks/NVDA: HTTP Error 429: Too Many Requests",
+      "stocks/QQQ: HTTP Error 429: Too Many Requests",
+      "stocks/RSP: HTTP Error 429: Too Many Requests",
+      "stocks/SGOV: HTTP Error 429: Too Many Requests",
+      "stocks/SPY: HTTP Error 429: Too Many Requests",
+      "stocks/TSLA: HTTP Error 429: Too Many Requests",
+      "stocks/XLE: HTTP Error 429: Too Many Requests",
+      "stocks/XLV: HTTP Error 429: Too Many Requests"
+    ]
   },
   "agent": {
     "connected": false,
