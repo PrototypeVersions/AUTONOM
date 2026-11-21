@@ -1,0 +1,20 @@
+{
+  "id": "crypto_20261121_autonom",
+  "portfolio": "crypto",
+  "action": "HOLD",
+  "symbol": "",
+  "amount_usd": 0,
+  "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+  "decision_at_utc": "2026-11-21T22:33:21.960Z",
+  "thesis": "Strategy v1; prospective crypto-only HOLD, review next completed UTC daily Coinbase bar and again within 3 days. Repository market refreshed 2026-11-21 09:51 UTC; last completed Coinbase BTC/USD bar is 2026-11-20, close $58,814.99, 17.17% below its $71,010.157 20-day average; average declined from $75,061.8395 five days earlier and five-day BTC return is -9.95%. This is a completed historical bar, not today's executable quote. The 2026-11-20 common-date BTC benchmark is $774.196627 versus $1,000 all-cash portfolio, an advantage entirely attributable to avoiding exposure rather than demonstrated signal skill. Current crypto state shows $1,000 cash, no holdings, no pending orders, 15 processed prior HOLD decisions, and no crypto fills; the same-date inbox file was absent when checked. BTC is preferable to unsupported speculative altcoin exposure on liquidity and benchmark relevance, but current weak completed trend and severe volatility do not justify an initial 5-15% allocation today. ETH ($1,619.29), SOL ($68.72), ADA ($0.14286), and LINK ($8.525) also fell on November 20 completed Coinbase candles; no independently substantiated distinct catalyst supports buying one instead of BTC. Reuters November 21 reports BTC rebounding to roughly $60,192 at 15:16 UTC after a plunge toward $55,252 earlier Saturday; that is a time-stamped intraday observation, not a completed Coinbase bar or a confirmed reversal. The Block November 20 reports $582.2m net US spot BTC ETF outflows on November 19, based on SoSoValue; this is off-chain reported fund-flow data, not independently verified blockchain flow nor a proven forecast. Preserve optionality with zero execution cost; reconsider a modest $50-$150 BTC spot paper buy if subsequent completed UTC closes stabilize for several sessions with improving 5-day return, preferably a recovery above the 20-day average or clear reversal in its decline, and no fresh venue/liquidity shock. The risk of remaining in cash is missing a violent rebound; any entry would be multiweek and subject to observable trend deterioration or renewed market stress as a reason to reconsider. No strategy revision or prior-month review is due (context prior_month null).",
+  "risk_notes": "Rapid post-liquidation rallies can make cash underperform; today's Reuters rebound is not a completed Coinbase daily candle. The November 20 close is stale relative to November 21; no authenticated current Coinbase executable quote or independently verified on-chain signal was used. Macro and ETF-flow narratives are uncertain, and reported ETF outflows are not blockchain transfers. There are no existing positions to exit, and no pending trades to duplicate. HOLD incurs no modeled execution cost. Any later eligible $10-$1,000 BUY must keep per-asset exposure <=35% of equity and account for estimated 0.10% fee plus 0.05% adverse slippage per fill; first-seen collector time and later completed UTC bar govern fills. No real-money, broker, exchange, leverage, short, derivatives, stocks, or cross-portfolio action.",
+  "sources": [
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+    "https://www.reuters.com/business/bitcoin-rises-over-2-more-than-60000-2026-11-21/",
+    "https://www.reuters.com/business/bitcoin-falls-357-56814-2026-11-21/",
+    "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217"
+  ]
+}
