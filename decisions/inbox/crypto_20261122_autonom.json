@@ -1,0 +1,20 @@
+{
+  "id": "crypto_20261122_autonom",
+  "portfolio": "crypto",
+  "action": "HOLD",
+  "symbol": "",
+  "amount_usd": 0,
+  "model": "OpenAI GPT-6 (ChatGPT scheduled research run)",
+  "decision_at_utc": "2026-11-22T22:27:04.116Z",
+  "thesis": "Crypto strategy v1 (2026-11-11). Prospective HOLD of $1,000 cash, reviewed daily after the next completed Coinbase UTC candle, with a multiweek horizon for any eventual BTC starter. Verified default-branch state: $1,000 cash, zero crypto positions, no pending orders, and 16 processed crypto HOLD decisions through November 21; no open thesis to exit and no SELL inventory. The November 22 matching inbox file was absent before this write; no prior-month review is due because context prior_month is null (the November inception month remains partial). At the common November 21 completed mark, cash equity $1,000 versus $790.927254 passive BTC benchmark (baseline November 5 $75,969.06; 0.013163253566649371 BTC). The $209.07 advantage reflects 100% cash exposure during a BTC drawdown, NOT validated timing or predictive skill. Latest published completed Coinbase November 21 BTC/USD candle: open $58,815.33, close $60,086.00; 20-day SMA $70,102.9295, down from $74,262.7035 five days earlier; five-day return -7.298711%, BTC 14.29% below declining SMA. This is a completed historical UTC bar, NOT a November 22 live quote or fill price. Reuters on November 21 reported a violent intraday rebound toward $59,952-$60,192 after a plunge near $55,251.60, with broad risk-asset stress and borrowing-cost worries. This is time-specific market reporting, not independent evidence that the falling 20-day trend reversed. November 21 completed ETH $1,682.30, SOL $70.16, ADA $0.14416 and LINK $8.594 also rose from opens, but no separately corroborated coin-specific, net-of-cost multiweek catalyst favors them over liquid benchmark BTC; no thesis for LTC/BCH/AVAX/DOGE was substantiated. BTC offers broad exposure and a possible sharp rebound, and a modest 5-15% starter does not require a proven predictive edge, but a single positive completed candle while the 20-day average falls sharply does not justify new exposure over optional cash today. Observable change condition: several completed Coinbase BTC closes stabilize with improving five-day returns and a flattening SMA, preferably a recovery above its 20-day average, or independently corroborated material improvement in spot demand/liquidity without renewed venue shock. Then consider a $50-$150 initial spot BTC BUY rather than automatically buying. Reassess at the next completed UTC bar. No strategy revision warranted.",
+  "risk_notes": "The major risk of remaining 100% cash is missing a fast BTC recovery and underperforming the benchmark. The November 21 completed candle and Reuters intraday observations are distinct, and none are executable November 22 quotes. Macro and fund-flow causal narratives are uncertain. HOLD incurs no modeled fees or slippage. A future $100 BTC starter would be 10% of current $1,000 equity, above $10 minimum and below 35% per-asset cap; modeled 0.10% fee plus 0.05% adverse slippage imply about $0.15 one-way friction on $100, plus later exit costs. Six-position maximum; no positions or pending orders. Only the collector's first-seen time and a later completed UTC candle can establish a simulated fill. Paper-only, no real money, leverage, shorting, derivatives, exchange orders, stock-account changes or cross-portfolio transfers.",
+  "sources": [
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+    "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/agent-crypto.json",
+    "https://www.reuters.com/business/bitcoin-falls-357-56814-2026-11-21/",
+    "https://www.reuters.com/business/bitcoin-rises-over-2-more-than-60000-2026-11-21/"
+  ]
+}
