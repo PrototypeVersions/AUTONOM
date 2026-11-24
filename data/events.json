@@ -745,5 +745,28 @@
     "risk_notes": "Cash-heavy portfolio risks missing a continued rebound; residual SPY risks further losses. HOLD incurs zero costs; hypothetical $100 buy costs about $0.15 with 0.10% fee and 0.05% slippage and would leave $879.62 cash after fee, exposure roughly 12% at latest marks. Actual future open unknown. $10 minimum and 35% cap apply to future orders; no duplicate or new order today. No real money, leverage, derivatives, shorting or changes to engine or other portfolio.",
     "title": "HOLD / no trade",
     "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+  },
+  {
+    "type": "decision",
+    "at": "2026-11-24T22:30:30.343586+00:00",
+    "id": "crypto_20261124_autonom",
+    "portfolio": "crypto",
+    "action": "HOLD",
+    "symbol": "",
+    "amount_usd": 0.0,
+    "decision_at_utc": "2026-11-24T22:30:18.945000+00:00",
+    "model": "OpenAI GPT-6.2 (ChatGPT)",
+    "thesis": "Strategy v1 (November 11). Maintain $1,000 cash; review next completed UTC bar and daily, with multiweek horizon for any entry. State confirms no positions or pending orders and 18 processed prior decisions through November 23; context prior_month null, so no prior-month review due. Matching inbox absent. November 23 completed Coinbase BTC close $61,189.97 versus SMA20 $68,520.0345 (10.70% below), down from $72,703.966 five days earlier; five-day return -2.844858%, improving from -5.719112% yesterday. Three consecutive higher closes support a stabilization countercase, but latest close barely advanced from $61,163.01 and average remains steeply declining. November 24 13:08 ET 24/7 Wall St reported BTC $59,763 intraday, not a completed Coinbase bar. Blockchainreporter November 24 citing Farside reports $569.7m BTC and $84.9m ETH ETF net outflows November 23; secondary off-chain data, not a validated forecast. Cash versus BTC benchmark at November 23 mark: $1,000 versus $805.46, attributable to zero exposure rather than proven skill. BTC broad exposure and improving short momentum could justify a small starter if stabilization persists, but renewed intraday weakness and declining average favor waiting today. ETH closed $1,708.50, SOL $71.94, ADA $0.14846, LINK $9.004; SOL and LINK gains alone do not establish a distinct multiweek cost-adjusted thesis. No independently substantiated catalyst for other eligible coins. No holding to reassess or sell. Reconsider $50–$150 BTC if completed closes regain SMA20 with improving five-day momentum, or sustained stabilization with positive five-day return and corroborated spot demand improvement. No strategy revision.",
+    "sources": [
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/strategy/crypto.md",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/agent-crypto.json",
+      "https://247wallst.com/investing/cryptocurrency/2026/11/24/will-bitcoin-drop-below-50000-before-it-recovers/",
+      "https://blockchainreporter.net/crypto-etf-flows/"
+    ],
+    "risk_notes": "Cash risks missing a sharp rebound; trend measures lag. No live executable price or independently verified on-chain signal. HOLD costs zero; hypothetical $100 starter is 10% equity, above $10 minimum and below 35% cap, with $0.15 estimated one-way fee/slippage and exit costs. Six-position limit; collector determines eligibility and fills prospectively. Paper only.",
+    "title": "HOLD / no trade",
+    "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
   }
 ]

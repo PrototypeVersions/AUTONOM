@@ -53,7 +53,8 @@
         "crypto_20261120_autonom",
         "crypto_20261121_autonom",
         "crypto_20261122_autonom",
-        "crypto_20261123_autonom"
+        "crypto_20261123_autonom",
+        "crypto_20261124_autonom"
       ],
       "benchmark": {
         "symbol": "BTC",

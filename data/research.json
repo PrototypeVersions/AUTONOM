@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-24T21:11:58.447918+00:00",
+  "as_of": "2026-11-24T22:30:30.343586+00:00",
   "items": {
     "stocks": [
       {
@@ -28,14 +28,14 @@
         "published": "Wed, 15 Jul 2026 07:00:00 GMT"
       },
       {
-        "title": "Why the stock market and economy may seem out of sync - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vcWg0QXpqWk91X05BclFWbHdfOXotd2YzRlBpS0lSeFN4ZGJwSDhvRE5uWkliU095bnYyMy11cEktM3U1SGZXd24wdlRoajBrTDVOR01wUGNDMElqbFVheEJjUko2MTk5Vlpad3hYQWVzRk90QkRuSUpUOFZUQdIBgwFBVV95cUxOU0NUczI0QXNNbXlrWTlINlBJTkVGZHFtQi1tS05ocmVsWlVzcWFNRjhic01aVWxSdWRCRU1ISTU0WnVrX1E4RGRZWG0tWHcxa3BqSnhLSXNhSzlNb2k1Z3g1V3Y4SkRoUUVmMUsyTTNZTmZIVWpHYzJsM3FYVUpGaWtzVQ?oc=5",
-        "published": "Fri, 10 Jul 2026 07:00:00 GMT"
-      },
-      {
         "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0lZbXhSZjlKZXRPOHVOUjcxUmctdlM2ZDc4V1FLTG1uNzlJNV9QMnpBYXZPSGt3QXlJSWs3d1hrb3BZWVI0ZEpnekhBX3NSWGxYd1ljdm5EcmdkMldET19ITWJPcC1zQ3lFLVhHT2hPeGU2VmlYYlVFd2FNT0xpNlFxdnNtRzNXamxB?oc=5",
         "published": "Fri, 30 Oct 2026 07:00:00 GMT"
+      },
+      {
+        "title": "The bond market is signaling trouble ahead. This is why you should pay attention - NPR",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYVU5NU1oMWNLU0YtVDgtUU41QjBOYjdISkZvSnlFU0dZVGdmZXJXT25DWXlXMHdGMVpIUldKZld0TXVzS1dyS2RibV9yTjdfWEFVZHpJaWxOdmxfOFBRS01BWVRucnBVeVEtaDBjWTN4Qm9ZR095M0t3cWdPTC1mMS00Y2FVN0VXOU9v?oc=5",
+        "published": "Thu, 20 Aug 2026 07:00:00 GMT"
       },
       {
         "title": "Q4 2026 investment outlook: Strong earnings meet higher rates, midterms and energy risk - U.S. Bank",
@@ -45,9 +45,9 @@
     ],
     "crypto": [
       {
-        "title": "XRP, Ethereum or Solana: Which Is Closest to a Rebound Right Now? - 24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWE1ZbTkzbW15MEl0bXYxNW42aTNST293UHlSQ3dJRFpTUXFCTzRvOHUtcnR0UDFpenlPT2ExOG0weHBEeUpyaGhzQ3BrcFhJVE0xbUY3eFFRMmo2X3BLdlA0OU1vVFZtYW9ROGFTRGFIQm5OYkQ5UlRBRG9nb19jeWhTN1RrNTNmbmt2WTRYUVpNbVU5NWlmV0pFRjBJNndFUUVfRUlfcERUUEJZSVJTRWtUOGhjaHhKUzJQMTFn?oc=5",
-        "published": "Tue, 24 Nov 2026 20:33:00 GMT"
+        "title": "Tom Lee Says Ethereum Is as Scarce as Bitcoin: Do the Supply Numbers Agree? - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSEpESWN4SE44cmRfQ0YzbFJQdFhtYW5IdzlLc2xSbGpVTkN3MXVHRDlTYW9xNVl1WWZLc09BNkdwUGZxT3FicW9Yb0p4RmZZbnVNTE5ObGx3OGFJMW41M3h4emJ4SnFrS0hyN0x5N3FsdnVCWmozMmo5bmNUekhoNjhQNEZnUzRhaXpURkFrYlNBZ1Y5aDlKaTg2eGxsTlFVOUZhcmpDR0ljNkRQV1NqYVI5YjR5enFQc1NqbEs2MWJIU2o4WUtqTXE4Vi0?oc=5",
+        "published": "Tue, 24 Nov 2026 22:13:00 GMT"
       },
       {
         "title": "Bitcoin, Ethereum, XRP, Dogecoin Gain Amid Crypto’s Relief Rally on Jensen Huang’s Return: Analyst Says B - Benzinga",
@@ -70,14 +70,14 @@
         "published": "Sat, 21 Nov 2026 04:29:00 GMT"
       },
       {
-        "title": "Crypto Market Today, Nov. 23: Bitcoin Sits Out Wall Street's Historic Rally as $1.8 Billion ETF Exodus Weighs on Prices - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNUdIeEQtY2JONVdUT2ZPM2Jlb0JTR0plOTRXZmIwT0c2RG5UUERWczUzM2czRUpIbWhvbXpEUGVFLUFZUjFDZTZIUWhJV0MtUWFUYkRhZ0gwQlBrZ0ZHSW9xWUpzVXZiOF9aNFVONFV5Q2RObVZHdkRKMHBFQmRBTW9XMXFtbmRBOTJrQ0JFNFdKSVlhU3c?oc=5",
-        "published": "Mon, 23 Nov 2026 22:15:02 GMT"
-      },
-      {
         "title": "BTC, ETH, XRP Price Prediction as Arthur Hayes Warns Nvidia's Rally is Bearish For Crypto Market - CoinGape",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUpEZ29tUC1ma1NqWnFraS05RW15T2Q2VjJwQ00zM2lES3l2NTQyb1JRbDVlQzlFUGx4NnVlUnpHTUU5R3Zsd3ZZLUV5QkxHWHBNTVRfQ3RBb3JmNkVhb0I0Q01Jb0xsb1hnS09BZHk2QnotTDVvSE5NTmpWajdEZVZrbF9UVFFPdUJ1aFQ4MUJNcEtHRmpmd0IwUXV4ZlRoUzkyXzYxWXhpM2xVeUR2MjNJalpjNmFpZmkxWDVjLVg?oc=5",
         "published": "Tue, 24 Nov 2026 09:15:08 GMT"
+      },
+      {
+        "title": "Crypto Market Today, Nov. 23: Bitcoin Sits Out Wall Street's Historic Rally as $1.8 Billion ETF Exodus Weighs on Prices - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNUdIeEQtY2JONVdUT2ZPM2Jlb0JTR0plOTRXZmIwT0c2RG5UUERWczUzM2czRUpIbWhvbXpEUGVFLUFZUjFDZTZIUWhJV0MtUWFUYkRhZ0gwQlBrZ0ZHSW9xWUpzVXZiOF9aNFVONFV5Q2RObVZHdkRKMHBFQmRBTW9XMXFtbmRBOTJrQ0JFNFdKSVlhU3c?oc=5",
+        "published": "Mon, 23 Nov 2026 22:15:02 GMT"
       },
       {
         "title": "Whale Who Made $20.5 Million from Bitcoin and Ethereum Reveals Expectations - Kriptofoni",
