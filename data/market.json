@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-23T22:39:38.017874+00:00",
+  "as_of": "2026-11-24T00:28:45.675463+00:00",
   "prices": {
     "stocks": {
       "AAPL": {
@@ -96,44 +96,44 @@
     },
     "crypto": {
       "ADA": {
-        "date": "2026-11-22",
-        "open": 0.14414,
-        "close": 0.14458,
+        "date": "2026-11-23",
+        "open": 0.14469,
+        "close": 0.14846,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-22T00:00:00+00:00"
+        "bar_start_utc": "2026-11-23T00:00:00+00:00"
       },
       "BTC": {
-        "date": "2026-11-22",
-        "open": 60086.0,
-        "close": 61163.01,
+        "date": "2026-11-23",
+        "open": 61163.01,
+        "close": 61189.97,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-22T00:00:00+00:00",
+        "bar_start_utc": "2026-11-23T00:00:00+00:00",
         "trend": {
-          "sma_20": 69327.3735,
-          "sma_20_five_days_earlier": 73443.897,
-          "return_5d": -0.05719112
+          "sma_20": 68520.0345,
+          "sma_20_five_days_earlier": 72703.966,
+          "return_5d": -0.02844858
         }
       },
       "ETH": {
-        "date": "2026-11-22",
-        "open": 1682.33,
-        "close": 1721.29,
+        "date": "2026-11-23",
+        "open": 1721.8,
+        "close": 1708.5,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-22T00:00:00+00:00"
+        "bar_start_utc": "2026-11-23T00:00:00+00:00"
       },
       "LINK": {
-        "date": "2026-11-22",
-        "open": 8.588,
-        "close": 8.811,
+        "date": "2026-11-23",
+        "open": 8.808,
+        "close": 9.004,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-22T00:00:00+00:00"
+        "bar_start_utc": "2026-11-23T00:00:00+00:00"
       },
       "SOL": {
-        "date": "2026-11-22",
-        "open": 70.16,
-        "close": 70.61,
+        "date": "2026-11-23",
+        "open": 70.62,
+        "close": 71.94,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-22T00:00:00+00:00"
+        "bar_start_utc": "2026-11-23T00:00:00+00:00"
       }
     }
   }
