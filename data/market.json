@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-11-24T01:32:05.434208+00:00",
+  "as_of": "2026-11-24T06:16:41.088813+00:00",
   "prices": {
     "stocks": {
       "AAPL": {
         "date": "2026-11-23",
-        "open": 347.77999878,
+        "open": 347.86999512,
         "close": 349.07998657,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-23T14:30:00+00:00"
@@ -18,14 +18,14 @@
       },
       "GOOGL": {
         "date": "2026-11-23",
-        "open": 284.26501465,
+        "open": 284.27999878,
         "close": 282.1000061,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-23T14:30:00+00:00"
       },
       "MSFT": {
         "date": "2026-11-23",
-        "open": 506.05499268,
+        "open": 506.05999756,
         "close": 492.5,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-23T14:30:00+00:00"
@@ -53,14 +53,14 @@
       },
       "TSLA": {
         "date": "2026-11-23",
-        "open": 374.83999634,
+        "open": 374.73999023,
         "close": 385.45999146,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-23T14:30:00+00:00"
       },
       "IWM": {
         "date": "2026-11-23",
-        "open": 266.03500366,
+        "open": 266.04000854,
         "close": 265.73999023,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-23T14:30:00+00:00"
