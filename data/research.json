@@ -1,7 +1,17 @@
 {
-  "as_of": "2026-11-25T20:28:38.432187+00:00",
+  "as_of": "2026-11-25T22:03:35.837212+00:00",
   "items": {
     "stocks": [
+      {
+        "title": "2027 economic and market outlook - Fidelity Investments",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNazk1SWlkR0kxVUJrdThCMmhUVi12eXJ4ZS1haHNtbmdMelRQN3RwQkd4RlRlaVhxOEhjcUtYMVdMZU5KeEFiMFlPVVVCaUtJdVlXS2N2NGVMSEFxSml5djNGbnlXQVMwVnBZV3lDMmRuZDcyVUxRQ1F2VkVHZGFGX18xNDI3clQ2N011ZjlaOEs?oc=5",
+        "published": "Wed, 25 Nov 2026 15:33:47 GMT"
+      },
+      {
+        "title": "Weekly market commentary - BlackRock",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+        "published": "Mon, 23 Nov 2026 08:00:00 GMT"
+      },
       {
         "title": "US Stocks Are Predicted to Extend Their Historic Rally as Gains Moderate - Goldman Sachs",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOXJSam1KZ1d3Z2dsQlhYa19WRE9PWURGWEg4TDhsUXc4dmRmYzRPUTd1ZXZ6ZFA4dWVpMWxqSnBIOGZuRjVmOGY0VVk5a0xjVkgyVkRwWUtxbkdLRWhMTksxNW40VUp5aHdmNVlDN0hUWEFrQnJrRXZNSHVLazAzQTlmT0JqTmIzTndlNXhUYXJSSzFKZHZKQUFtU1FsNDBqYWZqMzQzVHEwUTNuOWc?oc=5",
@@ -28,16 +38,6 @@
         "published": "Fri, 24 Apr 2026 07:00:00 GMT"
       },
       {
-        "title": "New stock market stories from Q2 2026 earnings - BlackRock",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWjhOV0ZubDltMl94dWl1bWtLM0IyNUp6T1pmbmd0UTdZMERpeHpXcnRDUGpEWDgyQVpDaDBrTzZGaFhQNzRMM05tWEdCdEt6VXhLOFA2UlBaZHd5d1RWT1hqZlFKcTgtU1RVNWNueUZLNHNZbVZOTE5ETFJBTG81VE1kUU9VdDFFRjd1WDlLY1ZGUHF1?oc=5",
-        "published": "Thu, 20 Aug 2026 07:00:00 GMT"
-      },
-      {
-        "title": "Can the stock market keep reaching all-time highs? - Fidelity Investments",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlpranFPY1JBZXBZaVIzVWJYYkR1Mzh5aE5LZTczQU5reENqYmZSaUxUTGxJVTNrYlM0cFBQUTMtU1VDUkcya2lGWEZOMjhhbXA0MmJQOVVPcEFELVN3djlweEk4RmdaY3pLTGdFZnR2aWZjeUE0el9vTkZoUGJrZ3JUS3M4QzNSdG5LQWNoVmZUSlhfcndCbVFPdTFsY3VOOXJTQkZ1OUUwYmVz?oc=5",
-        "published": "Wed, 15 Jul 2026 07:00:00 GMT"
-      },
-      {
         "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0lZbXhSZjlKZXRPOHVOUjcxUmctdlM2ZDc4V1FLTG1uNzlJNV9QMnpBYXZPSGt3QXlJSWs3d1hrb3BZWVI0ZEpnekhBX3NSWGxYd1ljdm5EcmdkMldET19ITWJPcC1zQ3lFLVhHT2hPeGU2VmlYYlVFd2FNT0xpNlFxdnNtRzNXamxB?oc=5",
         "published": "Fri, 30 Oct 2026 07:00:00 GMT"
@@ -45,19 +45,34 @@
     ],
     "crypto": [
       {
-        "title": "Bitcoin, Ethereum, XRP, Dogecoin Gain Amid Crypto’s Relief Rally on Jensen Huang’s Return: Analyst Says B - Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTFpXUGJkTmNIenphb1BFdUJYY1hjbE0tOFp2WU9HWldra0Z3MWpObkxGc1dGbS0xUlRMZHdGUkhxMEVRR1lpMjJQYloxODV2RnEyN3MzX2Eycnl4bmc5LWgyd1BDcFg5Q0tnLXFobUwxTWFqblJXa011Zlpuc1NQY2liSDB1dElhakticVNyQUE0WE12YkNFVlJSTHgxeWV0UkRRRUlUUUd1NC1Xd0s0bGN3?oc=5",
-        "published": "Tue, 24 Nov 2026 01:50:48 GMT"
+        "title": "Bitcoin , Ethereum and XRP Price Crash Ahead – Analyst Warns - Coinpedia",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMmZsZkxBRjhNZG8zVGhaTFRsUEZLM2J4Nlk4NEc5OVdDRmF0QVVOcWZFZ3J5NXZKdnFzQk0yVnBsanRTZl9uX2ZqT2E5TEV4WUdENlYzR1JJWmZNcXR4Nkt5alNvVm5SMGprSTZPLW9YbjVwaXJMRnBLN1lDM3RfNVR4UC1sRDBOVWN5b3RtRTdvZU9NSTI5R01zWi1ta0w1dnfSAacBQVVfeXFMT1pUaGcxdWZYQ1NoUzlwaUNpQUtHbmxBYmF1WEQ2NXVGbnVzRjFScFU4SDA3dnNLZXJZRDlzbkNCazBPWlgyTGtQTG0tNWRpbDFZQzkzYjN4b0VaRVEtSFo0WDBXbEtobUpZMXhTOHc0Nk9GdmROU3VhbFVXMW03R3JyUXlHc3RpS0hKSXQ5OFlJbGVZOGpGSW9TUGhvRjgzRG9RZ0hiblU?oc=5",
+        "published": "Wed, 25 Nov 2026 15:09:45 GMT"
       },
       {
-        "title": "Bitcoin tumbles as Binance hack rattles crypto markets - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbi1kcVNYWHc2TXJmY2R5ajNFdy0zaUxQZFVZeTEtdmo4Vk1XbGJzM2p2cUdvSU8yS05zdDNaRmR3Z0R6MXpsUGplZVpjcFdVMHJscUZpRFZVdGFMQXdQQzV6NE16QUg0aTBfSU1mUFFCc2IwcGlMMWliV2hqbW5JOUlOSjkzSXVmMFBHbEJwUThkbHkyWnFXd29BeWFtQl9SaGRJWdIBqgFBVV95cUxNR3lRVHNvRWxOY21XeW9NZnFCb2JxRlpSbUxaRXM5NldrMWdIVmJCejhWZ0NZZ21VMWR0d0ZMQUNZTlM5Y3lKZjBKeDJYTkhpaVl5NE5ZZ2hSalhSU0JFemlFdmF5aTZIUjZfUkUySUVEUHhTRkxNZGJCQXk3Rml2S1gyUWw3TmVQR3l1Z2hBQUNTU09Pa1hWcEtWVXhxYTYxa01xSjZxQ3NhZw?oc=5",
-        "published": "Thu, 29 Oct 2026 07:00:00 GMT"
+        "title": "Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF - The Block",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdDZFNzVlelZVcGlidlNmZkk0eDJRc0VnQ3dHSEVqd1dab2hUYjJid0xVVTZsV094bm9JMkpjZ0ktemtrQS1IaW0ycFA3QUlMZjViNnFRN0tWd05fZ3ktNDQyU2RTd0NFUTRZUFRpTkJBUWlwTF9rR2toaFRtcm9NNThpelF0U21NeHBSYkVIdS1VOTFkVUlYR1QwODgyNVRJVHI2UFYzSQ?oc=5",
+        "published": "Wed, 25 Nov 2026 16:54:00 GMT"
       },
       {
-        "title": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets - CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbExNNHo3V1MzX2dKUHhjWTFpN1FHbjZ2Tmo2SFRDQVhHN2FwZ2M4Mm5udUdUcmNRNktMdjU1X0VrZVUxRkpnNTJwNW4zaGdWdVUxbDVTdTZNTTR5dklWLXFRdlJwM3R4bHpUMnZZWjI0UGZ2eHdldTlEb1lzN3VQZG5mV1B6TFJkZG1DY3padmJXanRJRWgwcnhma3drNU5DUjg1Y0VMREZtZjZ2bi1iTHd1TG13LW1QTzQ2VzNYODA?oc=5",
-        "published": "Fri, 30 Oct 2026 07:00:00 GMT"
+        "title": "Crypto Market Today: $30 Billion Returns as Bitcoin, Ethereum and XRP Rally - CryptoRank",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON1lmcXlFUXQxYVluU3oxaXR0RnY5Z3hWN05PMUpsRmNtVzRxSzlNUl82RHhsWnhjZ0JGTllPWWVZOEwtQ2Nmc0NLdUJKZFlOdXg2a0pDd2N0cXpQalF5dnc2b2d4NkgxQzF5RHhmckZWU0VTaWRjN2RuYnZsM0t0YUpVMzJOQWo2ckZWYWJPamR2X3pXR2hlQmxpX2RaRGozU3dvWGw0blNyclNMNTc4?oc=5",
+        "published": "Wed, 25 Nov 2026 15:25:38 GMT"
+      },
+      {
+        "title": "Crypto Today: Recovery hopes fade for Bitcoin, Ethereum and XRP - www.tmgm.com",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWUhJeFI4MkpDdUQwMHlqdnBjMUtFc0JuZUNSYUJfYVRuVkhtVm5ZUks2NnhMUVR3bGVJN1VRYjRJUDZPdG5RMFRlUl9CWnhYUWNYX0xCVDlsSk5Tb21ka3hHNDRJakJsWTVGcDg0WF9FbWdzN0hMOWM4ZEpkeHlGMU5Pc2FKQW1RTmdzbjdXQXJTalZhbXVGaUdQMHJkc1VXRUtDcXpzOFBweDFXNnE1T0l2UnQ3OTdocmRVSzRINnYyem5RZURuVlV0Nmh4eHFRal9F?oc=5",
+        "published": "Wed, 25 Nov 2026 11:45:43 GMT"
+      },
+      {
+        "title": "Bitcoin Drops to $58,000, Ethereum, XRP Slide Down 4% as ANT Loses IPO Price Floor - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN3V0cVJRWWQwTXg4N1Z2M2tEYzVkdGpwMWJsZDN1UjdmZExKbHA0YkZOcWpHalF5LUdjeXNNamQ4T1RrdGFSY2pMYlVyRlhXRDBYTTVWT3ZkTVo5blIzS2lGN25sM1VVeFlJdUVPMlAwZ1FFMFNjVXpIR2hKcndTUXpJWjZiZ3ZMbjQwa2twbnRXYXFiNWtmeXpuWWZ6elpFRDNQS3luVUNXMHJCRWNQNElzV3p5dzByVEdrYjlUMWpnOTFPR1RzUFd4THUzc0diTW94OWhB?oc=5",
+        "published": "Wed, 25 Nov 2026 14:39:45 GMT"
+      },
+      {
+        "title": "Peter Brandt Says Ethereum Could Fall Below $500: What Level Would Trigger It? - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaUlDNkU0Q0pjX3l0YmlNaGhqUG9tc3R3SmJCQllkMktsRGpoTW1sc1p2VEhNYTg4TEY5cF9SamlmSEJLZVd3QlhsV3hucGYxY2llaDMzdnRyM2hESE5wajMyTHV6bUs5eVRPT0F4TGVWSUlxRWdMVk5Ma0daWXFjUE9mMVMteGNBRC00ZGJLbFEtVjNmcklqVnZfdmRHV3B3ajhyWlJIbDFmdFpXakxMd2YxQXFUd1poVkNKSm9CTDZheTdtc2llOW5SY3J2SW8?oc=5",
+        "published": "Wed, 25 Nov 2026 15:01:00 GMT"
       },
       {
         "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP extend losses as oversold crypto market eyes yearly lows - FXStreet",
@@ -65,24 +80,9 @@
         "published": "Wed, 25 Nov 2026 03:56:43 GMT"
       },
       {
-        "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP remain vulnerable as bears drive prices toward yearly lows - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWUFldDVIcjR5bEUyaEI5MHU4eG10cE5idmFZdXpud08wTzhLVW51aTZRT2ZEOG1hcGI4dXVYRHlmWUpTa3JxbnZ6enBFRjR2LUJLTGdISm1HWVluWHJhcFMtcTBfRUQyaG1fbGpnX0pqMFhSNGVocllwYTlRUGRhZDRmNGFtMXU0ejd4cHBwLUlZNkM3cm5uRU1UbGg1aG9GM1RYRWpDNVRJZ3RzWFpHaFpyNllrSUZ0VlpQdHNld3NWcFpJOVNVcXlCY0kxM0dvRjFSSUQ1Vm1vR20zN29Tb1l1TENXd1I5WEJsWmE5UEFqaDVRODZiWGU3MmVZdWVzTngxZkYteGE3R1VPOFE?oc=5",
-        "published": "Mon, 23 Nov 2026 03:52:44 GMT"
-      },
-      {
-        "title": "Crypto Market Bloodbath: Bitcoin, Ethereum and XRP Crash Up to 10% as Bear Market Fears Grow - Coinpedia",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTlRQRnZMY3VFb1NzWnF1T2o3OGlYMFZBREZFTEc0Ui1lRGZieFRmZWpWakU2UlIwVTY3c015NUlLWWh5N1AzRTJHRlFUdmNMVmV3cDYzWjB0dW1TRzUyOXN1SEIzWWdydTc0WGhIeDdwVzdkdkpfV21IN1JRdGZlaW1JV0ZaVmt2QVFvM2lJY2JvYm1yY0xfdWo2cXd3ZVdlLWhmUU9qZzQtSXFOa0xpZFJucnIxOGNX0gG-AUFVX3lxTFBUZEk2eGFrN0lCRFptSjFVLXlfSUNkMUdwUGhORE5PTkZCTUg5dXNsMDY3TE9RTWxKdEFDbDlPMlJrSV9OQUdsQnUzdnJjUHk0SjE5bjB6VG13ZkUwM2hpajUtTXVyVHZBWVMwY2dma0xPaVFwMlZPMkFfSUl4UWtnYlp4aXJLNWR2X2dxOWgzaHdXeDVRTkhnZEFDb1N3bVl0eVIwVGhGbGRXSS1oLTEyNmVwR2FjRjY4TlZjZ2c?oc=5",
-        "published": "Sat, 21 Nov 2026 04:29:00 GMT"
-      },
-      {
-        "title": "BTC price falls to $76,400 Binance hack triggers $1.57 billion in liquidations: Crypto Markets Today - CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbEN1NWhVMklUbC1VSVgxclhhS1AzS2JnOERtMldpODVlRmZRdGktN19ucnF2YTNlNm1HY0hoVUpiejBYNEtBT0xuZlV0U0FISDZ1YXVUWXlaMElaR3MtdWMwYXpKdS0yLVBFdTMtQnRpak55WmhVMjdJa1dnZXcxRHFWeWVnVUxDTXhadllTZ3h4b28zTlIzOVZiZUhEdWJPSE1RQnc3OVNPOUJKYV91emxqVHY2bUk1TUxrckJwVEx4aTJMQ25vVA?oc=5",
-        "published": "Fri, 30 Oct 2026 07:00:00 GMT"
-      },
-      {
-        "title": "Ethereum researcher's AI security warning stirs debate as bitcoin extends slide: Crypto Markets Today - CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMXVrdFBKWkdpMS15S0gxbGRRem8tQnA3QV9xTHpwa2QyNVcwSTdtdzdsOE5pWEp3R1JiREhqZEZnc2FNeUNSOFh1VE52NUFDODhkeVRSUUVreUtjeFUzVllTVExFbTNYcHM4dXR2T000TDVwYVpkdF9WMk9DNWY5RGpRZG9DV0ktWHk3bExmR21GNGNVbTFRd0FqZTR5Y0djOHVHTW01dTdGQlp4Y0hUYk9kSEgtQjFmVXBuTmQyWWc4NE1FSGQxa2t3?oc=5",
-        "published": "Thu, 08 Oct 2026 07:00:00 GMT"
+        "title": "Crypto Majors Slide as BTC, ETH, XRP Test Support - TradingPedia",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcWE0Wlg5MmFNXzZ1X29pWVJZS0pOVFpBVEkyLUZWRnA2eDM1TEZua2pPTk5DRDV0c0ZLMkhzdms3cFctOWpqSEk3Q2NvWmM1Mi1lWHBkS29jcEpUN01pWkU1RlhOSWVRUzNBT3hhd3d1WUJvSV8ySGFBMl9IS3Frdi1Hd1hKT3UxMU5PTklha2VVZw?oc=5",
+        "published": "Wed, 25 Nov 2026 07:46:34 GMT"
       }
     ]
   }
