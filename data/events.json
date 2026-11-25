@@ -768,5 +768,28 @@
     "risk_notes": "Cash risks missing a sharp rebound; trend measures lag. No live executable price or independently verified on-chain signal. HOLD costs zero; hypothetical $100 starter is 10% equity, above $10 minimum and below 35% cap, with $0.15 estimated one-way fee/slippage and exit costs. Six-position limit; collector determines eligibility and fills prospectively. Paper only.",
     "title": "HOLD / no trade",
     "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+  },
+  {
+    "type": "decision",
+    "at": "2026-11-25T22:30:58.997422+00:00",
+    "id": "crypto_20261125_autonom",
+    "portfolio": "crypto",
+    "action": "HOLD",
+    "symbol": "",
+    "amount_usd": 0.0,
+    "decision_at_utc": "2026-11-25T22:30:49.392000+00:00",
+    "model": "OpenAI GPT-6.2",
+    "thesis": "Strategy v1 (2026-11-11). Keep $1,000 cash; review after next completed UTC candle, multiweek allocation horizon. Collector as of Nov 25 22:03 UTC: Nov 24 completed Coinbase BTC/USD close $59,740.87, open $61,189.45; SMA20 $67,279.0895 versus $71,734.034 five days earlier; close 11.20% below declining average, five-day return -3.508717%, worse than prior -2.84%. Nov 25 Barron's reports BTC around $58,413 after $57,619 low and renewed inflation/rate concerns; these are intraday reports, not completed bars. Straits Times reports monthly BTC ETF withdrawals approaching $5bn; FXNews reports Nov 24 withdrawals slowed to $231.4m from $569.7m, a counterpoint but still negative demand proxy, not causal proof. A 5–15% BTC starter could capture a rebound, but renewed completed weakness and declining average favor cash today. ETH $1,677.59, SOL $69.57, ADA $0.14438 and LINK $8.842 all closed below their Nov 24 opens; no corroborated independent thesis for these or other eligible coins sufficient to prefer them over BTC or cash net of costs. No holdings to reassess or sell. Reconsider $50–150 BTC exposure if completed five-day return turns positive with several stabilizing closes and corroborated demand improvement, or close regains SMA20 with improving momentum. No strategy revision; prior_month null, no monthly review due.",
+    "sources": [
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+      "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/agent-crypto.json",
+      "https://www.barrons.com/articles/bitcoin-prices-inflation-interest-rates-c64dd624",
+      "https://www.straitstimes.com/business/bitcoin-funds-head-for-worst-month-as-outflows-near-us5-billion?ref=search-latest-headlines"
+    ],
+    "risk_notes": "State and event ledger show 19 accepted HOLD decisions Nov 6–24, no fills, no positions or pending orders. Today's inbox absent before submission. At Nov 24 common completed mark BTC benchmark $786.38 (baseline Nov 5 $75,969.06), cash $1,000; $213.62 lead reflects zero exposure, not validated timing skill. Cash risks missing sharp rebound. HOLD costs zero; hypothetical $100 BTC starter exceeds $10 minimum and is below $350 asset cap, estimated fee/slippage $0.15 one way plus exit costs. No real funds or cross-account activity. Engine alone handles intake and prospective fills.",
+    "title": "HOLD / no trade",
+    "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
   }
 ]
