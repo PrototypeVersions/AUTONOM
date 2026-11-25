@@ -1,59 +1,59 @@
 {
-  "as_of": "2026-11-24T23:25:43.959528+00:00",
+  "as_of": "2026-11-25T04:58:49.628380+00:00",
   "prices": {
     "stocks": {
       "AAPL": {
         "date": "2026-11-24",
-        "open": 348.11999512,
+        "open": 348.05999756,
         "close": 354.07000732,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-24T14:30:00+00:00"
       },
       "AMZN": {
         "date": "2026-11-24",
-        "open": 252.53999329,
+        "open": 252.28999329,
         "close": 252.28999329,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-24T14:30:00+00:00"
       },
       "GOOGL": {
         "date": "2026-11-24",
-        "open": 281.39498901,
+        "open": 281.6000061,
         "close": 279.04998779,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-24T14:30:00+00:00"
       },
       "MSFT": {
         "date": "2026-11-24",
-        "open": 490.43499756,
+        "open": 490.13000488,
         "close": 496.13000488,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-24T14:30:00+00:00"
       },
       "NVDA": {
         "date": "2026-11-24",
-        "open": 159.05999756,
+        "open": 159.1000061,
         "close": 155.38000488,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-24T14:30:00+00:00"
       },
       "QQQ": {
         "date": "2026-11-24",
-        "open": 640.02001953,
+        "open": 640.03997803,
         "close": 638.09997559,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-24T14:30:00+00:00"
       },
       "SPY": {
         "date": "2026-11-24",
-        "open": 715.14801025,
+        "open": 715.15002441,
         "close": 718.7800293,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-24T14:30:00+00:00"
       },
       "TSLA": {
         "date": "2026-11-24",
-        "open": 383.89001465,
+        "open": 383.76998901,
         "close": 384.67999268,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-24T14:30:00+00:00"
@@ -96,44 +96,44 @@
     },
     "crypto": {
       "ADA": {
-        "date": "2026-11-23",
-        "open": 0.14469,
-        "close": 0.14846,
+        "date": "2026-11-24",
+        "open": 0.14837,
+        "close": 0.14438,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-23T00:00:00+00:00"
+        "bar_start_utc": "2026-11-24T00:00:00+00:00"
       },
       "BTC": {
-        "date": "2026-11-23",
-        "open": 61163.01,
-        "close": 61189.97,
+        "date": "2026-11-24",
+        "open": 61189.45,
+        "close": 59740.87,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-23T00:00:00+00:00",
+        "bar_start_utc": "2026-11-24T00:00:00+00:00",
         "trend": {
-          "sma_20": 68520.0345,
-          "sma_20_five_days_earlier": 72703.966,
-          "return_5d": -0.02844858
+          "sma_20": 67279.0895,
+          "sma_20_five_days_earlier": 71734.034,
+          "return_5d": -0.03508717
         }
       },
       "ETH": {
-        "date": "2026-11-23",
-        "open": 1721.8,
-        "close": 1708.5,
+        "date": "2026-11-24",
+        "open": 1708.33,
+        "close": 1677.59,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-23T00:00:00+00:00"
+        "bar_start_utc": "2026-11-24T00:00:00+00:00"
       },
       "LINK": {
-        "date": "2026-11-23",
-        "open": 8.808,
-        "close": 9.004,
+        "date": "2026-11-24",
+        "open": 9.002,
+        "close": 8.842,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-23T00:00:00+00:00"
+        "bar_start_utc": "2026-11-24T00:00:00+00:00"
       },
       "SOL": {
-        "date": "2026-11-23",
-        "open": 70.62,
-        "close": 71.94,
+        "date": "2026-11-24",
+        "open": 71.93,
+        "close": 69.57,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-23T00:00:00+00:00"
+        "bar_start_utc": "2026-11-24T00:00:00+00:00"
       }
     }
   }
