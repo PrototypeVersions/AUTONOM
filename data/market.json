@@ -1,38 +1,38 @@
 {
-  "as_of": "2026-11-25T22:59:22.219229+00:00",
+  "as_of": "2026-11-26T04:16:15.711690+00:00",
   "prices": {
     "stocks": {
       "AAPL": {
         "date": "2026-11-25",
-        "open": 353.5874939,
+        "open": 353.48001099,
         "close": 355.57998657,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-25T14:30:00+00:00"
       },
       "AMZN": {
         "date": "2026-11-25",
-        "open": 243.16000366,
+        "open": 243.13000488,
         "close": 244.42999268,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-25T14:30:00+00:00"
       },
       "GOOGL": {
         "date": "2026-11-25",
-        "open": 265.25,
+        "open": 265.1000061,
         "close": 273.1000061,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-25T14:30:00+00:00"
       },
       "MSFT": {
         "date": "2026-11-25",
-        "open": 485.42001343,
+        "open": 485.23001099,
         "close": 489.92999268,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-25T14:30:00+00:00"
       },
       "NVDA": {
         "date": "2026-11-25",
-        "open": 144.02000427,
+        "open": 144.05999756,
         "close": 149.30000305,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-25T14:30:00+00:00"
@@ -53,7 +53,7 @@
       },
       "TSLA": {
         "date": "2026-11-25",
-        "open": 370.23001099,
+        "open": 370.51998901,
         "close": 380.14001465,
         "source": "Yahoo daily chart",
         "bar_start_utc": "2026-11-25T14:30:00+00:00"
@@ -96,44 +96,44 @@
     },
     "crypto": {
       "ADA": {
-        "date": "2026-11-24",
-        "open": 0.14837,
-        "close": 0.14438,
+        "date": "2026-11-25",
+        "open": 0.14438,
+        "close": 0.14563,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-24T00:00:00+00:00"
+        "bar_start_utc": "2026-11-25T00:00:00+00:00"
       },
       "BTC": {
-        "date": "2026-11-24",
-        "open": 61189.45,
-        "close": 59740.87,
+        "date": "2026-11-25",
+        "open": 59741.39,
+        "close": 60383.51,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-24T00:00:00+00:00",
+        "bar_start_utc": "2026-11-25T00:00:00+00:00",
         "trend": {
-          "sma_20": 67279.0895,
-          "sma_20_five_days_earlier": 71734.034,
-          "return_5d": -0.03508717
+          "sma_20": 66706.385,
+          "sma_20_five_days_earlier": 71010.157,
+          "return_5d": 0.02666871
         }
       },
       "ETH": {
-        "date": "2026-11-24",
-        "open": 1708.33,
-        "close": 1677.59,
+        "date": "2026-11-25",
+        "open": 1677.62,
+        "close": 1690.38,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-24T00:00:00+00:00"
+        "bar_start_utc": "2026-11-25T00:00:00+00:00"
       },
       "LINK": {
-        "date": "2026-11-24",
-        "open": 9.002,
-        "close": 8.842,
+        "date": "2026-11-25",
+        "open": 8.839,
+        "close": 9.046,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-24T00:00:00+00:00"
+        "bar_start_utc": "2026-11-25T00:00:00+00:00"
       },
       "SOL": {
-        "date": "2026-11-24",
-        "open": 71.93,
-        "close": 69.57,
+        "date": "2026-11-25",
+        "open": 69.57,
+        "close": 70.37,
         "source": "Coinbase Exchange daily candle",
-        "bar_start_utc": "2026-11-24T00:00:00+00:00"
+        "bar_start_utc": "2026-11-25T00:00:00+00:00"
       }
     }
   }
