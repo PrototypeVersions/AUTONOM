@@ -1,9 +1,13 @@
 {
   "market": {
-    "status": "ok",
+    "status": "degraded",
     "last_success_at": "2026-11-26T20:11:47.432794+00:00",
-    "last_attempt_at": "2026-11-26T20:11:47.432794+00:00",
-    "errors": []
+    "last_attempt_at": "2026-11-26T22:01:38.845392+00:00",
+    "errors": [
+      "news/stocks: HTTP Error 429: Too Many Requests",
+      "news/crypto: HTTP Error 429: Too Many Requests",
+      "Stock reference quote delayed: SPY 2026-11-25, expected session 2026-11-26; possible exchange holiday/provider lag."
+    ]
   },
   "agent": {
     "connected": false,
