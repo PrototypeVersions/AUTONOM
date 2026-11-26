@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-26T22:01:38.845392+00:00",
+  "as_of": "2026-11-26T22:32:46.232148+00:00",
   "items": {
     "stocks": [
       {
@@ -11,11 +11,6 @@
         "title": "US Stocks Are Predicted to Extend Their Historic Rally as Gains Moderate - Goldman Sachs",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOXJSam1KZ1d3Z2dsQlhYa19WRE9PWURGWEg4TDhsUXc4dmRmYzRPUTd1ZXZ6ZFA4dWVpMWxqSnBIOGZuRjVmOGY0VVk5a0xjVkgyVkRwWUtxbkdLRWhMTksxNW40VUp5aHdmNVlDN0hUWEFrQnJrRXZNSHVLazAzQTlmT0JqTmIzTndlNXhUYXJSSzFKZHZKQUFtU1FsNDBqYWZqMzQzVHEwUTNuOWc?oc=5",
         "published": "Thu, 19 Nov 2026 20:42:21 GMT"
-      },
-      {
-        "title": "What to Look Out for in Economic Data This Week (November 23-27) - Kiplinger",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
-        "published": "Wed, 25 Nov 2026 16:59:16 GMT"
       },
       {
         "title": "Markets in 2027: Stocks Take the Lead - Morgan Stanley",
@@ -41,6 +36,11 @@
         "title": "New stock market stories from Q2 2026 earnings - BlackRock",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWjhOV0ZubDltMl94dWl1bWtLM0IyNUp6T1pmbmd0UTdZMERpeHpXcnRDUGpEWDgyQVpDaDBrTzZGaFhQNzRMM05tWEdCdEt6VXhLOFA2UlBaZHd5d1RWT1hqZlFKcTgtU1RVNWNueUZLNHNZbVZOTE5ETFJBTG81VE1kUU9VdDFFRjd1WDlLY1ZGUHF1?oc=5",
         "published": "Thu, 20 Aug 2026 07:00:00 GMT"
+      },
+      {
+        "title": "Why The Stock Market Could March Higher Even if Earnings Growth Slows - Investopedia",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ3ZiaTJxdlVWd3IzTEZMLUNsUEozelVPNVVJRkZTcnhxQ01SbjN4S2Z0Z2xLOGN1dkpCYWItQm9RVEVpaUhrZHNqaFNkRXVRNmZwM2VGRkw1bkdZaEt1SWxSRUFoVFRvaUZUSkhxTXpSNjRtbFdrNGtuZURWQmVfQ3BTLTNWdGR0ZS1Rd1NVa0lQdUZvc2Jjejk3clItZmM4SXo4M29SMjdTUmZyTW1CbUZZMEdSVWdHMmpjdGFR?oc=5",
+        "published": "Wed, 07 Oct 2026 07:00:00 GMT"
       }
     ],
     "crypto": [
@@ -50,14 +50,14 @@
         "published": "Thu, 26 Nov 2026 13:09:10 GMT"
       },
       {
-        "title": "Crypto Market Today, Nov. 25: Bitcoin, Ethereum, and Solana as Short Liquidations Fuel Fragile Rebound - The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMTE1Zzh0cHZjMjR6YlBJSHJ0U0tPa0xKSWVtdWNCSHVsblNKU3RhTFgzQy1hVjBFNkxySTdiaE9GMThZdm1aemVXNjBTU3V1cWxMamlRMTFhenlxN05wd25xZHUzSjN4ZU9Femxfd3BXNkVyLXBZS0xJVW9aNjU5TDBRUWRvVUVYeGt5cWZFVzBWZnR0N2VoekVqQXFYQWxKQzUwN3lnRGhlanpmODdFcURDcmt0Q1ctajdWWUwxV2xrcWdqczlhVUJGdWp0MWt6R293R1lxLWwzdGRIQzBRNmRwUXFnazhFYm5jNlpDQQ?oc=5",
-        "published": "Wed, 25 Nov 2026 22:06:19 GMT"
-      },
-      {
         "title": "How Low Can Bitcoin, Ethereum and XRP Fall? 4 Price Levels to Watch - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNkRVNGNzVGhON0VqWmRjeEd2Z3NqX194Um92OGxiMXRybVo4SnNuVEpQNzRlUVR3R2RDNmthdDcxbVFHN2V5RElxTXB6TWJ5ckhJOXg0YWM3THV4U2Fpc0VsaXE5eFJBakdvVFlPbmp4dE5JcHZBdEpkN0I2YzBGRXlTeFdWR0R4TTZMSWlIWUdQUmFveHpXdFZR?oc=5",
         "published": "Thu, 26 Nov 2026 01:37:00 GMT"
+      },
+      {
+        "title": "Crypto Market Today, Nov. 25: Bitcoin, Ethereum, and Solana as Short Liquidations Fuel Fragile Rebound - The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMTE1Zzh0cHZjMjR6YlBJSHJ0U0tPa0xKSWVtdWNCSHVsblNKU3RhTFgzQy1hVjBFNkxySTdiaE9GMThZdm1aemVXNjBTU3V1cWxMamlRMTFhenlxN05wd25xZHUzSjN4ZU9Femxfd3BXNkVyLXBZS0xJVW9aNjU5TDBRUWRvVUVYeGt5cWZFVzBWZnR0N2VoekVqQXFYQWxKQzUwN3lnRGhlanpmODdFcURDcmt0Q1ctajdWWUwxV2xrcWdqczlhVUJGdWp0MWt6R293R1lxLWwzdGRIQzBRNmRwUXFnazhFYm5jNlpDQQ?oc=5",
+        "published": "Wed, 25 Nov 2026 22:06:19 GMT"
       },
       {
         "title": "8 Cryptos a Wall Street Index Fund Will Hold in December and the One Just Added - 24/7 Wall St.",
@@ -65,14 +65,14 @@
         "published": "Thu, 26 Nov 2026 14:23:00 GMT"
       },
       {
-        "title": "Crypto Market Today, November 25, 2026: Bitcoin Below $60,000 as Ethereum, XRP and Solana Slide - Eurasia Business News",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQemJJS3VITWNRaEhLeGFEX2V4V3V2WURTbDlORkFLSDNCSDVQT3ZfZ19KN0lvaWtyRHhIcFM2Z05qeC1tSUpsY2J4alduS0VsUThRa2ZDWE95RkFNLUxIa2ZDR3NVWFZPRC13VEM1VGJ2QkpHVXluZ0F2TXJicVlKVUI3OTk2b0ZuYkR0dlBscDRvVGl1bmEzaUoyLWlrLWxRVkh1aUJVX1pLZHNJcG54c3VkYVVmSkxqX3ZYcFlNeHVXY3VMMnhjc3FFVHJJQQ?oc=5",
-        "published": "Wed, 25 Nov 2026 22:25:37 GMT"
-      },
-      {
         "title": "So You Told Your Family to Invest in Bitcoin, Dogecoin, Ethereum at Thanksgiving Last Year? Here’s How Mu - Benzinga",
         "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOclZXZnNGaWtzUU9XSE82SmJCazctOVZINEFHNjNzT1JrUzg2Y1RpQzhJck95ZjFOVXE3dmdjT0xGeDNaSGpNbmd0Z1pzWTYteEZsYmZKLWZpV3lWVDVJZXNXeS13VHVHaUUtb0JCYVhPazZYUU5PbTBuVi1pNnM0QTg4MGRBVHBxTjljcG1qdVhwWFRnYVNLbUk0SENJSU93T3FUaHp0S09zclNIWWJXa1dKWjlKMDNSQkxYODRueUZHS2VxcWxhQ1prLUhTak9kT2ZITHQyR2M3Y2tFS2E2YkxWMDczTmRMLXk0TnpIOVFoZzBrNmtN?oc=5",
         "published": "Thu, 26 Nov 2026 14:00:06 GMT"
+      },
+      {
+        "title": "Crypto Market Today, November 25, 2026: Bitcoin Below $60,000 as Ethereum, XRP and Solana Slide - Eurasia Business News",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQemJJS3VITWNRaEhLeGFEX2V4V3V2WURTbDlORkFLSDNCSDVQT3ZfZ19KN0lvaWtyRHhIcFM2Z05qeC1tSUpsY2J4alduS0VsUThRa2ZDWE95RkFNLUxIa2ZDR3NVWFZPRC13VEM1VGJ2QkpHVXluZ0F2TXJicVlKVUI3OTk2b0ZuYkR0dlBscDRvVGl1bmEzaUoyLWlrLWxRVkh1aUJVX1pLZHNJcG54c3VkYVVmSkxqX3ZYcFlNeHVXY3VMMnhjc3FFVHJJQQ?oc=5",
+        "published": "Wed, 25 Nov 2026 22:25:37 GMT"
       },
       {
         "title": "Crypto Today: Is the bottom in? - FXStreet",
@@ -80,9 +80,9 @@
         "published": "Thu, 26 Nov 2026 10:17:46 GMT"
       },
       {
-        "title": "Crypto's Thanksgiving Reckoning: $3,000 Split Across Bitcoin, Dogecoin and Ether Now Worth About $1,565 - BigGo Finance",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KY1hxYTVGY0NrdEE0RzZHaHM4aC1Eb1gtVE5KNFZqWnpmUHdRWFNxaV9RODVKaEduVER3aGFEYXhJVkJ1d0NyUm5La2NQNURpUUdfU3VndWF0di1JT0Y3Y0JWV29uZmNOS2pFcnZiNXU0X05RMWc?oc=5",
-        "published": "Thu, 26 Nov 2026 14:55:00 GMT"
+        "title": "How Low Can Bitcoin, Ethereum and XRP Fall? 4 Price Levels to Watch - Cryptonews.net",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45Z1RrbmgwQThQRFhZSDY4V2RXSzM5WUtFSHpyX0NYVWE0ZF84S0x3ekloSWVFUnNQQ3JlZXFrMzRvUExINUVHS1pqY0l1X2t1ajV6RWVBUktONVU?oc=5",
+        "published": "Thu, 26 Nov 2026 11:06:32 GMT"
       }
     ]
   }

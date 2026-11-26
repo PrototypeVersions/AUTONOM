@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-26T22:01:38.845392+00:00",
+  "as_of": "2026-11-26T22:32:46.232148+00:00",
   "recent_decisions": [
     {
       "type": "decision",
@@ -297,6 +297,29 @@
         "https://www.straitstimes.com/business/bitcoin-funds-head-for-worst-month-as-outflows-near-us5-billion?ref=search-latest-headlines"
       ],
       "risk_notes": "State and event ledger show 19 accepted HOLD decisions Nov 6–24, no fills, no positions or pending orders. Today's inbox absent before submission. At Nov 24 common completed mark BTC benchmark $786.38 (baseline Nov 5 $75,969.06), cash $1,000; $213.62 lead reflects zero exposure, not validated timing skill. Cash risks missing sharp rebound. HOLD costs zero; hypothetical $100 BTC starter exceeds $10 minimum and is below $350 asset cap, estimated fee/slippage $0.15 one way plus exit costs. No real funds or cross-account activity. Engine alone handles intake and prospective fills.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-26T22:32:46.232148+00:00",
+      "id": "crypto_20261126_autonom",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-26T22:32:36.992000+00:00",
+      "model": "OpenAI GPT-6.2 (ChatGPT)",
+      "thesis": "Strategy v1 (2026-11-11). HOLD $1,000 cash; review next completed UTC Coinbase bar, with multiweek allocation horizon. State and ledger confirm 20 accepted HOLDs through Nov 25, zero positions, pending orders or fills; today's inbox absent. Nov 25 completed BTC close $60,383.51 versus SMA20 $66,500.1425 (9.20% below), down from $70,803.5845 five days earlier. Five-day return +2.666871%, versus -3.51% yesterday: meaningful improvement and a credible case for a 5-15% starter, but the average still declines steeply and recent lows suggest fragile stabilization. Nov 26 CoinDesk morning reporting places BTC near $60,500 after a rebound from roughly $57,500; this is an intraday report, not a completed Coinbase bar. The Block and CoinDesk report about $453m Wednesday ETF withdrawals, seventh consecutive negative session, and $5.39bn month-to-date through Nov 25, attributed to SoSoValue, not independent on-chain evidence. Cash remains preferable today given persistent demand weakness and only one positive five-day reading; no requirement to wait for a full SMA crossover if stabilization becomes convincing. Reconsider $50-150 BTC if the next two completed closes sustain positive five-day returns and hold above $59,740.87 (Nov 24 close), particularly if fund withdrawals ease when US markets reopen, or if BTC regains SMA20 with improving momentum. ETH has a plausible network adoption thesis but no verified fresh distinct catalyst here and reported $1.30bn monthly ETH ETF withdrawals; SOL, LINK and ADA have modest completed rebounds but no substantiated independent thesis sufficient to prefer them over BTC/cash net of costs. Other eligible coins lack current collector marks. No SELL possible. Nov 25 matched equity $1,000 versus BTC $794.843453, $205.16 lead from cash exposure, not validated forecasting skill. Prior month null, no monthly review due; no strategy revision warranted.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+        "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving",
+        "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help"
+      ],
+      "risk_notes": "Cash risks missing a rapid recovery; positive five-day momentum is genuine counterevidence to continued defensive allocation. ETF flow reports share underlying data and do not establish causation. HOLD zero costs; hypothetical $100 BTC starter satisfies $10 minimum and $350 cap, estimated $0.15 one-way fee/slippage, roughly $899.90 cash after fee, subject to engine pricing and cap. No holdings to reassess. No real funds or other portfolio activity. Collector alone determines intake and future eligible fills.",
       "title": "HOLD / no trade",
       "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
     }
