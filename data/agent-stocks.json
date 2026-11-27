@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-27T10:53:29.038211+00:00",
+  "as_of": "2026-11-27T13:31:46.500630+00:00",
   "recent_decisions": [
     {
       "type": "decision",
@@ -159,6 +159,29 @@
         "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/agent-stocks.json"
       ],
       "risk_notes": "Cash-heavy portfolio risks missing a continued rebound; residual SPY risks further losses. HOLD incurs zero costs; hypothetical $100 buy costs about $0.15 with 0.10% fee and 0.05% slippage and would leave $879.62 cash after fee, exposure roughly 12% at latest marks. Actual future open unknown. $10 minimum and 35% cap apply to future orders; no duplicate or new order today. No real money, leverage, derivatives, shorting or changes to engine or other portfolio.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-27T13:31:46.500630+00:00",
+      "id": "stock_20261127_autonom",
+      "portfolio": "stocks",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-27T13:31:35.784000+00:00",
+      "model": "OpenAI GPT-6.2 (ChatGPT)",
+      "thesis": "Strategy v1 (2026-11-11). Retain 0.0224759252 SPY shares and $979.72 cash. Ledger confirms Nov 12 $150 BUY and Nov 19 $130 SELL fills; no pending orders or today's ID. Nov 25 completed SPY close $716.70, below Nov 23 $722.29 and original $735.29 review threshold; RSP $215.74 and IWM $268.87 improved versus Nov 23 $212.82 and $265.74, a meaningful breadth counterargument, while QQQ fell from $651.03 to $633.93. XLE $60.90, XLV $183.68, SGOV $100.68; AAPL $355.58, AMZN $244.43, GOOGL $273.10, MSFT $489.93, NVDA $149.30, TSLA $380.14. All are completed Nov 25 bars, current for the prior eligible session after Thanksgiving. Reuters Nov 27 07:34 UTC report cites 02:13 ET S&P futures +1.65%, Nasdaq +2.47%, Dow +0.89%; these are premarket indications, not fill prices. Reuters Nov 25 08:42 ET reports October PCE +3.8% annually and Q3 GDP +4.3% annualized; Nov 27 reporting cites 99% December hike probability and $30.57bn US equity fund weekly outflows through Nov 25. Strong rebound and improving equal-weight/small-cap marks support considering a $100 SPY starter, but renewed weakness in cap-weighted indexes, rate risk and thin shortened Friday session favor waiting. RSP is a credible less concentrated alternative but lacks sustained confirmation; IWM rate sensitivity, QQQ and individual tech concentration, XLE/XLV sector concentration, and SGOV unmodeled distributions favor cash over rotation. No untracked candidate. Original 4–8 week exposure thesis was reduced after two closes below $735.29 and weak breadth; residual stake preserves participation and avoiding another near-minimum sale avoids costs and gap rejection. Reassess after Friday and Monday completed bars; two closes above $735.29 with RSP/IWM confirmation support rebuilding exposure, or sustained breadth improvement and easing rate risk could justify a starter before that level. Further broad deterioration supports residual exit. Nov 25 equity $995.83 versus benchmark $934.65, primarily cash exposure not established skill. Prior month null; no review or revision due.",
+      "sources": [
+        "https://malaysia.news.yahoo.com/wall-st-futures-surge-investors-073405748.html",
+        "https://www.reuters.com/world/china/global-markets-flows-graphic-2026-11-27/",
+        "https://www.streetinsider.com/Reuters/US%2Bstock%2Bfutures%2Bextend%2Blosses%2Bafter%2Beconomic%2Bdata/27399204.html",
+        "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading/card/friday-s-market-calendar-qRforfIEGwLNRAKJqhib",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json"
+      ],
+      "risk_notes": "Cash 98.38% creates substantial rally opportunity cost; residual SPY $16.11 risks loss. HOLD zero incremental costs. Hypothetical $100 SPY buy above $10 minimum, roughly 11.7% combined exposure below 35% cap, $879.62 cash after fee, estimated $0.15 fee/slippage; actual future opening marks govern. No real funds, leverage, derivatives, shorts, engine or other portfolio changes. No fill claimed.",
       "title": "HOLD / no trade",
       "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
     }

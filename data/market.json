@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-27T10:53:29.038211+00:00",
+  "as_of": "2026-11-27T13:31:46.500630+00:00",
   "prices": {
     "stocks": {
       "AAPL": {
@@ -104,13 +104,13 @@
       },
       "BTC": {
         "date": "2026-11-26",
-        "open": 60383.5,
+        "open": 60383.18,
         "close": 60495.57,
         "source": "Coinbase Exchange daily candle",
         "bar_start_utc": "2026-11-26T00:00:00+00:00",
         "trend": {
-          "sma_20": 65944.6115,
-          "sma_20_five_days_earlier": 70102.9295,
+          "sma_20": 65738.369,
+          "sma_20_five_days_earlier": 69896.357,
           "return_5d": 0.0068164
         }
       },
