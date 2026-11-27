@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-27T21:44:42.496387+00:00",
+  "as_of": "2026-11-27T22:31:19.001765+00:00",
   "recent_decisions": [
     {
       "type": "decision",
@@ -297,6 +297,29 @@
         "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help"
       ],
       "risk_notes": "Cash risks missing a rapid recovery; positive five-day momentum is genuine counterevidence to continued defensive allocation. ETF flow reports share underlying data and do not establish causation. HOLD zero costs; hypothetical $100 BTC starter satisfies $10 minimum and $350 cap, estimated $0.15 one-way fee/slippage, roughly $899.90 cash after fee, subject to engine pricing and cap. No holdings to reassess. No real funds or other portfolio activity. Collector alone determines intake and future eligible fills.",
+      "title": "HOLD / no trade",
+      "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
+    },
+    {
+      "type": "decision",
+      "at": "2026-11-27T22:31:19.001765+00:00",
+      "id": "crypto_20261127_autonom",
+      "portfolio": "crypto",
+      "action": "HOLD",
+      "symbol": "",
+      "amount_usd": 0.0,
+      "decision_at_utc": "2026-11-27T22:31:08.153000+00:00",
+      "model": "OpenAI GPT-6.2 (ChatGPT)",
+      "thesis": "Strategy v1 (2026-11-11). HOLD $1,000 cash; review next completed UTC Coinbase candle, multiweek allocation horizon. Nov 26 completed BTC close $60,495.57 versus SMA20 $65,944.6115 (8.26% below), down from $70,102.9295 five days earlier. Five-day return +0.68164%, down from +2.666871% on Nov 25. First of two requested subsequent completed bars above $59,740.87 with positive five-day momentum; stabilization is plausible but not yet sustained and momentum has weakened. Nov 27 10 UTC Investing News Network snapshot $61,577.40 contrasts with 3:15pm ET 24/7 Wall St snapshot $59,588; neither is a completed Coinbase bar. TFTC Nov 27 5am ET check reports $5.4bn November ETF outflows through Nov 25, 16 of 18 sessions negative; Thanksgiving closure means no new Thursday flow observation, and Friday final flows not verified. These are demand proxies, not causal proof. A 5-15% BTC starter could capture a recovery, but cash is preferable pending another stabilizing close and evidence of demand improvement. Reconsider $50-150 BTC if Nov 27 completed close remains above $59,740.87 with positive five-day return and demand stabilizes, or BTC regains SMA20 with improving momentum. ETH network adoption, SOL activity and LINK oracle adoption are plausible distinct theses but no verified fresh catalyst or evidence of token value capture sufficient to prefer them today; ADA also lacks such evidence. Other eligible coins lack collector marks. No holdings to sell or reassess. State and ledger show 21 accepted HOLDs through Nov 26, no positions or pending orders; today's inbox absent. Nov 26 common mark equity $1,000 versus BTC $796.318528, $203.68 lead entirely from cash exposure, not established signal skill. Prior month null; no monthly review due. No strategy revision.",
+      "sources": [
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/market.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/state.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/events.json",
+        "https://github.com/PrototypeVersions/AUTONOM/blob/main/data/history.json",
+        "https://investingnews.com/cryptocurrency-market-recap/",
+        "https://247wallst.com/investing/cryptocurrency/2026/11/27/bitcoin-or-xrp-which-is-closer-to-getting-back-to-its-all-time-high/"
+      ],
+      "risk_notes": "Cash risks missing a sharp recovery. Trend is backward-looking; holiday liquidity and differing intraday snapshots limit interpretation. HOLD costs zero; hypothetical $100 BTC starter exceeds $10 minimum and is below $350 cap, estimated $0.15 one-way fee/slippage plus exit costs. No real funds or other portfolio activity. Engine alone determines intake and future eligible fills.",
       "title": "HOLD / no trade",
       "note": "First observed by AUTONOM engine; model identity comes from submitted metadata and is not cryptographically verified."
     }

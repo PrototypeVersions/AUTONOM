@@ -1,17 +1,17 @@
 {
   "market": {
     "status": "ok",
-    "last_success_at": "2026-11-27T21:44:42.496387+00:00",
-    "last_attempt_at": "2026-11-27T21:44:42.496387+00:00",
+    "last_success_at": "2026-11-27T22:31:19.001765+00:00",
+    "last_attempt_at": "2026-11-27T22:31:19.001765+00:00",
     "errors": []
   },
   "agent": {
     "connected": false,
     "label": "Scheduled decision files recorded; the engine does not authenticate model identity.",
-    "decision_files_seen": 35,
+    "decision_files_seen": 36,
     "last_decision_at": {
       "stocks": "2026-11-27T13:31:46.500630+00:00",
-      "crypto": "2026-11-26T22:32:46.232148+00:00"
+      "crypto": "2026-11-27T22:31:19.001765+00:00"
     }
   }
 }
