@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-28T04:49:33.749068+00:00",
+  "as_of": "2026-11-28T10:29:00.560871+00:00",
   "prices": {
     "stocks": {
       "AAPL": {
@@ -124,7 +124,7 @@
       "LINK": {
         "date": "2026-11-27",
         "open": 9.262,
-        "close": 9.365,
+        "close": 9.366,
         "source": "Coinbase Exchange daily candle",
         "bar_start_utc": "2026-11-27T00:00:00+00:00"
       },
